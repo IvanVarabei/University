@@ -1,3 +1,2 @@
-# spirit
-//дух
-Exert
+# maze
+new readme
