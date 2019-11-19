@@ -32,7 +32,7 @@ public class General {
 
 	static void menu2() {
 		Scanner in = new Scanner(System.in);
-		System.out.printf("Second task\n");
+		System.out.printf("Second task cure\n");
 		int a, b, c;
 		System.out.printf("Enter a: ");
 		a = in.nextInt();
