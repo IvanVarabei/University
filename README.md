@@ -1,3 +1,0 @@
-# spirit
-//дух
-Exert
