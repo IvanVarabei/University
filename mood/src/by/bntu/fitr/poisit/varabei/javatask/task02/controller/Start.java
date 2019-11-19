@@ -9,7 +9,7 @@ public static void main(String args[]){
 	Scanner in = new Scanner(System.in);
 	int num;
 	while(true){
-		System.out.printf("***Checking for a perfect number***\nInput your number:");
+		System.out.printf("**Checking for a perfect number**\nInput your number:");
 		num=in.nextInt();
 
 		if(Logic.numCheck(num)){
