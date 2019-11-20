@@ -1,2 +1,0 @@
-global facts - focus
-  win_focus(WINDOW)

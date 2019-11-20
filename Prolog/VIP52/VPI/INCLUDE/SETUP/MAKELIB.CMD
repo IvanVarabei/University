@@ -1,1 +1,0 @@
-lib.exe /noignorecase /quiet dt_file.lib  +dt_file.obj  ,, 

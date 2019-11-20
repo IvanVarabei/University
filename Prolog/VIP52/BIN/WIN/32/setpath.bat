@@ -1,1 +1,0 @@
-set prodir=f:\vpro\
