@@ -1,0 +1,25 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  W3ESTA
+ FileName: W3ECONS2.PRE
+ Purpose: Predicate definitions for W3ECONS2.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+
+GLOBAL PREDICATES
+
+determ  how_parm_established
+determ  parm_dir(SID,string,integer) - (i,o,o)
+determ  value_dir(SID,string,integer) - (i,o,o)
+determ  sect_dir(SID,string,integer) - (i,o,o)
+determ  kb_dir(SID,string,integer) - (i,o,o)
+determ  command_act(SYMBOL) - (i)
+determ  explain_question(SID) - (i)
+determ  explain_question_exists(SID)-(i)
+determ  show_cur_parm(SID) - (i)
+determ  why(SID) - (i)
+determ  why_advice(SID) - (i)
+determ  get_var_descr(SID,ID,STRING) - (i,i,o)

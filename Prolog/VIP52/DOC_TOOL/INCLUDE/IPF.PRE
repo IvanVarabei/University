@@ -1,0 +1,40 @@
+/******************************************************************************
+
+                 Copyright (C) 1984 - 2000 Prolog Development Center A/S
+
+			VISUAL PROLOG
+
+ File name: IPF.PRE
+ PURPOSE:   Interface to IPF parser
+
+ COMMENTS:  Structural documents domains declarations
+	    must be included before this file
+
+ Written by Oleg V. Erjomin
+
+******************************************************************************/
+ifndef strucdoc_Dom_Included
+ #Error: file docstr.dom must be included
+enddef
+
+CONSTANTS ipf_pre_Included = 1
+
+GLOBAL PREDICATES
+  ipf_term (STRING,DOC) - procedure (i,o) 
+                          procedure (o,i) 
+                          determ (i,i) 
+                          procedure (o,o) language C
+  ipf_flow (doc_flow,
+            string Buff,
+            string FlowTxt) - procedure (i,i,o)
+  ipf_ApplyDocInfo (doc_head) - procedure (i)
+  ipf_yyerror (STRING) - failure (i) language C
+
+%
+%   The internal implementation of ipf_term (o,i) (i,i)
+%   Declared here because of compiler include rule
+%
+GLOBAL PREDICATES
+  make_ipf_doc (string IPF, doc Doc) - procedure (o,i) language C
+  unify_ipf_doc (string IPF, doc Doc) - determ (i,i) language C
+  gen_ipf_doc (string IPF, doc Doc) - procedure (o,o) language C

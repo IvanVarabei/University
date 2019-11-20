@@ -1,0 +1,26 @@
+/******************************************************************************
+
+                 Copyright (C) 1984 - 2000 Prolog Development Center A/S
+
+				VISUAL PROLOG
+
+ File name: RTF.DOM
+ PURPOSE:   Domains declaration to RTF parser
+
+ COMMENTS:  Structural documents domains declarations
+	    must be included before this file
+
+ Written by Oleg V. Erjomin
+
+******************************************************************************/
+ifndef strucDoc_Dom_Included
+ #ERROR: file docstr.dom must be included
+enddef
+
+CONSTANTS 
+  rtf_dom_Included = 1
+
+GLOBAL DOMAINS
+
+    RTF_DOCPARSER_CALLBACK = procedure BOOL (DOC) - (i) language C
+    RTF_ILIST = INTEGER*

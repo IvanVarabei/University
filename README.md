@@ -1,3 +1,0 @@
-# maze
-new readme
-"# tyr" 

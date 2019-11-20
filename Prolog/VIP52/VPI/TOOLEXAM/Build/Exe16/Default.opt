@@ -1,0 +1,3 @@
+compileropt("-PWIN dll_exmp.pro")
+fileopt("dll_exmp.pro")
+linkeropt("-TND -SGUI -odll_exmp.dll ..\\..\\..\\..\\LIB\\WIN16\\DLLENTRY.OBJ ..\\..\\..\\..\\LIB\\WIN16\\INITDLL.OBJ dll_exmp.obj dll_exmp.sym dll_exmp.def ..\\..\\..\\..\\LIB\\WIN16\\PROLOG.LIB ..\\..\\..\\..\\LIB\\WIN16\\WIN16.LIB")

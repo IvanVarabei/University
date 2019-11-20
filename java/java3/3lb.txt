@@ -1,0 +1,248 @@
+package java3;
+
+public class Start {
+	public static void main(String[] args) {
+		int choice;
+		lable: while (true) {
+
+			choice = (int) Input.reader("Menu\n0 to general task\n1 to dino task\n" + "2 to converter task\n"
+					+ "3 to distance task\n4 to change task\n" + "5 to costs task\n6 to cancel programm");
+			switch (choice) {
+			case 0:
+				Logic.task0();
+				break;
+			case 1:
+				Logic.task1();
+				break;
+			case 2:
+				Logic.task2();
+				break;
+			case 3:
+				Logic.task3();
+				break;
+			case 4:
+				Logic.task4();
+				break;
+			case 5:
+				Logic.task5();
+				break;
+			case 6:
+				break lable;
+			}
+
+		}
+	}
+
+}
+
+package java3;
+
+import java.util.Scanner;
+
+class Input {
+	static double reader(String str) {
+		System.out.printf("\n"+str+"\n");
+		Scanner in = new Scanner(System.in);
+		return in.nextDouble();
+	}
+
+}
+
+package java3;
+
+public class Output {
+ public static void exhibit(String str,double arg1,double arg2) {
+	 System.out.printf(str+"\n",arg1,arg2);
+ }
+ 
+ public static void exhibit(String str,double arg1) {
+	 System.out.printf(str+"\n",arg1);
+ }
+ 
+}
+
+
+package java3;
+
+class Logic {
+
+	static void task0() {
+		double radian1 = Input.reader("Enter amount in radians :"), degree1 = Input.reader("Enter amount in degrees :"),
+				radian2 = Angels.to_rads(degree1), degree2 = Angels.to_degree(radian1);
+		Output.exhibit("%f degrees = %f radians", degree1, radian2);
+		Output.exhibit("%f radians = %f degrees", radian1, degree2);
+
+	}
+
+	static void task1() {
+		double grams = Input.reader("Enter mass in grams : "), kilos = MassConverter.grams_to_killos(grams),
+				kintals = MassConverter.grams_to_kintals(grams), tons = MassConverter.grams_to_tons(grams);
+		Output.exhibit("%f grams = %f kilos", grams, kilos);
+		Output.exhibit("%f grams = %f kintals", grams, kintals);
+		Output.exhibit("%f grams = %f tons", grams, tons);
+	}
+
+	static void task2() {
+		double amount_byte = Input.reader("Enter amount of bytes : "), kb = ValueConverter.bt_to_kb(amount_byte),
+				mb = ValueConverter.bt_to_mb(amount_byte), gb = ValueConverter.bt_to_gb(amount_byte),
+				tb = ValueConverter.bt_to_tb(amount_byte);
+		Output.exhibit("%f bytes = %f Kb", amount_byte, kb);
+		Output.exhibit("%f bytes = %f Mb", amount_byte, mb);
+		Output.exhibit("%f bytes = %f Gb", amount_byte, gb);
+		Output.exhibit("%f bytes = %f Tb", amount_byte, tb);
+
+	}
+
+	static void task3() {
+		double centimetrs = Input.reader("Enter distance in cetimetrs : "),
+				metr = DementionConverter.sm_to_m(centimetrs), km = DementionConverter.sm_to_km(centimetrs);
+		Output.exhibit("%f cantimetrs = %f metrs", centimetrs, metr);
+		Output.exhibit("%f centimetrs = %f Km", centimetrs, km);
+	}
+
+	static void task4() {
+		double a = Input.reader("Enter a : "), b = Input.reader("Enter b : ");
+		NumberProcessor instance = new NumberProcessor(a, b);
+		Output.exhibit("a = %f\nb = %f", instance.a, instance.b);
+		instance.change();
+		Output.exhibit("After changeing:\na = %f\nb = %f", instance.a, instance.b);
+	}
+
+	static void task5() {
+		double x = Input.reader("Poke mass of lollipops : "), a = Input.reader("Poke cost of lollipops : "),
+				y = Input.reader("Poke mass of marmalade : "), b = Input.reader("Poke cost of marmalade : "),
+				lollipops_cost=Cost.prising(x, a), marmalade_cost=Cost.prising(y, b), result;
+		if (lollipops_cost > marmalade_cost) {
+			result=Cost.attitude(lollipops_cost , marmalade_cost);
+			Output.exhibit("lollipops costly than marmalade in %f points", result);
+		} else {
+			result=Cost.attitude(marmalade_cost,lollipops_cost);
+			Output.exhibit("lollipops tatty than marmalade in %f points", result);
+		}
+	}
+
+}
+
+
+package java3;
+
+public class Angels {
+	static int CONST_180 = 180;
+
+	static double to_rads(double degree) {
+		return degree * Math.PI / CONST_180;
+	}
+
+	static double to_degree(double radian) {
+		return radian * CONST_180 / Math.PI;
+	}
+
+}
+
+
+package java3;
+
+public class Cost {
+ static double prising(double amount, double cost) {
+	 return amount/cost;
+ }
+ static double attitude(double amount, double cost) {
+	 return amount/cost;
+ }
+}
+
+
+
+package java3;
+
+public class DementionConverter {
+	static int HUNDRED= 100;
+	static int HUNDRED_THOUSAND = 100000;
+
+	static double sm_to_m(double sm) {
+		return sm / HUNDRED;
+	}
+
+	static double sm_to_km(double sm) {
+		return sm / HUNDRED_THOUSAND;
+	}
+}
+
+
+package java3;
+
+public class MassConverter {
+	static int THOUSAND = 1000;
+	static int TEN_THOUSAND = 10000;
+	static int MILLION = 1000000;
+
+	static double grams_to_killos(double grams) {
+		return grams / THOUSAND;
+	}
+
+	static double grams_to_kintals(double grams) {
+		return grams / TEN_THOUSAND;
+	}
+
+	static double grams_to_tons(double grams) {
+		return grams / MILLION;
+	}
+}
+
+
+package java3;
+
+public class NumberProcessor {
+	double a;
+	double b;
+
+	public NumberProcessor(double a1, double b1) {
+		a = a1;
+		b = b1;
+	}
+
+	public double getFirst(NumberProcessor instance) {
+		return instance.a;
+	}
+
+	public double getSecond(NumberProcessor instance) {
+		return instance.b;
+	}
+
+	public void change() {
+		a = a + b;
+		b = a - b;
+		a = a - b;
+	}
+}
+
+
+
+
+package java3;
+
+public class ValueConverter {
+	static int THOUSAND = 1024;
+	static int BT_to_MB = 1048576;
+	static int BILLION_CONV = 1073741824;
+	static long BT_to_TB = 1073741824000L;
+
+	static double bt_to_kb(double amount_byte) {
+		return amount_byte / THOUSAND;
+	}
+
+	static double bt_to_mb(double amount_byte) {
+		return amount_byte / BT_to_MB;
+	}
+
+	static double bt_to_gb(double amount_byte) {
+		return amount_byte / BILLION_CONV;
+	}
+	
+	static double bt_to_tb(double amount_byte) {
+		return amount_byte / BT_to_TB ;
+	}
+	
+}
+
+

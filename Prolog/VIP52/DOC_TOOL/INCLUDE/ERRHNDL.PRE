@@ -1,0 +1,20 @@
+/******************************************************************************
+
+                 Copyright (C) 1984 - 2000 Prolog Development Center A/S
+
+				VISUAL PROLOG
+
+ File name: ERRHNDL.PRE
+ PURPOSE:   Declaration for DOC_TOOL error handler
+            that are used lex/yacc
+
+ Written by Oleg V. Erjomin
+
+******************************************************************************/
+
+CONSTANTS 
+errHndl_Pre_Included = 1
+
+GLOBAL PREDICATES
+
+  yy_parser_error (String,Integer,Integer) - (i,i,i) language C

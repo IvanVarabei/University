@@ -1,0 +1,14 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  W3ESTA
+ FileName: W3EPARS.PRE
+ Purpose: Predicate definitions for W3EPARS.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+
+GLOBAL PREDICATES
+
+parseloop(SID,STRING,STRING,STRING) - (i,i,i,o)
