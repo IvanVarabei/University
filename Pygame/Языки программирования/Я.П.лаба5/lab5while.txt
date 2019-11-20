@@ -1,0 +1,98 @@
+import random
+x=int(input('Enter left border :'))
+y=int(input('Enter right border :'))
+k=int(input('Enter amount of attempts :'))
+p=int(random.randint(x,y))
+while k:
+    i=int(input('Enter number'))
+    if i==p:
+        print("You are right!")
+        break
+    elif i>p:
+        print("Your number is bigger")
+
+    else:
+        print("Your number is litle")
+    k=k-1    
+    if k==0:
+        print("|||||||||||||")
+        print("|||||||||||||")
+        print("||GAME", "OVER", end="||", sep="~")
+        print("\n|||||||||||||")
+        print("|||||||||||||")    
+
+
+
+
+import math
+x1=2
+x2=1
+s=0
+print("Enter x1<x2")
+while x1>x2:
+    x1=float(input('Enter x1 :'))
+    x2=float(input('Enter x2 :'))
+while s<=0:    
+    s=float(input('Enter size of step>0 :'))
+a=float(input('Enter a :'))
+b=0.0
+c=0.0
+while b==0: 
+    b=float(input('Enter b!=0 :'))
+while c==0 or c<0:
+    c=float(input('Enter c>0:'))
+fx=0.0
+round(fx,2)
+x=x1
+print("   x1 |  x2  | dx  |  a  |  b  |  c  |  f(x)") 
+while x<=x2:
+    if x<0 and a!=0:
+        fx=((9*(x**8)+math.sin(8)*a*b)**2)*(-1)+(9+3)*c
+        x=x+s
+    elif x>0 and a==0:
+        fx=(-a+9*b*x)/(x+b)+2*math.sqrt(c)
+        x=x+s
+    else:
+        fx=1/(9*c*b)+(9+1)**2*a*b
+        x=x+s
+    print("|",x1,"|",x2,"|",s,"|",a,"|",b,"|",c,"|","%.1f"%fx)
+  
+
+
+
+i=0
+s=0
+print(r"Enter '0' to stop") 
+while True:
+    x=int(input('Enter number :'))
+    if x==0: break
+    if x//2==x/2:
+        s=s+x
+        i=i+1
+print("Average :",s/i) 
+
+
+
+
+
+import math
+while True:
+    x=float(input('Enter -1<=x<=1 :'))
+    if math.fabs(x)<=1:
+        break
+t=float(input('Enter accuracy :'))
+fx=0.0
+fx1=float
+n=0
+while 76>n:
+    fx+=((math.factorial(2*n))*x**(2*n+1))/((4**n)*((math.factorial(n))**2)*(2*n+1))
+    n+=1
+    fx1=3.14/2-fx
+    if math.fabs(math.acos(x)-fx1)<t:
+        break
+print(" x  | n  |        F(x)         |       Math F(x)     | eps")    
+print(x,'|',n,'|',fx1,'|',math.acos(x),'|',t)
+    
+
+
+
