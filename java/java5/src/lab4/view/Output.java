@@ -1,4 +1,5 @@
 package lab4.view;
+import java.util.Date;
 
 public class Output {
  public static void exhibit(String str,double arg1,double arg2) {
@@ -15,6 +16,10 @@ public class Output {
  
  public static void exhibit(String str) {
 	 System.out.printf(str);
+	 }
+ 
+ public static void exhibit(Date str) {
+	 System.out.println(str);
 	 }
 
 }

@@ -17,7 +17,7 @@ public class LifeCalcTest {
 		int d = calendar.get(Calendar.DAY_OF_MONTH), m = calendar.get(Calendar.MONTH) + 1,
 				y = calendar.get(Calendar.YEAR), expRes = LifeCalc.countAgeSeconds(d, m, y);
 		if (expRes != 0) {
-			fail("Not yet implemented"); // TODO
+			fail(); // TODO
 		}
 		d = d - 5;
 		m = m - 1;

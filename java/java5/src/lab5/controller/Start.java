@@ -6,17 +6,32 @@ public class Start {
 	public static void main(String[] args) {
 		int choice;
 		lable: while (true) {
-			choice = (int) Input.read(
-					"Menu laba5\nPush subsecuent buttens\nto carry out programs:\n"
-					+ "0 - involved squares task\n1 - approximetly arifm. and geom. task\n2 - STOP\n");
+			choice = (int) Input.read("Menu laba5\nChoose number of methods \n"
+					+ "0 - Considers seconds, minets, hours\n1 - Find amount, multiplication\n" +
+					"2 - Appreximetly arithmetic and geometric \n"+
+					"3 - Revers\n"+
+					"4 - Determine number\n"+
+					"5 - Find number of squares\n"+
+					"6 - Define a century\n7 - Stop");
 			switch (choice) {
 			case 0:
 				Manager.task0();
 				break;
-			case 1:
-				Manager.task1();
-				break;
 			case 2:
+				Manager.task2();
+				break;
+			case 3:
+				Manager.task3();
+				break;
+			case 4:
+				Manager.task4();
+				break;
+			case 5:
+				Manager.task5();
+				break;
+			case 6:
+				Manager.task6();
+			case 9:
 				break lable;
 			}
 

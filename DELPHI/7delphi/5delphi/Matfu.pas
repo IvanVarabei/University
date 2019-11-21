@@ -1,6 +1,12 @@
 unit Matfu;
 
 interface
+type TMarr=array[1..10] of Integer;
+
+type Crow=(Valera,Ivan);
+
+const MT : Integer=9;
+var myVar : Integer;
 Function countWords(St: string) : Integer;
 Function countSubstring(St: string; t2: string) : Integer;
 implementation

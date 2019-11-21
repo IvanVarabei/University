@@ -8,5 +8,10 @@ public class Input {
 		Scanner in = new Scanner(System.in);
 		return in.nextDouble();
 	}
+	public static int readInt(String str) {
+		System.out.printf("\n"+str+"\n");
+		Scanner in = new Scanner(System.in);
+		return in.nextInt();
+	}
 
 }

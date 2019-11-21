@@ -272,7 +272,7 @@ object Form1: TForm1
   end
   object dlgSave1: TSaveDialog
     DefaultExt = '*.txt'
-    FileName = 'C:\Users\Asus\Desktop\DELPHI\'#1053#1086#1074#1072#1103' '#1087#1072#1087#1082#1072'\employees.txt'
+    FileName = 'C:\maze\DELPHI\6delphi\6 labFromKarachinsky\employees.txt'
     Left = 184
     Top = 152
   end
