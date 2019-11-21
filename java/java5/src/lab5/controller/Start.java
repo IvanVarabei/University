@@ -6,7 +6,7 @@ public class Start {
 	public static void main(String[] args) {
 		int choice;
 		lable: while (true) {
-			choice = (int) Input.read("Menu laba5\nChoose number of methods \n"
+			choice = Input.readInt("Menu laba5\nChoose number of methods \n"
 					+ "0 - Considers seconds, minets, hours\n1 - Find amount, multiplication\n" +
 					"2 - Appreximetly arithmetic and geometric \n"+
 					"3 - Revers\n"+
@@ -16,6 +16,9 @@ public class Start {
 			switch (choice) {
 			case 0:
 				Manager.task0();
+				break;
+			case 1:
+				Manager.task1();
 				break;
 			case 2:
 				Manager.task2();
@@ -31,7 +34,8 @@ public class Start {
 				break;
 			case 6:
 				Manager.task6();
-			case 9:
+				break;
+			case 7:
 				break lable;
 			}
 
