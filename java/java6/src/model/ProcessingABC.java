@@ -36,22 +36,22 @@ public class ProcessingABC {
 				|| n == THERD_Q && x < NIL && y < NIL || n == FERTHS_Q && x > NIL && y < NIL;
 	}
 
-	public static boolean palindrom(int z) {
+	public static boolean isPalindrom(int z) {
 		int a = z / THAUTH_DIV, b = z % THAUTH_DIV / HANDR_DIV, c = z % HANDR_DIV / HAND_DIV, d = z % HAND_DIV;
 		return a == d && b == c;
 	}
 
-	public static boolean subsequent(int z) {
+	public static boolean isSubsequent(int z) {
 		int a = z / THAUTH_DIV, b = z % THAUTH_DIV / HANDR_DIV, c = z % HANDR_DIV / HAND_DIV, d = z % HAND_DIV;
 		return a > b && b > c && c > d || a < b && b < c && c < d;
 	}
 
-	public static boolean evenOdd(int a, int b, int c) {
+	public static boolean areEvenPrevail(int a, int b, int c) {
 		return a % ODD_OR_EVEN == NIL && b % ODD_OR_EVEN == NIL || c % ODD_OR_EVEN == NIL && a % ODD_OR_EVEN == NIL
 				|| c % ODD_OR_EVEN == NIL && b % ODD_OR_EVEN == NIL;
 	}
 
-	public static boolean sameEven(int a, int b, int c) {
+	public static boolean areAllEven(int a, int b, int c) {
 		return a % ODD_OR_EVEN == b % ODD_OR_EVEN && a % ODD_OR_EVEN == c % SECOND_Q
 				|| a % ODD_OR_EVEN != b % ODD_OR_EVEN && a % ODD_OR_EVEN != c % SECOND_Q;
 	}

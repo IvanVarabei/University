@@ -29,16 +29,16 @@ public class Launch {
 				exhibit("Is it actual 1/4:%b", seekQuarter(readInt("n="), readInt("x="), readInt("y=")));
 				break;
 			case 5:
-				exhibit("Is it palindrom:%b", palindrom(readInt("a=")));
+				exhibit("Is it palindrom:%b", isPalindrom(readInt("a=")));
 				break;
 			case 6:
-				exhibit("Is it subsequent:%b", subsequent(readInt("a=")));
+				exhibit("Is it subsequent:%b", isSubsequent(readInt("a=")));
 				break;
 			case 7:
-				exhibit("Most of it are even or odd:%b", evenOdd(readInt("a="), readInt("b="), readInt("c=")));
+				exhibit("Most of it are even or odd:%b", areEvenPrevail(readInt("a="), readInt("b="), readInt("c=")));
 				break;
 			case 8:
-				exhibit("Is nubers with same odd or even:%b", sameEven(readInt("a="), readInt("b="), readInt("c=")));
+				exhibit("Is nubers with same odd or even:%b", areAllEven(readInt("a="), readInt("b="), readInt("c=")));
 				break;
 			case 9:
 				break shift;

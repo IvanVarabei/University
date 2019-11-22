@@ -48,29 +48,29 @@ public class ProcessingABCTest {
 	}
 
 	@Test
-	public void testPalindrom() {
-		assertEquals(true, ProcessingABC.palindrom(1991));
-		assertEquals(false, ProcessingABC.palindrom(9787));
+	public void testIsPalindrom() {
+		assertEquals(true, ProcessingABC.isPalindrom(1991));
+		assertEquals(false, ProcessingABC.isPalindrom(9787));
 	}
 	@Test
-	public void testSubsequent() {
-		assertEquals(true, ProcessingABC.subsequent(1234));
-		assertEquals(true, ProcessingABC.subsequent(9742));
-		assertEquals(false, ProcessingABC.subsequent(9787));
+	public void testIsSubsequent() {
+		assertEquals(true, ProcessingABC.isSubsequent(1234));
+		assertEquals(true, ProcessingABC.isSubsequent(9742));
+		assertEquals(false, ProcessingABC.isSubsequent(9787));
 	}
 	@Test
-	public void testEvenOdd() {
-		assertEquals(true, ProcessingABC.evenOdd(4,6,8));
-		assertEquals(false, ProcessingABC.evenOdd(5,7,9));
-		assertEquals(false, ProcessingABC.evenOdd(1,2,3));
-		assertEquals(true, ProcessingABC.evenOdd(8,2,3));
+	public void testAreEvenPrevail() {
+		assertEquals(true, ProcessingABC.areEvenPrevail(4,6,8));
+		assertEquals(false, ProcessingABC.areEvenPrevail(5,7,9));
+		assertEquals(false, ProcessingABC.areEvenPrevail(1,2,3));
+		assertEquals(true, ProcessingABC.areEvenPrevail(8,2,3));
 		
 	}
 	@Test
 	public void testSameEven() {
-		assertEquals(true, ProcessingABC.sameEven(4,6,8));
-		assertEquals(true, ProcessingABC.sameEven(5,7,9));
-		assertEquals(false, ProcessingABC.sameEven(5,8,9));
+		assertEquals(true, ProcessingABC.areAllEven(4,6,8));
+		assertEquals(true, ProcessingABC.areAllEven(5,7,9));
+		assertEquals(false, ProcessingABC.areAllEven(5,8,9));
 	}
 
 }

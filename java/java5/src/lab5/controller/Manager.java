@@ -9,7 +9,7 @@ class Manager {
 	static void task0() {
 		exhibit(CurrentDay.showDate());
 		exhibit("%d hours experied since start of day", CurrentDay.discoverHourNum());
-		exhibit("%d minets experied since start of day", CurrentDay.discoverMinetsNum());
+		exhibit("%d minuts experied since start of day", CurrentDay.discoverMinetsNum());
 		exhibit("%d seconds experied since start of day", CurrentDay.discoverSecondsNum());
 	}
 
