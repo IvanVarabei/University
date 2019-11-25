@@ -4,6 +4,8 @@ import by.bntu.fitr.nameofstudent.javalabs.lab07.model.*;
 import static by.bntu.fitr.nameofstudent.javalabs.lab07.view.Input.*;
 import static by.bntu.fitr.nameofstudent.javalabs.lab07.view.Output.*;
 
+
+
 public class Mananger {
 	static public void main(String uoi[]) {
 		lable: while (true) {
