@@ -1,4 +1,4 @@
-package by.bntu.fitr.nameofstudent.javalabs.lab07.model;
+package by.bntu.fitr.varabei.javalabs.lab07.model;
 
 public class Leap {
 	final static int NORMAL[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };

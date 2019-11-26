@@ -1,11 +1,12 @@
-package by.bntu.fitr.nameofstudent.javalabs.lab07.model;
+package by.bntu.fitr.varabei.javalabs.lab07.model;
 
 public class Greatest {
-	final static int NIL=0;
-	final static int FIGAR_ONE=1;
-	public static boolean isEquals(int...arg) {
-		for (int i = NIL; i < arg.length-FIGAR_ONE; i++) {
-			if (arg[i]!=arg[i+FIGAR_ONE]) {
+	final static int NIL = 0;
+	final static int FIGAR_ONE = 1;
+
+	public static boolean isEquals(int... arg) {
+		for (int i = NIL; i < arg.length - FIGAR_ONE; i++) {
+			if (arg[i] != arg[i + FIGAR_ONE]) {
 				return false;
 			}
 		}

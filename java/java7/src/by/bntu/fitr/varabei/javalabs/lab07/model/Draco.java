@@ -1,20 +1,21 @@
-package by.bntu.fitr.nameofstudent.javalabs.lab07.model;
+package by.bntu.fitr.varabei.javalabs.lab07.model;
 
 public class Draco {
-	public static int age, amountOfHeads, amountOfEyes;
+	public int age, amountOfHeads, amountOfEyes;
 	final static int NIL = 0;
 	final static int FIRST_STAP = 200;
 	final static int SECOND_STEP = 300;
 	final static int NATIV_AMOUNT = 3;
 	final static int TWICE = 2;
 
-	public Draco(int n) {
-		age = n;
+	public Draco(int age) {
+		this.age = age;
 		amountOfHeads = seekHead();
 		amountOfEyes = seekEyes();
 	}
-
-	public int seekHead() {
+//static meth
+	//fool, return 0 
+	public int seekHead() {//
 		int sum = NATIV_AMOUNT;
 		for (int i = NIL; i < age; i++) {
 			if (i < FIRST_STAP) {
@@ -31,7 +32,7 @@ public class Draco {
 		return sum;
 	}
 
-	public int seekEyes() {
+	public int seekEyes() {//
 		int sum = NATIV_AMOUNT;
 		for (int i = NIL; i < age; i++) {
 			if (i < FIRST_STAP) {

@@ -1,10 +1,11 @@
-package by.bntu.fitr.nameofstudent.javalabs.lab07.controller;
+package by.bntu.fitr.varabei.javalabs.lab07.controller;
 
-import by.bntu.fitr.nameofstudent.javalabs.lab07.model.*;
-import static by.bntu.fitr.nameofstudent.javalabs.lab07.view.Input.*;
-import static by.bntu.fitr.nameofstudent.javalabs.lab07.view.Output.*;
+import static by.bntu.fitr.varabei.javalabs.lab07.view.Input.*;
+import static by.bntu.fitr.varabei.javalabs.lab07.view.Output.*;
 
 import java.io.IOException;
+
+import by.bntu.fitr.varabei.javalabs.lab07.model.*;
 
 public class Mananger {
 	static public void main(String uoi[]) throws IOException {

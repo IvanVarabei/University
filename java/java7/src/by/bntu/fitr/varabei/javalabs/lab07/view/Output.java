@@ -1,9 +1,38 @@
-package by.bntu.fitr.nameofstudent.javalabs.lab07.view;
+package by.bntu.fitr.varabei.javalabs.lab07.view;
 
 public class Output {
  public static void exhibit(String str) {
-	 System.err.printf(str+"\n");
+	 System.out.print(str+"\n");
+	 //System.out.print(str);
  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  /*public static void exhibit(String str,int arg) {
 	 System.err.printf(str+"\n",arg);

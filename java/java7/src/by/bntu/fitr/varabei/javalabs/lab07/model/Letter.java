@@ -1,4 +1,4 @@
-package by.bntu.fitr.nameofstudent.javalabs.lab07.model;
+package by.bntu.fitr.varabei.javalabs.lab07.model;
 
 public class Letter {
 	final static char VOWELS[] = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };

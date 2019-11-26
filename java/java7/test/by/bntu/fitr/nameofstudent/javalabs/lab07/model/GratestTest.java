@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import by.bntu.fitr.varabei.javalabs.lab07.model.Greatest;
+
 public class GratestTest {
 
 	@Test

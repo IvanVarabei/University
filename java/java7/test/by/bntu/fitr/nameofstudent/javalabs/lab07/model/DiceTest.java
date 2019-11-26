@@ -4,8 +4,10 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class DiceTest {
+import by.bntu.fitr.varabei.javalabs.lab07.model.Dice;
 
+public class DiceTest {
+//consts
 	@Test
 	public void testThrowDice() {
 		boolean flag2 = false, flag12 = false;

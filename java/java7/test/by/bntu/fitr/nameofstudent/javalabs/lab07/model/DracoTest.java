@@ -5,6 +5,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import by.bntu.fitr.varabei.javalabs.lab07.model.Draco;
+
 public class DracoTest {
 
 	private static Draco dragon1 = null;
@@ -34,7 +36,7 @@ public class DracoTest {
 	}
 
 	@Test
-	public void testSeekHead() {
+	public void testSeekHead() {//10
 		assertEquals(3, dragon1.amountOfHeads);
 		assertEquals(6, dragon2.amountOfHeads);
 		assertEquals(303, dragon3.amountOfHeads);
