@@ -1,0 +1,6 @@
+C:\maze\Теория информации\3т.и\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\maze\Теория информации\3т.и\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\maze\Теория информации\3т.и\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\maze\Теория информации\3т.и\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\maze\Теория информации\3т.и\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\maze\Теория информации\3т.и\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

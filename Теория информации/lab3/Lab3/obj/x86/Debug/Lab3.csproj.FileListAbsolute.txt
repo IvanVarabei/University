@@ -1,0 +1,67 @@
+C:\Users\ПК\Documents\Visual Studio 2010\Projects\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\ПК\Documents\Visual Studio 2010\Projects\Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\ПК\Documents\Visual Studio 2010\Projects\Lab3\Lab3\obj\x86\Debug\Lab3.Form1.resources
+C:\Users\ПК\Documents\Visual Studio 2010\Projects\Lab3\Lab3\obj\x86\Debug\Lab3.Properties.Resources.resources
+C:\Users\ПК\Documents\Visual Studio 2010\Projects\Lab3\Lab3\obj\x86\Debug\Lab3.csproj.GenerateResource.Cache
+C:\Users\ПК\Documents\Visual Studio 2010\Projects\Lab3\Lab3\obj\x86\Debug\Lab3.exe
+C:\Users\ПК\Documents\Visual Studio 2010\Projects\Lab3\Lab3\obj\x86\Debug\Lab3.pdb
+C:\Users\ПК\Documents\Visual Studio 2010\Projects\Lab3\Lab3\obj\x86\Debug\Lab3.csprojResolveAssemblyReference.cache
+E:\Текст\БНТУ\ТИ\3\Проект\Lab3\Lab3\obj\x86\Debug\Lab3.exe
+E:\Текст\БНТУ\ТИ\3\Проект\Lab3\Lab3\obj\x86\Debug\Lab3.pdb
+E:\Текст\БНТУ\ТИ\3\Проект\Lab3\Lab3\bin\Debug\Lab3.exe
+E:\Текст\БНТУ\ТИ\3\Проект\Lab3\Lab3\bin\Debug\Lab3.pdb
+E:\Текст\БНТУ\ТИ\3\Проект\Lab3\Lab3\obj\x86\Debug\Lab3.csprojResolveAssemblyReference.cache
+E:\Текст\БНТУ\ТИ\3\Проект\Lab3\Lab3\obj\x86\Debug\Lab3.Form1.resources
+E:\Текст\БНТУ\ТИ\3\Проект\Lab3\Lab3\obj\x86\Debug\Lab3.Properties.Resources.resources
+E:\Текст\БНТУ\ТИ\3\Проект\Lab3\Lab3\obj\x86\Debug\Lab3.csproj.GenerateResource.Cache
+D:\2 курс\ТИ\3\Lab3\Lab3\obj\x86\Debug\Lab3.exe
+D:\2 курс\ТИ\3\Lab3\Lab3\obj\x86\Debug\Lab3.pdb
+D:\2 курс\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.exe
+D:\2 курс\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.pdb
+D:\2 курс\ТИ\3\Lab3 полностью\Lab3\bin\Debug\Lab3.exe
+D:\2 курс\ТИ\3\Lab3 полностью\Lab3\bin\Debug\Lab3.pdb
+D:\2 курс\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.csprojResolveAssemblyReference.cache
+D:\2 курс\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.Form1.resources
+D:\2 курс\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.Properties.Resources.resources
+D:\2 курс\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.csproj.GenerateResource.Cache
+D:\Angelina_study\2 курс\ТИ\TI_2\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.exe
+D:\Angelina_study\2 курс\ТИ\TI_2\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.pdb
+D:\Angelina_study\2 курс\ТИ\TI_2\ТИ\3\Lab3 полностью\Lab3\bin\Debug\Lab3.exe
+D:\Angelina_study\2 курс\ТИ\TI_2\ТИ\3\Lab3 полностью\Lab3\bin\Debug\Lab3.pdb
+D:\Angelina_study\2 курс\ТИ\TI_2\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.csprojResolveAssemblyReference.cache
+D:\Angelina_study\2 курс\ТИ\TI_2\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.Form1.resources
+D:\Angelina_study\2 курс\ТИ\TI_2\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.Properties.Resources.resources
+D:\Angelina_study\2 курс\ТИ\TI_2\ТИ\3\Lab3 полностью\Lab3\obj\x86\Debug\Lab3.csproj.GenerateResource.Cache
+D:\учёба\2 курс\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.exe
+D:\учёба\2 курс\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.pdb
+D:\учёба\2 курс\ТИ\lab3\Lab3\bin\Debug\Lab3.exe
+D:\учёба\2 курс\ТИ\lab3\Lab3\bin\Debug\Lab3.pdb
+D:\учёба\2 курс\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.csprojResolveAssemblyReference.cache
+D:\учёба\2 курс\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.Form1.resources
+D:\учёба\2 курс\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.Properties.Resources.resources
+D:\учёба\2 курс\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.csproj.GenerateResource.Cache
+C:\Users\Anna\ТИ\lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\Anna\ТИ\lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\Anna\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.csprojAssemblyReference.cache
+C:\Users\Anna\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.Form1.resources
+C:\Users\Anna\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.Properties.Resources.resources
+C:\Users\Anna\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.csproj.GenerateResource.cache
+C:\Users\Anna\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.exe
+C:\Users\Anna\ТИ\lab3\Lab3\obj\x86\Debug\Lab3.pdb
+C:\Users\Ivan\OneDrive\Рабочий стол\lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\Ivan\OneDrive\Рабочий стол\lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\Ivan\OneDrive\Рабочий стол\lab3\Lab3\obj\x86\Debug\Lab3.csprojAssemblyReference.cache
+C:\Users\Ivan\OneDrive\Рабочий стол\lab3\Lab3\obj\x86\Debug\Lab3.Form1.resources
+C:\Users\Ivan\OneDrive\Рабочий стол\lab3\Lab3\obj\x86\Debug\Lab3.Properties.Resources.resources
+C:\Users\Ivan\OneDrive\Рабочий стол\lab3\Lab3\obj\x86\Debug\Lab3.csproj.GenerateResource.cache
+C:\Users\Ivan\OneDrive\Рабочий стол\lab3\Lab3\obj\x86\Debug\Lab3.exe
+C:\Users\Ivan\OneDrive\Рабочий стол\lab3\Lab3\obj\x86\Debug\Lab3.pdb
+E:\Information Theory\lab3\Lab3\bin\Debug\Lab3.exe
+E:\Information Theory\lab3\Lab3\bin\Debug\Lab3.pdb
+E:\Information Theory\lab3\Lab3\obj\x86\Debug\Lab3.csprojAssemblyReference.cache
+E:\Information Theory\lab3\Lab3\obj\x86\Debug\Lab3.Form1.resources
+E:\Information Theory\lab3\Lab3\obj\x86\Debug\Lab3.Properties.Resources.resources
+E:\Information Theory\lab3\Lab3\obj\x86\Debug\Lab3.csproj.GenerateResource.cache
+E:\Information Theory\lab3\Lab3\obj\x86\Debug\Lab3.csproj.CoreCompileInputs.cache
+E:\Information Theory\lab3\Lab3\obj\x86\Debug\Lab3.exe
+E:\Information Theory\lab3\Lab3\obj\x86\Debug\Lab3.pdb

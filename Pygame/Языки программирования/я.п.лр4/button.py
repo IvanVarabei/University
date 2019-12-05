@@ -1,11 +1,20 @@
 import pygame
-import random
+from globalVars import *
+from utils import *
+
+pygame.init()
+
 class Button:
     def __init__(self,width,height):
         self.width=width
         self.height=height
         self.inactive_clr=(13,162,58)
         self.active_clr=(23,204,50)
+        self.draw_effects=False
+        self.rect_h=10
+        self.clear_effects=False
+        self.rect_w=width
+        
     def draw(self,x,y,message,action=None, font_size=30):
         mouse=pygame.mouse.get_pos()
         click=pygame.mouse.get_pressed()
@@ -23,4 +32,3 @@ class Button:
         else:
             pygame.draw.rect(display,self.inactive_clr,(x,y,self.width,self.height))
         print_text(message=message,x=x+10,y=y+10,font_size=font_size)
-        
