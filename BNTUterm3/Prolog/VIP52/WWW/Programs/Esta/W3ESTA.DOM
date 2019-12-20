@@ -1,0 +1,216 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  WEBVESTA
+ FileName: WEBESTA.DOM
+ Purpose: WWW version of ESTA Global Domains Declarations
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+
+GLOBAL DOMAINS
+  file = infile; outfile; textfile ; logfile ; auxfile1 ; auxfile2 ; auxfile3
+
+%Only the filenames 'textfile' and 'logfile' are reserved for ESTA
+%'auxfile1', 'auxfile2' and 'auxfile3' are available for the user.
+
+  textlist = string*
+  keylist = string*
+  intlist = integer*
+  strlist = string*
+  wordlist = word*
+  
+GLOBAL DOMAINS
+
+  DB_SELECTOR = db1 ; db2 ; db3 ; db4 ; db5 ; db6
+
+  ROW, COL_, LEN, ATTR   = LONG
+  STRINGLIST            = STRING*
+  INTEGERLIST           = INTEGER*
+  
+  SID			= STRING	% Session identifier
+
+  /*     SCANNER DOMAINS    */
+  
+  S 	= STRING
+  CHTYP = digit(CHAR); letter(CHAR); other(CHAR); delimiter(CHAR); space(CHAR)
+  CHARPOS = INTEGER 
+  DBALIST = DBASEDOM*
+
+  TOKN =s(STRING)          ; id(STRING) ; int(INTEGER)  ; float(REAL) ; 
+	rpar     ; lpar    ; 
+	dotdot   ; comma   ; period     ; andsign    ; colon     ;
+	eq       ; ne      ; lt         ; le         ; gt        ;   
+	plus     ; minus   ; mult       ; div        ; ge        ;
+        if_      ; not_    ; and_       ; or_        ; true      ;  
+        false    ; unknown ; fact       ; phrase     ; ensure    ; 
+        number   ; category; options    ; range      ; rule      ;
+	explanation        ; askable    ; using      ; section   ; 
+	reference          ; quit       ; descriptor ; type      ;
+	parameter          ; advice     ; eof        ; exit      ;
+	call               ; chain      ; assign     ; image   ;reference_par
+	
+  TOKNL	= TOKN*
+  TOK	= t(TOKN,CHARPOS)
+  TOKL	= TOK*
+     
+  VARTYPE     = fact ; number; phrase ; category ; dummy   
+  VARTYPELIST = VARTYPE*
+  
+  RULES       =	fact(FNRULES) ;
+		number(RANGE,FNRULES) ;
+		phrase(PHRASERULES) ;
+		category(OPTIONDEFS,CATRULES)
+
+  FNRULES     = FNRULE*
+  PHRASERULES = PHRASERULE*
+  CATRULES    = CATRULE*
+
+  FNRULE      = exp(EXP); boolexp(EXP); if_(EXP,EXP); boolmenu(OPTIONDEFS);boolfacts(FNRULES)
+  PHRASERULE  = str(EXPL); if_(EXPL,EXP)
+  CATRULE     = opt(OPTION); if_(OPTION,EXP)  
+  
+  RANGE       = range(EVALUE,EVALUE); none
+
+  OPTIONDEFS  = OPTIONDEF*
+  OPTIONDEF   = option(OPTION,STRING)
+  OPTION      = STRING
+
+  EXP =	c_var(ID,CHARPOS)       ; c_int(INTEGER,CHARPOS); 
+        c_float(REAL,CHARPOS)   ; c_str(STRING,CHARPOS) ;
+        c_bool(EVALUE,CHARPOS)  ; c_pic(EXP);
+        or_(EXP,EXP)            ; and_(EXP,EXP)		;
+        not_( EXP )             ; rel(EXP,TOKN,EXP)	;
+        plus(EXP,EXP)           ; minus(EXP,EXP)        ;
+	mult(EXP,EXP)           ; div(EXP,EXP)          ;
+        monmin(EXP)             ;
+        c_func(ID,CHARPOS,EXPL) ; nl
+        
+	
+  EXPL	 =  EXP*
+  
+  EVALUE = true  ; false ; unknown  ; unsolveable  ; 
+           int(INTEGER)  ; float(REAL)   ;  
+           str(STRING)
+
+  EVALUELIST = EVALUE*
+  
+  ACTIONS = ACTION*
+  ACTION  = display(EXPL); refer(ID,CHARPOS); refer_par(ID,CHARPOS);
+            call(ID,CHARPOS,EXPL); quit;
+  	    exit; chain(STRING); assign(ID,CHARPOS,EXP) 
+                         
+  %ID 	= STRING	% declared in docstr.dom
+  IDL   = ID*
+  
+  %ANSWER = answer(ID,EVALUE)
+  %ANSPATH = ANSWER*
+  
+  PNO   = INTEGER  /* Paragraph number */ 
+  ACTNO	= INTEGER  /* Action number      */
+  QUITED= quit ; noquit 
+  
+  SPATH = last_advice(ID,PNO,ACTNO) ; refer(ID,PNO,ACTNO,ID) ; refer_par(ID,PNO,ACTNO,ID)
+  SPATHL= SPATH* 
+   
+  PPATH =  node(ID,PNO,ACTNO); nextnode(ID,PNO); cond(EXP); parm(ID);
+	   exp(EXP); phrase(EXPL); vol(ID);  assign(ID,EXP)
+  PPATHL=  PPATH*
+  PATHS =  path(SPATHL,PPATHL)
+   
+  LOGOBJECT = str(string); pic(string)
+
+  /*   TRAVTREE a state tree representing consultation  */
+
+  MEMBER  = is_member;  is_not_member 
+  WRITTEN = is_written; not_written 
+
+  SNODE	 = snode(ID,PNODES) 
+  PNODES = PNODE*  
+  PNODE	 = pnode(PNO,EVALUE,ANODES) ; none
+  ANODES = ANODE*
+  ANODE	 = advice(SLIST); snode(ID,PNODES); call(ID,EVALUELIST);
+	   assign(ID,EXP); none
+
+  /*     avl-sort                    */
+  
+  HEIGHT 	= INTEGER  /* decr=1 ; same=2 ; incr=3 */
+  BAL		= INTEGER  /* left=4 ; none=5 ; right=6 */ 
+  AVLTREE	= tree(ID,BAL,AVLTREE,AVLTREE) ; n 
+  
+
+  /* Checkfunctions help domains     */
+  /* Environment                     */
+  
+  GLOBALID   = SYMBOL
+  UNI_METHOD = question; rule(INTEGER) ; assign(ID) ; alien
+
+  /* Check domains                   */
+ 
+  CURVID = INTEGER 
+  INV_ID = sect(ID) ; parm(ID) ; sys_called
+
+  FNAME	 = SYMBOL
+  TYPE	 = fact(); number(); phrase() ; category()
+
+/*     Global Database for ESTA           */
+
+ GLOBAL DATABASE
+        determ app_path (STRING)
+        ecb (SID,EXTENSION_CONTROL_BLOCK)
+        page_status (SID,STRING)
+        cur_Page (SID,STRING)
+        replay (SID,SLIST)
+        inreplay(SID)
+        answers (SID,SLIST)
+ 
+ %	vars(text,  id,descr, expl,ask, type, rules,picture)
+        vars(STRING,ID,STRING,EXPL,EXPL,VARTYPE,RULES,STRING)
+	evalue(ID,EVALUE,UNI_METHOD)  % the optained values for variables
+	paragraph(ID,PNO,EXP,ACTIONS) % paragraph represents the section network
+	section(STRING,ID,EXPL)	      % section(TEXT,NAME,DESCRIPTION)
+	title(STRING)		      % Title of the expert system.
+	%------ Session Knowlwdge base copy---------------
+	vars_(SID,STRING,ID,STRING,EXPL,EXPL,VARTYPE,RULES,STRING)
+	evalue_(SID,ID,EVALUE,UNI_METHOD)  % the optained values for variables
+	paragraph_(SID,ID,PNO,EXP,ACTIONS) % paragraph represents the section network
+	section_(SID,STRING,ID,EXPL)	   % section(TEXT,NAME,DESCRIPTION)
+	title_(SID,STRING)		   % Title of the expert system.
+
+	environment(SID,GLOBALID,STRING)
+	int_env(SID,SYMBOL,INTEGER)
+  
+	textposition(SID,CHARPOS,STRING)
+	checkerrorposition(SID,INV_ID,CHARPOS,STRING)
+	
+	res_str(SID,STRING)
+        rd_str_state(SID,CHARPOS)
+
+/*------------- System state --------------------*/
+
+	mem(SID,SYMBOL,STRING) %memory for internal strings variables
+	
+	session(SID,PNODES)
+
+	esta_page_header (SID,STRING)  % kb title
+
+GLOBAL DATABASE - definitions
+	function_name(SYMBOL,STRING)   
+	procedure_name(SYMBOL,STRING)  
+	txt1(STRING,STRING)             %Text definitions.
+	tok_keyw_str(TOKN,STRING) 
+        tok_str1(TOKN,STRING) 
+
+GLOBAL DATABASE - modeless   % ????
+  find_msg(WORD)
+  replace_msg(WORD)
+
+GLOBAL PREDICATES
+
+/* wineintf.pro */
+
+determ	func_descr(ID,INTEGER,VARTYPELIST,VARTYPE) - (I,O,O,O)
+determ	proc_descr(ID,INTEGER,VARTYPELIST)	   - (I,O,O)
+determ	eval_func(SID,ID,EVALUELIST,EVALUE)	   - (I,I,I,O)
+determ	eval_proc(SID,ID,EVALUELIST)		   - (I,I,I)

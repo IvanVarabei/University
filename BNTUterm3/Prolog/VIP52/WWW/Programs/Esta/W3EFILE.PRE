@@ -1,0 +1,32 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  W3ESTA
+ FileName: W3EFILE.PRE
+ Purpose: Predicate definitions for W3EFILE.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+GLOBAL PREDICATES
+
+% Is called from W3ESTA.PRO if start page is activated 
+ open_file(string SID, string) - (i,i)    % Knowledge base name to open
+ 
+% Extracts filename from full filename with path and converts to lower case 
+ get_filename(string,string) - (i,o) % Full filename, filename without path
+ 
+% Checks if file exists 
+ my_existfile(SID,string) - (i,i) % filename
+ 
+% Consults a knowledge base into ESTA 
+ consult_kb(string SID,string) - (i,i) % knowledge base name
+ 
+% Save evalues to a file, used in save_values(Filename) 
+ save_values(SID,STRING) 	- (i,i) % Filename
+
+% Get evalues from a file, used in restore_values(Filename)
+ get_values(SID,STRING)         - (i,i) % Filename
+ 
+% Reads the content of a file into a string, where newlines fit Windows 
+ read_file_to_str(SID,string,string) - (i,i,o) % filename, outputstring

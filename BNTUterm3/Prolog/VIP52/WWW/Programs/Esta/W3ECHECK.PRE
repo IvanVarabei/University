@@ -1,0 +1,18 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  VESTA
+ FileName: VECHECK.PRE
+ Purpose: Predicate definitions for VECHECK.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+GLOBAL PREDICATES
+  checkknow (SID) - (i) 
+  no_check_error(SID) - (i)
+  get_var_optionlist(SID,ID,slist) - (i,i,o)
+  chck_exp_type(SID,ID,EVALUE) - (i,i,i)
+  chck_relvalues(EVALUE,EVALUE) - (i,i)
+  consult_type_error(SID) - (i)
+  

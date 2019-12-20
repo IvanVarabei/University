@@ -1,0 +1,8 @@
+word("привет","hello")
+word("холст","canvas")
+word("усваивать","internalize")
+word("признавать","acknowledge")
+word("инициализировать","init")
+word("намереваться","intend")
+word("нетерпеливый","eager")
+word("шип","thorn")

@@ -1,0 +1,63 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  W3ESTA
+ FileName: W3ECONS.PRE
+ Purpose: Predicate definitions for W3ECONS.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+
+GLOBAL PREDICATES
+
+determ  inferencemachine(SID,STRING) - (i,i)
+determ  recap_advices(SID) - (i)
+determ  change_parameter(SID) - (i)
+
+determ  ex_cur_vid(SID,ID) - (i,o)
+determ  get_cur_vid(SID,ID) - (i,o)
+
+determ  store_cat(SID,integer) - (i,i)
+determ  store_cat_hotspot(SID,string) - (i,i)
+determ  store_fact(SID,integer) - (i,i)
+determ  store_answer(SID,string) - (i,i)
+
+determ  retract_cons_inf(SID) - (i)
+determ  get_picture(SID,string,string) - (i,i,o)
+determ  get_listbox_option(SID,string,string) - (i,i,o)
+consult_statusmsg(SID) - (i)
+str_numb(SID,STRING,EVALUE)  - (i,i,o) (i,o,i)
+mk_askstring(SID,STRING,ID,STRING) - (i,i,i,o)
+get_ppathl(SID,PPATHL) - (i,o)
+get_spathl(SID,SPATHL) - (i,o)
+
+get_inf_state (SID,
+               string Sectpno_Str,
+               string Refsectpno_Str,
+               string Cur_vid_Str,
+               string Boolcat_Str,
+               string Options_Str,
+               string Numb_range_Str,
+               string Askstr_Str,
+               string Answertype_Str,
+               string P_list_Str,
+               string S_list_Str,
+               string Session_value_Str,
+               string Action_done_Str,
+               string Chain_filename_Str) - (i,o,o,o,o,o,o,o,o,o,o,o,o,o)
+
+restore_inf_state (SID,
+               string Sectpno_Str,
+               string Refsectpno_Str,
+               string Cur_vid_Str,
+               string Boolcat_Str,
+               string Options_Str,
+               string Numb_range_Str,
+               string Askstr_Str,
+               string Answertype_Str,
+               string P_list_Str,
+               string S_list_Str,
+               string Session_value_Str,
+               string Action_done_Str,
+               string Chain_filename_Str) - (i,i,i,i,i,i,i,i,i,i,i,i,i,i)

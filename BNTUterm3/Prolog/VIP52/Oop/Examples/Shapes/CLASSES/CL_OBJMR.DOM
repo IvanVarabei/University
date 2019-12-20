@@ -1,0 +1,31 @@
+/*****************************************************************************
+
+	       Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+				Class  examples
+
+ Project:  SHAPES
+ FileName: CL_OBJMR.DOM
+ Purpose:  Project's global declarations
+ Written by: Compiler Group
+ Comments:
+*****************************************************************************/
+
+		/*********************/
+		/*   ObjectManager   */
+		/*********************/
+
+class ObjectManager
+  predicates
+    procedure new()
+    procedure delete()
+
+    nondeterm update
+    destroy
+
+    WINDOW getHandle()
+
+    newShape( Shape_Kind )
+    shiftShape( Move_Kind )
+endclass ObjectManager
+

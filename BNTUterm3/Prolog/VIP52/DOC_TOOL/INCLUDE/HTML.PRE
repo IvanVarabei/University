@@ -1,0 +1,40 @@
+/******************************************************************************
+
+                 Copyright (C) 1984 - 2000 Prolog Development Center A/S
+
+				VISUAL PROLOG
+
+ File name: HTML.PRE
+ PURPOSE:   Interface to HTML parser
+
+ COMMENTS:  Structural documents domains declarations
+	    must be included before this file
+
+ Written by Oleg V. Erjomin
+
+******************************************************************************/
+ifndef strucDoc_Dom_Included
+ #ERROR: file docstr.dom must be included
+enddef
+
+CONSTANTS html_Pre_Included = 1
+
+GLOBAL PREDICATES
+  html_term (STRING,DOC) - procedure (i,o) 
+                           procedure (o,i) 
+                           determ (i,i) 
+                           procedure (o,o) language C
+  html_Flow (string Indent,
+             doc_flow,
+             string Buff,
+             string FlowTxt) - procedure (i,i,i,o)
+  html_ApplyDocInfo (doc_head) - procedure (i)
+  html_yyerror (STRING) - failure (i) language C
+%
+%   The internal implementation of html_read (o,i) (i,i)
+%   Declared here because of compiler include rules
+%
+GLOBAL PREDICATES
+  make_html_doc (string HTML, doc Doc) - procedure (o,i) language C
+  unify_html_doc (string HTML, doc Doc) - determ (i,i) language C
+  gen_html_doc (string HTML, doc Doc) - procedure (o,o) language C

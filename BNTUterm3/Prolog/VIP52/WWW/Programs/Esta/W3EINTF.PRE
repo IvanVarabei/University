@@ -1,0 +1,28 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  VESTA
+ FileName: VEINTF.PRE
+ Purpose: Predicate definitions for VEINTF.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+
+GLOBAL PREDICATES
+
+% Conversion from EVALUE domain to STRING domain 
+determ  val_str(EVALUE,STRING)	- (I,O) (O,I) % evalue, string
+
+% Get parameter value as a string
+determ  mk_val_str(SID,ID,STRING) - (I,I,O) % parameter name, evalue as string
+
+% Called from WINEMAIN.PRO as initialization.Is an example in ESTA/PLUS
+% register_userclass(Inst,Icon,Cursor,Background,Menu,WindowMenu) 
+% register_userclass(HANDLE,STRING,HCURSOR,HBRUSH,HMENU,INTEGER) - (i,i,i,i,i,i)
+
+% Predicates called before and after message_loop
+
+before_message_loop
+after_message_loop
+

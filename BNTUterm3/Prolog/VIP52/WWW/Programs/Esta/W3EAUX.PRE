@@ -1,0 +1,72 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  W3ESTA
+ FileName: W3EAUX.PRE
+ Purpose: Predicate definitions for W3EAUX.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+
+GLOBAL PREDICATES
+
+  ve_min(INTEGER,INTEGER,INTEGER) - (i,i,o) 
+  ve_max(INTEGER,INTEGER,INTEGER) - (i,i,o) 
+
+  nondeterm repeat
+  nondeterm repfile(file) - (i)
+  nondeterm for(INTEGER,INTEGER,INTEGER) - (o,i,i)  % (Index,Minimum,Maximum)
+  
+  nondeterm append (ILIST,ILIST,ILIST) - (i,i,o) (i,o,i) (o,i,i) (o,o,i)
+  nondeterm append (SLIST,SLIST,SLIST) - (i,i,o) (i,o,i) (o,i,i) (o,o,i)
+  nondeterm append (DOC_FLOW,DOC_FLOW,DOC_FLOW) - (i,i,o) (i,o,i) (o,i,i) (o,o,i)
+  
+  nondeterm sublist (SLIST,SLIST,SLIST) - (i,i,o)
+  nondeterm sublist (ILIST,ILIST,ILIST) - (i,i,o)
+	
+  nondeterm qsort (slist,slist) - (i,o)
+  nondeterm qsort (ilist,ilist) - (i,o)
+  bt_sort (slist,slist) - (i,o)
+  list_get_index (integer,ilist,integer) - (i,i,o)
+  list_get_index (string,slist,integer) - (i,i,o)
+  listconc (slist,slist,slist) - (i,i,o)
+  
+  strip(STRING,STRING)		- (I,O)
+  
+  maxlen(SLIST,INTEGER,INTEGER)	-(i,i,o)/* The length of the longest string */
+  listlen(SLIST,INTEGER)	-(i,o)	/* The length of a list		    */
+
+  sort_idl(IDL,IDL)		- (I,O)
+  
+  nondeterm ve_member(STRING,SLIST)	- (i,i)
+  nondeterm ve_member(INTEGER,ILIST)    - (i,i) (o,i)
+  nondeterm ve_member(ID,IDL)		- (i,i)
+  nondeterm ve_member(WORD,WORDLIST)    - (i,i)
+  nondeterm ve_member(PPATH,PPATHL)	- (i,i)
+  nondeterm ve_member(OPTIONDEF,OPTIONDEFS) - (i,i) (o,i)
+    
+  nondeterm non_memb(PNODE,PNODES)      - (o,i)  
+  nondeterm non_memb(ANODE,ANODES)      - (o,i)  
+  nondeterm non_memb(SPATH,SPATHL)      - (o,i)  
+  
+  index(INTEGER,SLIST,STRING) - (i,i,o)
+  index(INTEGER,FNRULES,FNRULE) - (i,i,o)
+  index(INTEGER,PHRASERULES,PHRASERULE) - (i,i,o)
+  index(INTEGER,CATRULES,CATRULE) - (i,i,o)
+ 
+  gen_str_list(INTEGER,SLIST)-(i,o)
+  strl_str(SLIST,S) - (I,O)
+  str_strl(string,SLIST,SLIST)  - (i,i,o)
+  reverse(SLIST,SLIST) - (i,o)
+  reverse(ILIST,ILIST) - (i,o)
+  reverse(option_list,option_list) - (i,o)
+
+  determ  expl_str_stritem(STRING,EXPL) - (o,i)
+  picture_is_parameter(string,string) - (i,o)
+
+  movmem(string,integer,integer,integer) - (i,i,i,i) language C as "_MEM_MovMem"
+  
+  get_one_line(string,string,string) - (i,o,o)
+  
+  strip_tab(string,string) - (i,o)

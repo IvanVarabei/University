@@ -1,0 +1,81 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  DB_CLASS
+ FileName: CDATABASE.PRE
+ Purpose: Predicate definitions for CDATABASE.PRO
+ Written by: Oleg V. Erjomin
+ Comments: The definitions for cDatabase & cRecordset
+******************************************************************************/
+ifndef sqlbind_Dom_Included
+  #ERROR file sqlbind.dom must be included
+enddef
+
+CONSTANTS
+   cDatabase_Dom_Included = 1
+CONSTANTS
+   err_cdatabase_already_open = 12001
+   err_cdatabase_doesnt_open  = 12002
+
+/******************************************************
+   cDatabase - the core database class
+******************************************************/
+CLASS cDatabase
+  FACTS
+  	single m_hdbc (DBC_HANDLE)
+  PREDICATES
+	INTEGER open (STRING DataSource, STRING UID, String Password)
+  	close
+  	getConnect (STRING DataSource, STRING UID, STRING Password)
+  	isOpen
+  	executeSQL (STRING SQL)         % directly executes an SQL statement
+  	commitTrans                     % completes a transaction
+  	rollBack                        % reverse changes made during current transaction
+  	getError (INTEGER)
+ENDCLASS
+/******************************************************
+    cRecordset - the set of records
+******************************************************/
+CONSTANTS
+   err_recordset_database_notopen = 13001
+   err_recordset_empty            = 13002
+   
+CLASS cRecordset
+   FACTS
+   	single m_hstmt (STMT_HANDLE)      % native DBS SQL statement handler
+   	single m_nFields (USHORT)         % number of fields in this set
+   	single m_strFilter (STRING)       % contains WHERE clause
+   	single m_strSort (STRING)         % contains ORDER BY clause
+   	determ m_Database (cDatabase)     % parent database object
+   PREDICATES
+	procedure new (cDatabase TheDB)   % constructor
+	procedure delete ()               % destructor
+	
+	INTEGER open (STRING SQLstr)
+	close                             % drop the current recordset
+	isOpen                            % success if the set is open
+	INTEGER getError ()               % get error code
+	STRING  getErrorMsg ()            % get native DBS error message
+	moveNext ()                       % fetch the next record
+	addNew ()                         % insert new record
+	edit ()                           % allow to modify current record
+	update ()                         % complete AddNew or Edit operations
+	erase ()                          % delete current record
+	requery ()                        % re-execute prepared query
+	
+	get_field (USHORT Pos, STRING Name, COL_TYPE Type, SDWORD Width) -
+		(i,o,o,o)
+		
+	get_nFields (USHORT) - (o)
+	
+	get_FieldList (SLIST) - (o)
+	
+	COL_DATA getFieldbyName (STRING FieldName)
+	COL_DATA getFieldbyNum (USHORT FieldPos)
+	setFieldbyName (STRING FieldName, COL_DATA)
+	setFieldbyNum (USHORT FieldPos, COL_DATA)
+	
+	set_Filter (STRING) - (i)
+	
+ENDCLASS cRecordset

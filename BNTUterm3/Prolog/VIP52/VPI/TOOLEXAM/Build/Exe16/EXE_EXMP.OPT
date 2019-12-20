@@ -1,0 +1,3 @@
+compileropt("-PDOS exe_exmp.pro")
+fileopt("exe_exmp.pro")
+linkeropt("-TDE -oexe_exmp.EXE ..\\..\\..\\..\\LIB\\DOS\\INIT.OBJ exe_exmp.OBJ exe_exmp.sym ..\\..\\..\\..\\LIB\\DOS\\PROLOG.LIB")

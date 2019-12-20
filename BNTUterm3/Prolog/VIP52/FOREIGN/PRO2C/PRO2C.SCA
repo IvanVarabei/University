@@ -1,0 +1,137 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  
+ FileName: PRO2C.SCA
+ Purpose: SCANNER
+ Written by: PDC
+ Comments:
+******************************************************************************/
+
+DOMAINS
+  CURSORTOK = t(TOK,CURSOR)
+  TOKL = CURSORTOK*
+
+PREDICATES
+  tokl(CURSOR,STRING,TOKL)
+  maketok(CURSOR,STRING,STRING,TOK,STRING,STRING,CURSOR)
+  str_tok(STRING,TOK)
+  scan_str(CURSOR,STRING,STRING,STRING)
+  search_ch(CHAR,STRING,INTEGER,INTEGER)
+  skipspaces(STRING,STRING,INTEGER)
+%  white_follow(STRING)
+  commentlength(INTEGER,STRING,CURSOR,CURSOR)
+  isspace(CHAR)
+
+CLAUSES
+  tokl(POS,STR,[t(TOK,POS1)|TOKL]):-
+	skipspaces(STR,STR1,NOOFSP),
+	POS1=POS+NOOFSP,
+	fronttoken(STR1,STRTOK,STR2),!,
+	upper_lower(STRTOK,LOWER),
+	maketok(POS,LOWER,STRTOK,TOK,STR2,STR3,LEN1),
+	str_len(STRTOK,LEN),
+	POS2=POS1+LEN+LEN1,
+	tokl(POS2,STR3,TOKL).
+  tokl(_,_,[]).
+
+
+  skipspaces(STR,STR2,NOOFSP):-
+	frontchar(STR,CH,STR1),isspace(CH),!,
+	skipspaces(STR1,STR2,N1),
+	NOOFSP=N1+1.
+  skipspaces(STR,STR3,NOOFSP):-
+	frontchar(STR,'%',STR1),
+	search_ch('\n',STR1,0,N),
+	frontstr(N,STR1,DROP,STR2),
+	skipspaces(STR2,STR3,N1),
+	str_len(DROP,N2),
+	NOOFSP=N1+1+N2,!.
+  skipspaces(STR,STR4,NOOFSP):-
+	frontchar(STR,'/',STR1),
+	frontchar(STR1,'*',STR2),
+	commentlength(0,STR2,0,N),
+	frontstr(N,STR2,DROP,STR3),
+	skipspaces(STR3,STR4,N1),
+	str_len(DROP,N2),
+	NOOFSP=N1+2+N2,!.
+  skipspaces(STR,STR,0).
+
+  isspace(' ').
+  isspace('\t').
+  isspace('\n').
+/*
+  white_follow(S):-
+	frontchar(S,CH,_),
+	not(isspace(CH)),!,fail.
+  white_follow(_).
+*/
+
+  commentlength(0,STR,N1,N):-
+	frontchar(STR,'*',STR1),
+	frontchar(STR1,'/',_),!,
+	N=N1+2.
+  commentlength(NEST,STR,N1,N):-
+	frontchar(STR,'*',STR1),
+	frontchar(STR1,'/',STR2),!,
+	NEST1=NEST-1,
+	N11=N1+2,
+	commentlength(NEST1,STR2,N11,N).
+  commentlength(NEST,STR,N1,N):-
+	frontchar(STR,'/',STR1),
+	frontchar(STR1,'*',STR2),!,
+	NEST1=NEST+1,
+	N11=N1+2,
+	commentlength(NEST1,STR2,N11,N).
+  commentlength(NEST,STR,N1,N):-
+	frontchar(STR,_,STR1),
+	N11=N1+1,
+	commentlength(NEST,STR1,N11,N).
+
+
+  str_tok(",",comma):-!.
+  str_tok("-",minus):-!.
+  str_tok("=",equal):-!.
+  str_tok("*",asterisk):-!.
+  str_tok("(",lpar):-!.
+  str_tok(")",rpar):-!.
+  str_tok(".",period):-!.
+  str_tok("global",global_):-!.
+  str_tok("domains",domains_):-!.
+  str_tok("constants",constants_):-!.
+  str_tok("predicates",predicates_):-!.
+  str_tok("database",database_):-!.
+  str_tok("reference",reference_):-!.
+  str_tok("determ",determ_):-!.
+  str_tok("nondeterm",nondeterm_):-!.
+  str_tok("procedure",procedure_):-!.
+  str_tok("language",language_):-!.
+  str_tok("struct",struct_):-!.
+  str_tok("as",as_):-!.
+  str_tok("or",or_):-!.
+  str_tok(";",or_):-!.
+
+  maketok(_,STR,_,TOK,S,S,0):-str_tok(STR,TOK),!.
+  maketok(_,_,STRING,id(STRING),S,S,0):-isname(STRING),!.
+  maketok(CURSOR,_,"\"",str(STR),S1,S2,LEN):-
+	scan_str(CURSOR,S1,S2,STR), !, str_len(STR,LEN1),LEN=LEN1+1.
+  maketok(_,_,STRING,num(STRING),S,S,0):-
+	trap(term_str(long,_,STRING),_,fail),!.
+  maketok(CURSOR,_,STR,_,_,_,_):-
+  	write(STR),readchar(_),
+  	scan_error("Illegal token Position:",CURSOR),
+  	fail.
+
+  scan_str(_,IN,OUT,STR):-
+	search_ch('"',IN,0,N),
+	frontstr(N,IN,STR,OUT1),!,
+	frontchar(OUT1,_,OUT).
+  scan_str(CURSOR,_,_,_):-scan_error("String not terminated",CURSOR),fail.
+
+  search_ch(CH,STR,N,N):-
+	frontchar(STR,CH,_),!.
+  search_ch(CH,STR,N,N1):-
+	frontchar(STR,_,S1),
+	N2=N+1,
+	search_ch(CH,S1,N2,N1).

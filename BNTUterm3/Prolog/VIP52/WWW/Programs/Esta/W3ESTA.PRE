@@ -1,0 +1,12 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  W3ESTA
+ FileName: W3ESTA.PRE
+ Purpose: Predicate definitions for W3ESTA.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+GLOBAL PREDICATES
+  consult_present

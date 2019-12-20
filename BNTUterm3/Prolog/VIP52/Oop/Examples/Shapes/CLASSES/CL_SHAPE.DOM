@@ -1,0 +1,25 @@
+/*****************************************************************************
+
+	       Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+				Class  examples
+
+ Project:  SHAPES
+ FileName: CL_SHAPE.DOM
+ Purpose:  Project's global declarations
+ Written by: Compiler Group
+ Comments:
+*****************************************************************************/
+
+		/*******************/
+		/*   Class Shape   */
+		/*******************/
+
+class Shape
+  predicates
+    create( PNT, PNT )
+    draw( Win )
+    x_move( INTEGER )
+    y_move( INTEGER )
+endclass Shape
+
