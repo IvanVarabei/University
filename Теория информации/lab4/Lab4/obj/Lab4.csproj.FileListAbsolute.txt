@@ -1,8 +1,0 @@
-D:\Study\5 курс\ЭТИ\Lab4\Lab4\obj\Debug\Lab4.exe
-D:\Study\5 курс\ЭТИ\Lab4\Lab4\obj\Debug\Lab4.pdb
-D:\Study\5 курс\ЭТИ\Lab4\Lab4\bin\Debug\Lab4.exe
-D:\Study\5 курс\ЭТИ\Lab4\Lab4\bin\Debug\Lab4.pdb
-D:\Study\5 курс\ЭТИ\Lab4\Lab4\obj\Debug\ResolveAssemblyReference.cache
-D:\Study\5 курс\ЭТИ\Lab4\Lab4\obj\Debug\Lab4.Form1.resources
-D:\Study\5 курс\ЭТИ\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
-D:\Study\5 курс\ЭТИ\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.Cache

@@ -1,0 +1,141 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  
+ FileName: PRO2C.GRM
+ Purpose: 
+ Written by: PDC
+ Comments:
+******************************************************************************/
+
+userdefined productions
+  BASISDOM, FLOWPATTERNS, CONSTDEF, RETDOM
+
+productions
+  PROLOGDECL =	DECLSECTION*
+
+  DECLSECTION =
+	global_ domains_ DOMLIST		-> domdecl(DOMLIST),
+	domains_ DOMLIST			-> domdecl(DOMLIST),
+	global_ predicates_ GLOBPREDLIST	-> globpreddecl(GLOBPREDLIST),
+	predicates_ PREDLIST			-> preddecl(PREDLIST),
+	global_ database_ minus id(STRING) DBALIST -> dbadecl1(NAME,DBALIST),
+	database_ minus id(STRING) DBALIST	-> dbadecl1(NAME,DBALIST),
+	global_ database_ DBALIST		-> dbadecl(DBALIST),
+	database_ DBALIST			-> dbadecl(DBALIST),
+	constants_ CONSTLIST			-> constdecl(CONSTLIST)
+
+
+  CONSTLIST = CONST*
+
+  CONST = NAME equal CONSTDEF			->constdef(NAME,CONSTDEF)
+
+  DOMLIST =	DOMAIN *
+
+  DOMAIN  =	NAMELIST equal REFERENCE RIGHTHAND ->
+				dom(NAMELIST,REFERENCE,RIGHTHAND)
+
+  REFERENCE =	reference_	-> reference_,
+				-> none
+
+  RIGHTHAND =
+	id(STRING) asterisk	-> listdom(NAME),
+	id(STRING) plus		-> listdom(NAME),
+	BASISDOM		-> basisdom(NAME),
+	struct_ id(STRING) lpar DOMNAMELIST rpar -> struct_(STRING,DOMNAMELIST),
+	PROCDOM			-> procdom(PROCDOM),
+	D_ALTERNATIVES		-> alternatives(D_ALTERNATIVES)
+
+  D_ALTERNATIVES = D_ALTERNATIVE + separator or_
+
+  D_ALTERNATIVE =
+	id(STRING) lpar DOMNAMELIST rpar	-> cmp(STRING,DOMNAMELIST),
+	id(STRING) lpar rpar		-> atom(STRING),
+	id(STRING)			-> atom(STRING)
+
+  PROCDOM =
+	PROCTYPE DOMPART FLOWPART LANGPART ->
+	  procdom(PROCTYPE,DOMPART,FLOWPART,LANGPART),
+	PROCTYPE NAME DOMPART FLOWPART LANGPART ->
+	  fnsdom(PROCTYPE,NAME,DOMPART,FLOWPART,LANGPART)
+
+  PROCTYPE =
+	determ_		-> deterministic,
+	nondeterm_	-> nondeterministic,
+	procedure_	-> procedure_
+
+
+  DOMPART =
+	lpar DOMNAMELIST rpar	-> dom(DOMNAMELIST),
+	lpar rpar		-> none,
+				-> none
+
+  FLOWPART =
+	minus FLOWPATTERN	-> flowpart(FLOWPATTERN)
+
+
+  LANGPART =
+	minus LANGUAGE		-> langpart(LANGUAGE),
+	LANGUAGE		-> langpart(LANGUAGE)
+
+
+  NAMELIST = NAME+ separator comma
+
+
+  NAME =  id(STRING)	-> NAME
+
+  DOMNAMELIST = DOMNAME+ separator comma
+
+
+  DOMNAME =
+	  id(STRING) id(STRING) -> idc(STRING,STRING),
+	  id(STRING)		-> id(STRING)
+
+
+  DETERM =
+	determ_		-> deterministic,
+	nondeterm_	-> nondeterministic,
+			-> none
+
+  PREDLIST = PRED*
+  PRED = DETERM id(STRING) PARMS -> pred(DETERM,STRING,PARMS)
+
+
+  DBALIST = DBA*
+  DBA = DETERM id(STRING) PARMS -> dba(DETERM,STRING,PARMS)
+
+  GLOBPREDLIST = GLOBPRED*
+
+  GLOBPRED =	
+	DETERM RETDOM id(STRING) PARMS minus FLOWPATTERNS LANGUAGE EXTNAME ->
+		pred(DETERM,RETDOM,STRING,PARMS,FLOWPATTERNS,LANGUAGE,EXTNAME),
+	DETERM RETDOM id(STRING) PARMS FLOWPATTERNS LANGUAGE EXTNAME ->
+		pred(DETERM,RETDOM,STRING,PARMS,FLOWPATTERNS,LANGUAGE,EXTNAME),
+	DETERM RETDOM id(STRING) LANGUAGE EXTNAME ->
+		nullarg(DETERM,RETDOM,STRING,LANGUAGE,EXTNAME)
+
+  LANGUAGE =
+	language_ id(STRING)	-> language_(STRING),
+				-> default
+
+  EXTNAME =
+	as_ str(STRING)	-> extname(STRING),
+			-> none
+
+  PARMS =
+	lpar PARMLIST rpar comma	-> parms(PARMLIST),
+	lpar PARMLIST rpar period	-> parms(PARMLIST),
+	lpar PARMLIST rpar		-> parms(PARMLIST),
+					-> none
+
+  PARMLIST = DOMNAME* separator comma
+
+  FLOWPATTERN = lpar FLOWPATLIST rpar -> flowpat(FLOWPATLIST)
+
+  FLOWPATLIST  = FLOWPAT* separator comma
+
+  FLOWPAT = id(STRING) -> FLOWPAT
+
+  DUMMY = num(STRING)	-> dummy(STRING)
+

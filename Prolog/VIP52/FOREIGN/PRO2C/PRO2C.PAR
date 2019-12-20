@@ -1,0 +1,317 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  
+ FileName: PRO2C.PAR
+ Purpose: PARSING PREDICATES
+ Written by: PDC
+ Comments:
+******************************************************************************/
+
+PREDICATES
+  s_prologdecl(TOKL,TOKL,PROLOGDECL)
+  s_constlist(TOKL,TOKL,CONSTLIST)
+  s_domlist(TOKL,TOKL,DOMLIST)
+  s_d_alternatives(TOKL,TOKL,D_ALTERNATIVES)
+  s_d_alternatives1(TOKL,TOKL,D_ALTERNATIVES)
+  s_namelist(TOKL,TOKL,NAMELIST)
+  s_namelist1(TOKL,TOKL,NAMELIST)
+  s_domnamelist(TOKL,TOKL,DOMNAMELIST)
+  s_domnamelist1(TOKL,TOKL,DOMNAMELIST)
+  s_predlist(TOKL,TOKL,PREDLIST)
+  s_dbalist(TOKL,TOKL,DBALIST)
+  s_globpredlist(TOKL,TOKL,GLOBPREDLIST)
+  s_parmlist(TOKL,TOKL,PARMLIST)
+  s_parmlist1(TOKL,TOKL,PARMLIST)
+  s_flowpatlist(TOKL,TOKL,FLOWPATLIST)
+  s_flowpatlist1(TOKL,TOKL,FLOWPATLIST)
+  s_declsection(TOKL,TOKL,DECLSECTION)
+  s_const(TOKL,TOKL,CONST)
+  s_domain(TOKL,TOKL,DOMAIN)
+  s_reference(TOKL,TOKL,REFERENCE)
+  s_righthand(TOKL,TOKL,RIGHTHAND)
+  s_righthand1(TOKL,TOKL,STRING,RIGHTHAND)
+  s_d_alternative(TOKL,TOKL,D_ALTERNATIVE)
+  s_d_alternative1(TOKL,TOKL,STRING,D_ALTERNATIVE)
+  s_procdom(TOKL,TOKL,PROCDOM)
+  s_procdom1(TOKL,TOKL,PROCTYPE,PROCDOM)
+  s_proctype(TOKL,TOKL,PROCTYPE)
+  s_dompart(TOKL,TOKL,DOMPART)
+  s_flowpart(TOKL,TOKL,FLOWPART)
+  s_langpart(TOKL,TOKL,LANGPART)
+  s_name(TOKL,TOKL,NAME)
+  s_domname(TOKL,TOKL,DOMNAME)
+  s_domname1(TOKL,TOKL,STRING,DOMNAME)
+  s_determ(TOKL,TOKL,DETERM)
+  s_pred(TOKL,TOKL,PRED)
+  s_dba(TOKL,TOKL,DBA)
+  s_globpred(TOKL,TOKL,GLOBPRED)
+  s_globpred1(TOKL,TOKL,DETERM,RETDOM,STRING,GLOBPRED)
+  s_language(TOKL,TOKL,LANGUAGE)
+  s_extname(TOKL,TOKL,EXTNAME)
+  s_parms(TOKL,TOKL,PARMS)
+  s_flowpattern(TOKL,TOKL,FLOWPATTERN)
+  s_flowpat(TOKL,TOKL,FLOWPAT)
+%  s_dummy(TOKL,TOKL,DUMMY)
+
+CLAUSES
+  s_declsection([t(global_,_)|LL1],LL0,domdecl(DOMLIST)):-
+	expect(t(domains_,_),LL1,LL2),
+	s_domlist(LL2,LL0,DOMLIST),!,
+	assertdomlist(DOMLIST).
+  s_declsection([t(domains_,_)|LL1],LL0,domdecl(DOMLIST)):-!,
+	s_domlist(LL1,LL0,DOMLIST),
+	assertdomlist(DOMLIST).
+  s_declsection([t(global_,_)|LL1],LL0,globpreddecl(GLOBPREDLIST)):-
+	expect(t(predicates_,_),LL1,LL2),
+	s_globpredlist(LL2,LL0,GLOBPREDLIST),!.
+  s_declsection([t(predicates_,_)|LL1],LL0,preddecl(PREDLIST)):-!,
+	s_predlist(LL1,LL0,PREDLIST).
+  s_declsection([t(global_,_)|LL1],LL0,dbadecl1(NAME,DBALIST)):-
+	expect(t(database_,_),LL1,LL2),
+	expect(t(minus,_),LL2,LL3),
+	expect(t(id(STRING),_),LL3,LL4),
+	s_dbalist(LL4,LL0,DBALIST),!,STRING=NAME.
+  s_declsection([t(database_,_)|LL1],LL0,dbadecl1(NAME,DBALIST)):-
+	expect(t(minus,_),LL1,LL2),
+	expect(t(id(STRING),_),LL2,LL3),
+	s_dbalist(LL3,LL0,DBALIST),!,STRING=NAME.
+  s_declsection([t(global_,_)|LL1],LL0,dbadecl(DBALIST)):-!,
+	expect(t(database_,_),LL1,LL2),
+	s_dbalist(LL2,LL0,DBALIST).
+  s_declsection([t(database_,_)|LL1],LL0,dbadecl(DBALIST)):-!,
+	s_dbalist(LL1,LL0,DBALIST).
+  s_declsection([t(constants_,_)|LL1],LL0,constdecl(CONSTLIST)):-!,
+	s_constlist(LL1,LL0,CONSTLIST).
+  s_declsection(LL,_,_):-syntax_error("declsection",LL),fail.
+
+  s_const(LL1,LL0,constdef(NAME,CONSTDEF)):-
+	s_name(LL1,LL2,NAME),
+	expect(t(equal,_),LL2,LL3),
+	s_constdef(LL3,LL0,CONSTDEF),!.
+
+  s_domain(LL1,LL0,dom(NAMELIST,REFERENCE,RIGHTHAND)):-
+	s_namelist(LL1,LL2,NAMELIST),
+	expect(t(equal,_),LL2,LL3),
+	s_reference(LL3,LL4,REFERENCE),
+	s_righthand(LL4,LL0,RIGHTHAND),!.
+
+  s_reference([t(reference_,_)|LL],LL,reference_):-!.
+  s_reference(LL,LL,none):-!.
+
+  s_righthand([t(id(STRING),_)|LL1],LL0,RIGHTHAND_):-
+	s_righthand1(LL1,LL0,STRING,RIGHTHAND_),!.
+  s_righthand(LL1,LL0,basisdom(NAME)):-
+	s_basisdom(LL1,LL0,BASISDOM),!,BASISDOM=NAME.
+  s_righthand([t(struct_,_)|LL1],LL0,struct_(STRING,DOMNAMELIST)):-!,
+	expect(t(id(STRING),_),LL1,LL2),
+	expect(t(lpar,_),LL2,LL3),
+	s_domnamelist(LL3,LL4,DOMNAMELIST),
+	expect(t(rpar,_),LL4,LL0).
+  s_righthand(LL1,LL0,procdom(PROCDOM)):-
+	s_procdom(LL1,LL0,PROCDOM),!.
+  s_righthand(LL1,LL0,alternatives(D_ALTERNATIVES)):-
+	s_d_alternatives(LL1,LL0,D_ALTERNATIVES),!.
+  s_righthand(LL,_,_):-syntax_error("righthand",LL),fail.
+
+  s_d_alternative([t(id(STRING),_)|LL1],LL0,D_ALTERNATIVE_):-!,
+	s_d_alternative1(LL1,LL0,STRING,D_ALTERNATIVE_).
+  s_d_alternative(LL,_,_):-syntax_error("d_alternative",LL),fail.
+
+  s_procdom(LL1,LL0,PROCDOM_):-
+	s_proctype(LL1,LL2,PROCTYPE),
+	s_procdom1(LL2,LL0,PROCTYPE,PROCDOM_),!.
+
+  s_proctype([t(determ_,_)|LL],LL,deterministic):-!.
+  s_proctype([t(nondeterm_,_)|LL],LL,nondeterministic):-!.
+  s_proctype([t(procedure_,_)|LL],LL,procedure_):-!.
+  s_proctype(LL,_,_):-syntax_error("proctype",LL),fail.
+
+  s_dompart([t(lpar,_)|LL1],LL0,dom(DOMNAMELIST)):-
+	s_domnamelist(LL1,LL2,DOMNAMELIST),
+	expect(t(rpar,_),LL2,LL0),!.
+  s_dompart([t(lpar,_)|LL1],LL0,none):-
+	expect(t(rpar,_),LL1,LL0),!.
+  s_dompart(LL,LL,none):-!.
+
+  s_flowpart([t(minus,_)|LL1],LL0,flowpart(FLOWPATTERN)):-!,
+	s_flowpattern(LL1,LL0,FLOWPATTERN).
+  s_flowpart(LL,_,_):-syntax_error("flowpart",LL),fail.
+
+  s_langpart([t(minus,_)|LL1],LL0,langpart(LANGUAGE)):-
+	s_language(LL1,LL0,LANGUAGE),!.
+  s_langpart(LL1,LL0,langpart(LANGUAGE)):-
+	s_language(LL1,LL0,LANGUAGE),!.
+  s_langpart(LL,_,_):-syntax_error("langpart",LL),fail.
+
+  s_name([t(id(STRING),_)|LL],LL,NAME):-!,STRING=NAME.
+  s_name(LL,_,_):-syntax_error("name",LL),fail.
+
+  s_domname([t(id(STRING),_)|LL1],LL0,DOMNAME_):-!,
+	s_domname1(LL1,LL0,STRING,DOMNAME_).
+  s_domname(LL,_,_):-syntax_error("domname",LL),fail.
+
+  s_determ([t(determ_,_)|LL],LL,deterministic):-!.
+  s_determ([t(nondeterm_,_)|LL],LL,nondeterministic):-!.
+  s_determ(LL,LL,none):-!.
+
+  s_pred(LL1,LL0,pred(DETERM,STRING,PARMS)):-
+	s_determ(LL1,LL2,DETERM),
+	expect(t(id(STRING),_),LL2,LL3),
+	s_parms(LL3,LL0,PARMS),!.
+
+  s_dba(LL1,LL0,dba(DETERM,STRING,PARMS)):-
+	s_determ(LL1,LL2,DETERM),
+	expect(t(id(STRING),_),LL2,LL3),
+	s_parms(LL3,LL0,PARMS),!.
+
+  s_globpred(LL1,LL0,GLOBPRED_):-
+	s_determ(LL1,LL2,DETERM),
+	s_retdom(LL2,LL3,RETDOM),
+	expect(t(id(STRING),_),LL3,LL4),
+	s_globpred1(LL4,LL0,DETERM,RETDOM,STRING,GLOBPRED_),!.
+
+  s_language([t(language_,_)|LL1],LL0,language_(STRING)):-
+	expect(t(id(STRING),_),LL1,LL0),!.
+  s_language(LL,LL,default):-!.
+
+  s_extname([t(as_,_)|LL1],LL0,extname(STRING)):-
+	expect(t(str(STRING),_),LL1,LL0),!.
+  s_extname(LL,LL,none):-!.
+
+  s_parms([t(lpar,_)|LL1],LL0,parms(PARMLIST)):-
+	s_parmlist(LL1,LL2,PARMLIST),
+	expect(t(rpar,_),LL2,LL3),
+	expect(t(comma,_),LL3,LL0),!.
+  s_parms([t(lpar,_)|LL1],LL0,parms(PARMLIST)):-
+	s_parmlist(LL1,LL2,PARMLIST),
+	expect(t(rpar,_),LL2,LL3),
+	expect(t(period,_),LL3,LL0),!.
+  s_parms([t(lpar,_)|LL1],LL0,parms(PARMLIST)):-
+	s_parmlist(LL1,LL2,PARMLIST),
+	expect(t(rpar,_),LL2,LL0),!.
+  s_parms(LL,LL,none):-!.
+
+  s_flowpattern([t(lpar,_)|LL1],LL0,flowpat(FLOWPATLIST)):-!,
+	s_flowpatlist(LL1,LL2,FLOWPATLIST),
+	expect(t(rpar,_),LL2,LL0).
+  s_flowpattern(LL,_,_):-syntax_error("flowpattern",LL),fail.
+
+  s_flowpat([t(id(STRING),_)|LL],LL,FLOWPAT):-!,STRING=FLOWPAT.
+  s_flowpat(LL,_,_):-syntax_error("flowpat",LL),fail.
+/*
+  s_dummy([t(num(STRING),_)|LL],LL,dummy(STRING)):-!.
+  s_dummy(LL,_,_):-syntax_error("dummy",LL),fail.
+*/
+  s_righthand1([t(asterisk,_)|LL],LL,STRING,listdom(NAME)):-!,STRING=NAME.
+  s_righthand1([t(plus,_)|LL],LL,STRING,listdom(NAME)):-!,STRING=NAME.
+  s_righthand1(LL,_,_,_):-syntax_error("righthand1",LL),fail.
+
+  s_d_alternative1([t(lpar,_)|LL1],LL0,STRING,cmp(STRING,DOMNAMELIST)):-
+	s_domnamelist(LL1,LL2,DOMNAMELIST),
+	expect(t(rpar,_),LL2,LL0),!.
+  s_d_alternative1([t(lpar,_)|LL1],LL0,STRING,atom(STRING)):-
+	expect(t(rpar,_),LL1,LL0),!.
+  s_d_alternative1(LL,LL,STRING,atom(STRING)):-!.
+
+  s_procdom1(LL1,LL0,PROCTYPE,procdom(PROCTYPE,DOMPART,FLOWPART,LANGPART)):-
+	s_dompart(LL1,LL2,DOMPART),
+	s_flowpart(LL2,LL3,FLOWPART),
+	s_langpart(LL3,LL0,LANGPART),!.
+  s_procdom1(LL1,LL0,PROCTYPE,fnsdom(PROCTYPE,NAME,DOMPART,FLOWPART,LANGPART)):-
+	s_name(LL1,LL2,NAME),
+	s_dompart(LL2,LL3,DOMPART),
+	s_flowpart(LL3,LL4,FLOWPART),
+	s_langpart(LL4,LL0,LANGPART),!.
+
+  s_domname1([t(id(STRING),_)|LL],LL,STRING1,idc(STRING,STRING1)):-!.
+  s_domname1(LL,LL,STRING,id(STRING)):-!.
+
+  s_globpred1(LL1,LL0,DETERM,RETDOM,STRING,pred(DETERM,RETDOM,STRING,PARMS,FLOWPATTERNS,LANGUAGE,EXTNAME)):-
+	s_parms(LL1,LL2,PARMS),
+	expect(t(minus,_),LL2,LL3),
+	s_flowpatterns(LL3,LL4,FLOWPATTERNS),
+	s_language(LL4,LL5,LANGUAGE),
+	s_extname(LL5,LL0,EXTNAME),!.
+  s_globpred1(LL1,LL0,DETERM,RETDOM,STRING,pred(DETERM,RETDOM,STRING,PARMS,FLOWPATTERNS,LANGUAGE,EXTNAME)):-
+	s_parms(LL1,LL2,PARMS),
+	s_flowpatterns(LL2,LL3,FLOWPATTERNS),
+	s_language(LL3,LL4,LANGUAGE),
+	s_extname(LL4,LL0,EXTNAME),!.
+  s_globpred1(LL1,LL0,DETERM,RETDOM,STRING,nullarg(DETERM,RETDOM,STRING,LANGUAGE,EXTNAME)):-
+	s_language(LL1,LL2,LANGUAGE),
+	s_extname(LL2,LL0,EXTNAME),!.
+
+  s_prologdecl(LL1,LL0,[DECLSECTION|PROLOGDECL]):-
+	s_declsection(LL1,LL2,DECLSECTION),!,
+	s_prologdecl(LL2,LL0,PROLOGDECL).
+  s_prologdecl(LL,LL,[]).
+
+  s_constlist(LL1,LL0,[CONST|CONSTLIST]):-
+	s_const(LL1,LL2,CONST),!,
+	s_constlist(LL2,LL0,CONSTLIST).
+  s_constlist(LL,LL,[]).
+
+  s_domlist(LL1,LL0,[DOMAIN|DOMLIST]):-
+	s_domain(LL1,LL2,DOMAIN),!,
+	s_domlist(LL2,LL0,DOMLIST).
+  s_domlist(LL,LL,[]).
+
+  s_d_alternatives(LL1,LL0,[D_ALTERNATIVE|D_ALTERNATIVES]):-
+	s_d_alternative(LL1,LL2,D_ALTERNATIVE),
+	s_d_alternatives1(LL2,LL0,D_ALTERNATIVES).
+
+  s_d_alternatives1([t(or_,_)|LL1],LL2,D_ALTERNATIVES):-!,
+	s_d_alternatives(LL1,LL2,D_ALTERNATIVES).
+  s_d_alternatives1(LL,LL,[]).
+
+  s_namelist(LL1,LL0,[NAME|NAMELIST]):-
+	s_name(LL1,LL2,NAME),
+	s_namelist1(LL2,LL0,NAMELIST).
+
+  s_namelist1([t(comma,_)|LL1],LL2,NAMELIST):-!,
+	s_namelist(LL1,LL2,NAMELIST).
+  s_namelist1(LL,LL,[]).
+
+  s_domnamelist(LL1,LL0,[DOMNAME|DOMNAMELIST]):-
+	s_domname(LL1,LL2,DOMNAME),
+	s_domnamelist1(LL2,LL0,DOMNAMELIST).
+
+  s_domnamelist1([t(comma,_)|LL1],LL2,DOMNAMELIST):-!,
+	s_domnamelist(LL1,LL2,DOMNAMELIST).
+  s_domnamelist1(LL,LL,[]).
+
+  s_predlist(LL1,LL0,[PRED|PREDLIST]):-
+	s_pred(LL1,LL2,PRED),!,
+	s_predlist(LL2,LL0,PREDLIST).
+  s_predlist(LL,LL,[]).
+
+  s_dbalist(LL1,LL0,[DBA|DBALIST]):-
+	s_dba(LL1,LL2,DBA),!,
+	s_dbalist(LL2,LL0,DBALIST).
+  s_dbalist(LL,LL,[]).
+
+  s_globpredlist(LL1,LL0,[GLOBPRED|GLOBPREDLIST]):-
+	s_globpred(LL1,LL2,GLOBPRED),!,
+	s_globpredlist(LL2,LL0,GLOBPREDLIST).
+  s_globpredlist(LL,LL,[]).
+
+  s_parmlist(LL1,LL0,[DOMNAME|PARMLIST]):-
+	s_domname(LL1,LL2,DOMNAME),!,
+	s_parmlist1(LL2,LL0,PARMLIST).
+  s_parmlist(LL,LL,[]).
+
+  s_parmlist1([t(comma,_)|LL1],LL2,PARMLIST):-!,
+	s_parmlist(LL1,LL2,PARMLIST).
+  s_parmlist1(LL,LL,[]).
+
+  s_flowpatlist(LL1,LL0,[FLOWPAT|FLOWPATLIST]):-
+	s_flowpat(LL1,LL2,FLOWPAT),!,
+	s_flowpatlist1(LL2,LL0,FLOWPATLIST).
+  s_flowpatlist(LL,LL,[]).
+
+  s_flowpatlist1([t(comma,_)|LL1],LL2,FLOWPATLIST):-!,
+	s_flowpatlist(LL1,LL2,FLOWPATLIST).
+  s_flowpatlist1(LL,LL,[]).
+

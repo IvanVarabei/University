@@ -1,0 +1,39 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  W3ESTA
+ FileName: W3ERR.PRE
+ Purpose: Predicate definitions for W3ERR.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+GLOBAL PREDICATES
+% Handle consult error;Activate editor, save edited content and consult again
+% Filename, ErrorCode, Type (1 for knowledge base)
+  determ handleConsultError(SID,FNAME,INTEGER,INTEGER) - (i,i,i,i)
+
+% File error when reading or writing a file; Filename, ErrorCode  
+  trap_file_error(SID,string,integer) - (i,i,i)
+  
+% Display an error message  
+  error_msg(SID,STRING)  - (i,i) % Error message string
+  warning_msg(SID,STRING) - (i,i)
+  
+% Display an error message, where the string in beforehand is looked up in
+% WINESTA.DEF
+
+  symb_error_msg(SID,string) - (i,i) % Error message string found in WINESTA.DEF
+
+  netopenwrite(SID,file,string)- (i,i,i)
+  
+  %reconsult(SID,string,integer) - (i,i,i)
+  
+  netfilestr(SID,string,string)- (i,i,i) 
+  
+  check_error(SID,string,unsigned) - (i,i,i)
+  
+  store_err_file
+  
+  dbcpy_err(SID,unsigned) - (i,i)
+  del_bakfile(string) - (i)

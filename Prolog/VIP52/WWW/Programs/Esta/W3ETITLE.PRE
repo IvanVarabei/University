@@ -1,0 +1,14 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  W3ESTA
+ FileName: W3ETITLE.PRE
+ Purpose: Predicate definitions for W3ETITLE.PRO
+ Written by: Oleg V. Erjomin
+ Comments:
+******************************************************************************/
+GLOBAL PREDICATES
+  add_title_pic(SID,Integer, String) - (i,i,i)
+  add_title_str(SID,Integer, String) - (i,i,i)
+  show_title   (SID,STRING,Integer) - (i,i,i)	

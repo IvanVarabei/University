@@ -1,0 +1,28 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+
+ Project:  SETUP
+ FileName: SETUP.PRE
+ Purpose: Predicate definitions for SETUP.PRO
+ Written by: Zaichenko Michael
+ Comments:
+******************************************************************************/
+
+
+  
+GLOBAL PREDICATES
+  getPath(STRING PATH)			-(o)
+  selected(INTEGER Group_Id)		-(i)
+  setup_updateSpaceDialog(STRING Path)	-(i)
+  setAllGroups
+  misk_select(INTEGER GroupId,INTEGER GroupId) -(i,i)
+
+
+%BEGIN_DECL, System generated global predicates
+GLOBAL PREDICATES
+  project_ShowHelpContext(INTEGER Index) - (i)
+  dlg_dialog1_Create(WINDOW Parent) - (i)
+  dlg_dialog6_Create(WINDOW Parent) - (i)
+  dlg_dialog15_Create(WINDOW Parent) - (i)
+%END_DECL

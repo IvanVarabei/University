@@ -1,0 +1,190 @@
+1 Base directory :"$(prodir)vpi\toolexam\setup"
+2 Installation tool contains four different projects:
+
+   build_v\build  - generates distributive set (now VPI version)
+   setup_0\setup  - Loads and runs installation program
+   setup2 - installation program
+   setup3 - removes temporary components from temp directory on hard drive
+   
+
+      MAKE DEMO INSTALLATION (just to study installation tool)
+1.Creation of the Master disk(s).
+ a. There should be "vpi\examples" directoy on your system
+ b. Also this directory must have file "CLEAN.BAT" 
+ c. Make next demo projects:
+	CLASS
+	CLIPBRD
+	COLORS
+ d. Make subdirectory "INSTALL.INT" in "vpi\examples"
+ e. empty 
+ f. Make all Install tolls projects:
+
+   For any platform
+ 	   build_v\bld_w16.prj       
+
+   For Windows platform           
+   	   stp3_w16.prj
+	   setup_0\stp_w16.prj	 
+           stp2_w16.prj		 
+
+   For OS/2 platform				
+	   stp3_os2.prj
+ 	   setup_0\stp_os2.prj	 
+ 	   stp2_os2.prj		 
+ g. 
+ h. directory vpi\examples\install.int must contains some files as follows:
+
+	build.exe
+	
+	setup.exe    \ 
+	setup2.exe    \
+	setup3.exe     | for windows platform
+	setup.hlp     /
+	license.txt  /
+
+	os2\setupos2.exe \
+	os2\setup2.exe    \
+	os2\setup3.exe	   |  for os2 platform
+	setup.hlp         /
+	license.txt      /
+	
+	
+     Instead of licence.txt you can copy to vpi\examples\install.int 
+     directory any text file.
+
+ 
+ i.  Use build.exe for make distributive set
+        			
+
+ j. After build:
+    target drive will contain some files:
+		[setup.exe,fdir32] and|or [setupos2.exe,fdir32]
+            	disk_1 [disk_2, ...]
+
+    Vpi\examples\install.int\   will contain 2 or 3 new files:
+  		windows.img
+  		fdir and|or fdir32
+ 
+ 2. Runing setup
+ 2.1 run setup.exe
+ (directory contains setup.exe must contains another 2 files fdir32 , disk_1)
+ 
+
+       MAKE USER INSTALLATION
+				{updated 17.09.96}
+
+1. Only 3 files should modified:
+		\build_0\script.con
+		\build_0\build.pro
+		\setup.pro
+ a. script.con
+    This file defined all group constants (as integer).
+    constant prefix - idg_ .
+    numbers below 10 have been reserved for platforms support.
+ b. build.pro
+    This file defined installation script, and included build engine.
+    in this file you should claused three predicates ,as follows
+    
+       exclude_all(STRINGLIST)-> files defined in this predicate never
+       				 be added to distributive. Files name may
+       				 contain wildcards, but contain no path.
+       make_script()	      -> define build script, for more info see below. 
+       copy_files_script()    -> defined script for coping normal files
+       			         to distributive (i.e. setup.exe ...)
+       
+    
+    format of each group defined as follows
+    group(
+    	idg_,		%<-one of constants from script.con, This Id of group
+	fromInstallRoot,        or      startFromPath(PATH), 	
+%	^-group files begin from root        ^-group files begin from PATH		
+	no_exclusions, or excluding(LIST),
+%			  ^ string list	contains masks for excluding, Must in upper case 
+	[file(FILENAME),directory(DIRNAME)...]% list of mask for including
+%	 ^include one file	^include directory (with subdirs and files)
+	) 
+   
+   example of one group:
+
+  group(idg_class,
+	fromInstallRoot,
+	excluding(["EXE"]),
+	[directory("CLASS")]
+       )
+
+
+    copy_files_script(STRINGLIST,INTEGER)
+         STRINGLIST contain filenames.
+           when filename may include path, name and extension,
+           but never contain wildcards.
+         INTEGER defined platform for copy these files.
+         currently defined two different value:
+         	0- for 16 bit platforms
+         	1- for 32 bit platforms
+
+   example of defination one platform script:
+	copy_files_script("setup.exe",0).
+	
+
+if you want to change default filenames,dirs,etc
+then you should define next constants before including "vpi\incluse\setup\build.pro"
+
+  bu_FDIR_NAME	      % fdir filename
+  bu_FDIR32_NAME      % fdir32 filename
+  bu_INSTALL_INT_NAME % subdir, when placed install image 
+  bu_IMAGE_NAME	      % install image name
+  bu_LOG_NAME	      % log File name
+
+Note: this constants used only in build project. 
+
+  c. setup.pro
+    This is a general file for setup project.
+
+in this file contains dialogs for chose all group selection (created by user)
+also you should define some predicates as follows
+
+GLOBAL
+ getPath(STRING)   % get current or default base path 
+ selected(INTEGER) % rule for assign to one  logical group some physical groups
+ misk_select(_,_). % About using this rule see visual prolog install 
+		   % In demo this rule not used, but must be defined as "never fails"
+
+    
+LOCAL
+ setSelections(Integer)   % set selections by type (minimal, custom, all) 
+ managerGroup_notNeed  	  %fails when not selected components to create program group/items
+ getProgramGroup(boolean) %get current or default switch state: need create program group 
+
+
+	Creation program group(s):
+Now it is very easy, use predicate setupDDE_createGroup(IconItemScript).
+For details just see setup.pro line 134.
+
+Jumping between dialogs making by win_postevent (e_menu),
+ never make this directly.  
+
+
+NOTES about creation setup for OS/2 platform. 
+ a. For OS/2 you should compile two project: setup2,and setup0
+
+    Project settings for setup2:
+    			 platform     :OS2 32bit 
+    			 strategy     :VPI
+    			 main program :IBMC++
+
+    Project settings for setup0:
+    			 platform      :OS2 32bit 
+    			 strategy     :Textmode
+    			 main program :IBMC++
+    
+    Build and setup3 have no differences between win and os2 version 
+ b.
+    Under OS/2 is not possible to use setupDDE module.
+ 
+ c.
+    You should include one object library file to setup2 project:
+     DT_FILE.LIB	-> This is needed for access to file timestamp.
+    It will be found in "VPI\INCLUDE\SETUP". 
+    
+      
+				{last updated 11.01.2000}

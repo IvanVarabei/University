@@ -1,0 +1,21 @@
+/*****************************************************************************
+
+		Copyright (c) 1984 - 2000 Prolog Development Center A/S
+			
+ Project:  AADEMO
+ FileName: AADEMO.PRE
+ Purpose: Predicate definitions for AADEMO.PRO
+ Written by: Visual Prolog
+ Comments:
+******************************************************************************/
+ifndef platform_16bit
+  #Error: This project for Windows 16bit only
+enddef
+
+%BEGIN_DECL, System generated global predicates
+GLOBAL PREDICATES
+
+  project_ShowHelpContext(INTEGER Index) - (i)
+  dlg_about_dialog_Create(WINDOW Parent) - (i)
+  win_animation_Create(WINDOW Parent,STRING FileName) - (i,i)
+%END_DECL
