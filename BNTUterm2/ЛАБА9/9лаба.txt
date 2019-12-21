@@ -1,0 +1,151 @@
+//Variant 9 lab 9 Varabei
+#include<stdio.h>
+#include<iostream>
+#include<fstream>
+using namespace std;
+#define N 3
+
+struct NOTE {
+	char *surname = new char;
+	char *name = new char;
+	int *d = new int[3];
+	int salary;
+};
+
+void task4()
+{
+	NOTE *mass[N];
+	ifstream f1;
+	f1.open("9.bin");
+	for (int n = 0; n < N; n++)
+	{
+		NOTE *ms1 = new NOTE;
+		f1.read((char*)ms1, sizeof(NOTE));
+		mass[n] = ms1;
+	}
+	f1.close();
+	for (int i = 0; i < N; i++)
+	{
+		cout << "Surname : " << mass[i]->surname;
+		cout << "\nName : " << mass[i]->name << "\nDate : ";
+		for (int k = 0; k < 3; k++)
+		{
+			cout << mass[i]->d[k] << ".";
+		}
+		cout << "\nSalary : " << mass[i]->salary << "\n\n";
+	}
+	
+}
+
+void task3(int number)
+{
+	NOTE *ms1 = new NOTE[number];
+	NOTE *ptr1 = ms1;
+	ifstream fin;
+	fin.open("9.bin");
+	for (int n = 0; n < number; n++)
+	{
+		fin.read((char*)&ms1[n], sizeof(NOTE));
+	}
+	fin.close();
+
+	for (int n = 0; n < number; n++)
+	{
+		cout << "Surname : " << ptr1[n].surname;
+		cout << "\nName : " << ptr1[n].name << "\nDate : ";
+		for (int k = 0; k < 3; k++)
+		{
+			cout << ptr1[n].d[k] << ".";
+		}
+		cout << "\nSalary : " << ptr1[n].salary << "\n\n";
+	}
+	int num;
+	cout << "Enter number of month : "; cin >> num;
+	cout << "Peoples who was born in " << num << " month :\n";
+	for (int n = 0; n < number; n++)
+	{
+		if (ptr1[n].d[1] == num)
+		{
+			cout << "Surname : " << ptr1[n].surname;
+			cout << "\nName : " << ptr1[n].name << "\nDate : ";
+			for (int k = 0; k < 3; k++)
+			{
+				cout << ptr1[n].d[k] << ".";
+			}
+			cout << "\nSalary : " << ptr1[n].salary << "\n\n";
+		}
+	}
+	delete ms1;
+}
+
+int task2()
+{	int number;
+	cout << "Enter number of employees : ";
+	cin >> number;
+	NOTE *ms = new NOTE[number];
+	NOTE *ptr = ms;
+	void *end = ms + number;
+	do
+	{
+		cout << "Enter surname : "; cin >> ptr->surname;
+		cout << "Enter name : "; cin >> ptr->name;
+		cout << "Enter dd,mm,yyyy :\n"; cin >> ptr->d[0]; cin >> ptr->d[1]; cin >> ptr->d[2];
+		cout << "Enter salary : "; cin >> ptr++->salary;
+	} while (ptr<end);
+
+
+	ofstream fout;
+
+	fout.open("9.bin", ofstream::app);
+	for (int n = 0; n < number; n++)
+	{
+		fout.write((char*)&ms[n], sizeof(NOTE));
+	}
+	fout.close();
+	delete ms;
+	return number;
+}
+
+void task1(int *m)
+{
+	int a, b, i1 = 0;
+	cout << "Enter size of the massive a, b :\n"; cin >> a; cin >> b;
+	int **pm = new int*[a];
+	for (int i = 0; i < a; i++)
+		pm[i] = new int[b];
+
+	for (int i = 0; i < a; i++)
+		for (int j = 0; j < b; j++) {
+			if (i1 < 100) {
+				*(*(pm + i) + j) = *(m + i1++);
+			}
+			else
+			{
+				*(*(pm + i) + j) = 0;
+				i1++;
+			}
+		}
+	for (int i = 0; i<a; i++)
+		cout << &*(*(pm + i) + 0) << "\t" << *(*(pm + i) + 0) << "\n";
+
+
+}
+
+void main()
+{
+	int m[100] = { 16, 78, 99, 6, -29, 19, -52, 65, -88, 51,
+		-79, -22, 32, -25, -62, -69, -2, -59, -75, 89,
+		-87, 95, -22, 85, -49, -75, 76, 73, -59, -52,
+		30, 49, -28, -48, 0, 57, -6, -85, 0, -18,
+		-97, -21, -95, 64, 22, -2, 69, -84, -1, -71,
+		-25, 47, 72, 43, 15, -44, 44, 61, 4, 74,
+		88, -61, 0, -64, -83, 97, 0, 90, 15, 8,
+		-54, 19, 73, 35, -67, -87, 85, -99, -70, 10,
+		98, 58, -10, -29, 95, 62, 77, 89, 36, -32,
+		78, 60, -79, -18, 30, -13, -34, -92, 1, -38 };
+	//task1(m);
+	int n1=task2();
+	//task3(n1);
+	task4();
+	system("pause");
+}

@@ -1,0 +1,111 @@
+#include<conio.h>
+#include<iostream>
+#include<math.h>
+using namespace std;
+void main()
+{
+	float x, y, f, c, e = 2.718;
+	bool flag;
+	cout << "Enter x :";
+	cin >> x;
+	cout << "Enter y :";
+	cin >> y;
+	cout << "If you want e^x press 1, if you want x^2 press 0. " << endl;
+	cin >> flag;
+	if (!flag){ f = x*x; }
+	else f = powf(e, x);
+	if (x - y == 0)
+	{
+		c = f*f + y*y + sin(y);
+	}
+	if (x - y > 0)
+	{
+		c = (f - y)*(f - y) + cos(y);
+	}
+	else
+	{
+		c = (y - f)*(y - f) + tan(y);
+	}
+	if (!flag)
+	{
+		cout << "x=" << x << "\ty=" << y << "\tf(x)=[x*x]" << "\tc=" << c;
+	}
+	else {
+		cout << "x=" << x << "\ty=" << y << "\tf(x)=[exp(x)]" << "\tc=" << c;
+	}
+	getch();
+}
+
+
+
+/////////////////////////////////////
+#include<conio.h> 
+#include<iostream>
+using namespace std;
+void main()
+{
+	int x, flag = 0;
+	cout << "Enter x :";
+	cin>> x;
+	if (x > 100 && x < 120){ cout<< "Number\t" << x <<"\trefers to the group A"; flag = 1; }
+	if (x > 0 && x <= 100 && x % 5 == 0){cout<<"Number\t"<<x<<"\trefers to the group B";flag = 1;}
+	if (x < 0 && x % 2 == 0){ cout << "Number\t" << x << "\trefers to the group C"; flag = 1; }
+	if (!flag) { cout << "Number\t" << x << "\trefers to the group D"; }
+	getch();
+}
+////////////////////////////////////
+#include<conio.h>
+#include<iostream>
+using namespace std;
+void main()
+{
+	int n, x;
+	cout << "Enter area: ";
+	cin >> x;
+	switch (x)
+	{
+	case 6280:
+		cout << "Area not less " << x << " square kilometers have this lakes :" << endl;
+		cout << "Caspian sea-371000" << endl;
+		cout << "Aral sea-51000" << endl;
+		cout << "Baykal-31500" << endl;
+		cout << "Balhash-18300" << endl;
+		cout << "Ladoshskoie-17700" << endl;
+		cout << "Onezskoe-9720" <<endl;
+		break;
+	case 9720:
+		cout << "Area not less" << x << " square kilometers have this lakes :" << endl;
+		cout << "Caspian sea-371000" << endl;
+		cout << "Aral sea-51000" << endl;
+		cout << "Baykal-31500" << endl;
+		cout << "Balhash-18300" << endl;
+		cout << "Ladoshskoie-17700" << endl;
+		break;
+	case 17700:
+		cout << "Area not less" << x << " square kilometers have this lakes :" << endl;
+		cout << "Caspian sea-371000" << endl;
+		cout << "Aral sea-51000" << endl;
+		cout << "Baykal-31500" << endl;
+		cout << "Balhash-18300" << endl;
+		break;
+	case 18300:
+		cout << "Area not less" << x << " square kilometers have this lakes :" << endl;
+		cout << "Caspian sea-371000" << endl;
+		cout << "Aral sea-51000" << endl;
+		cout << "Baykal-31500" << endl;
+		break;
+	case 31500:
+		cout << "Area not less" << x << " square kilometers have this lakes :" << endl;
+		cout << "Caspian sea-371000" << endl;
+		cout << "Aral sea-51000" << endl;
+		break;
+	case 51000:
+		cout << "Area not less" << x << " square kilometers have this lakes :" << endl;
+		cout << "Caspian sea-371000" << endl;
+		break;
+	case 371000:
+		cout << "Not ecsist" << endl;
+		break;	
+	}
+	getch();
+}

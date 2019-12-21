@@ -1,0 +1,117 @@
+//lab 4 "functions" Task1
+#include<iostream>
+using namespace std;
+int function(int x) //function
+{
+	int sum=0;
+	while(x!=0)
+	{
+		sum=sum+(x%10);
+		x=x/10;
+	}
+	return sum;
+}
+void main()
+{
+	int x;
+	cout<<"Enter number : ";
+	cin>>x;
+	cout<<"Summ="<<function(x);
+}
+
+
+
+
+
+//lab4 functions task 2
+#include<conio.h>
+#include<iostream>
+#include<cmath>
+using namespace std;
+float f(float x, float fa, bool flag)
+{
+	cout << "If you want e^x press 1, if you want x^2 press 0. " << endl;
+	cin >> flag;
+	if (!flag){ fa = x*x; }
+	else fa = powf(exp(1), x);
+	return  fa,flag;
+}
+float one(float fa,float y)
+{
+	return fa*fa + y*y + sin(y);
+}
+float  two(float fa, float y)
+{
+	return (fa - y)*(fa - y) + cos(y);
+}
+float three(float fa, float y)
+{
+	return (y - fa)*(y - fa) + tan(y);
+}
+
+void main()
+{
+	float x, y, fa = 0, c=0, e = 2.718;
+	bool flag = true;
+	cout << "Enter x :";
+	cin >> x;
+	cout << "Enter y :";
+	cin >> y;
+	fa , flag= f(x, fa, flag);
+	if (x - y == 0){c = one(fa, y);}
+	if (x - y > 0){c = two(fa, y);}
+	else{c = three(fa, y);}
+	if (!flag){cout << "x=" << x << "\ty=" << y << "\tf(x)=[x*x]" << "\tc=" << c;}
+	else {cout << "x=" << x << "\ty=" << y << "\tf(x)=[exp(x)]" << "\tc=" << c;}
+	getch();
+}
+
+
+//lab4 fanctions task 3
+#include<cmath>
+#include<stdio.h>
+#include<conio.h>
+float T(float xn)
+{
+	return (xn - 1) / (xn + 1);
+}
+float iter(float mn,float k)
+{
+	return pow(mn, k) / k;
+}
+
+void main()
+{
+	float xn, xk, dx, eps, mf, f, n,mn=0,k;
+	printf("Enter xn :");
+	scanf("%f", &xn);
+	printf("Enter xk :");
+	scanf("%f", &xk);
+	printf("Enter dx :");
+	scanf("%f", &dx);
+	printf("Enter eps :");
+	scanf("%f", &eps);
+	printf("---------------------------------\n");
+	printf("|   x  |    F   |   n  |math F  |\n");
+	while (xn <= xk)
+	{
+		f = 0;
+		n = 0;
+		k = 1;
+		mn = T(xn);
+		while (n < 500)
+		{
+			f += iter(mn, k);
+			n+=1;
+			k += 2;
+			mf = log(xn);
+			if ((mf - f * 2) <= eps){ break; }
+		}
+		f = f * 2;
+		printf("---------------------------------\n");
+		printf("| %.2f | %.5f | %.0f | %.5f |\n", xn, f, n, mf);
+		xn += dx;
+	}
+	printf("---------------------------------\n");
+	getch();
+}

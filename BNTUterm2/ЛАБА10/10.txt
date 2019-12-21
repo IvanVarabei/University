@@ -1,0 +1,182 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int f1(char* s){
+	return strlen(s);
+}
+int f2(char*s){
+	int p = 0;
+	while (s[p] != ' ')
+		p++;
+	return p;
+}
+int f3(char*s){
+	int p = 0,i=0;
+	while (s[p])
+		if (s[p++] == ' ')
+			i++;
+	return i;
+}
+void main()
+{
+	int num;
+	char *st =new char;
+	cout << "1-number of symbols in the string.\n2-position of the first space\n3-number of spaces\nEnter number of function : ";
+	cin >> num;
+	cout << "Enter string : ";
+	cin.ignore(numeric_limits<streamsize>::max(), '\n');//очистка буфера ввода
+	gets(st);
+	int(*ff[3])(char*) = { f1, f2, f3, };
+	cout<<ff[--num](st)<<'\n';
+	system("pause");
+}
+
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+double F1(double x, bool flag){
+	if (!flag)
+		return pow((x-1), 2)/(x-1)-10;
+	else
+		return 1;
+}
+double F2(double x, bool flag){
+	if (!flag)
+		return 10*pow(sin(x/10),2)-5;
+	else
+		return 2 * sin(x / 10)*cos(x/10);
+}
+double F3(double x,bool flag){
+	if (!flag)
+		return pow(x,3) - 130;
+	else
+		return 3 * pow(x, 2);
+}
+double F4(double x, bool flag){
+	if (!flag)
+		return x*15 - 105;
+	else
+		return 15;
+}
+double FindRoot(double(*f)(double,bool), double e, double a, double b){
+	double x0, x1, h0,x,xnext;
+	x0 = b;
+	h0 = f(x0,false) / f(x0,true);
+	x1 = x0 - h0;
+	x = x0;
+	xnext=x1;
+	while (abs(xnext - x) > e){
+		x = xnext;
+		xnext = x - f(x,false) / f(x,true);
+	}
+	return x;
+}
+int main(){
+	double e = 0.0001, x;
+	int choise=1;
+	cout << "1)(x-1)2/(x-1)-10=0\n2)10sin2(x / 10) - 5 = 0\n3)x3 - 130 = 0\n4)15x - 105 = 0\n0)STOP\n";
+	while (choise){
+		cout << "Enter number of equation : "; cin >> choise;
+		if (choise){
+			double(*ms[4])(double, bool) = { F1, F2, F3, F4 };
+			x = FindRoot(ms[choise - 1], e, 4.1, 14);
+			cout << "x = " << x << endl;
+		}
+	}
+	system("pause");
+	return 0;
+}
+
+
+
+
+
+
+
+
+#include<iostream>
+#include<cmath>
+#include<string>
+using namespace std;
+double sinus(double x){
+	return sin(x);
+}
+double kv(double x){
+	return pow(x, 2);
+}
+double gip(double a, double b){
+	return pow(pow(a, 2) + pow(b, 2),0.5);
+}
+double exp(double x, double y){
+	return pow(x, y);
+}
+int main(int argc, char* argv[]){
+	string str = argv[1];
+	double(*p1)(double);
+	double(*p2)(double, double);
+	if (str == "sin")
+		p1 = sinus;
+	if (str == "kv")
+		p1 = kv;
+	if (str == "gip")
+		p2 = gip;
+	if (str == "exp")
+		p2 = exp;
+	if (argc == 3){
+		double i = atoi(argv[2]);
+		cout << p1(i) << endl;
+	}
+	else{
+		double i = atoi(argv[2]);
+		double j = atoi(argv[3]);
+		cout << p2(i,j) << endl;
+	}
+	system("pause");
+	return 0;
+}
+
+
+
+
+
+#include<iostream>
+#include<cmath>
+//#include<string>
+using namespace std;
+double sinus(double x){
+	return sin(x);
+}
+double kv(double x){
+	return pow(x, 2);
+}
+double gip(double a, double b){
+	return pow(pow(a, 2) + pow(b, 2),0.5);
+}
+double exp(double x, double y){
+	return pow(x, y);
+}
+int main(int argc, char* argv[]){
+	//string str = argv[1];
+	double(*p1)(double);
+	double(*p2)(double, double);
+	if (strcmp(argv[1] , "kv"))
+		p1 = sinus;
+	if (strcmp(argv[1] ,  "sin"))
+		p1 = kv;
+	if (strcmp(argv[1] ,  "exp"))
+		p2 = gip;
+	if (strcmp(argv[1] , "gip"))
+		p2 = exp;
+	if (argc == 3){
+		double i = atoi(argv[2]);
+		cout << p1(i) << endl;
+	}
+	else{
+		double i = atoi(argv[2]);
+		double j = atoi(argv[3]);
+		cout << p2(i,j) << endl;
+	}
+	system("pause");
+	return 0;
+}

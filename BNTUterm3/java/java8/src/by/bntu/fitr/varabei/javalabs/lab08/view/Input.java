@@ -5,16 +5,35 @@ import java.util.Scanner;
 
 public class Input {
 	private final static Scanner in = new Scanner(System.in);
-	public static double readD(String str) {
-		System.err.printf("\n"+str);
-		return in.nextDouble();
-	}
+
 	public static int readInt(String str) {
-		System.err.printf("\n"+str);
+		boolean correct = false;
+		System.out.print(str);
+		while (!correct) {
+			if (!in.hasNextInt()) {
+				System.out.print("Try again : ");
+				in.nextLine();
+			} else
+				correct = true;
+		}
 		return in.nextInt();
 	}
-	public static char readChar(String str) throws IOException{
-		System.err.printf("\n"+str);
+	
+	public static Double readD(String str) {
+		boolean correct = false;
+		System.out.print(str);
+		while (!correct) {
+			if (!in.hasNextDouble()) {
+				System.out.print("Try again : ");
+				in.nextLine();
+			} else
+				correct = true;
+		}
+		return in.nextDouble();
+	}
+
+	public static char readChar(String str) throws IOException {
+		System.out.printf("\n" + str);
 		return (char) System.in.read();
 	}
 

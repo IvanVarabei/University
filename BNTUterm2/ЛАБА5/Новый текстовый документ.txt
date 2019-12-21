@@ -1,0 +1,294 @@
+//laba 5 task2 Varabei & Aleinikov
+//massive, matrix
+#include <iostream>
+#include<stdlib.h>
+using namespace std;
+
+void main()
+{
+	int m[10][10] = { { 16, 78, 0, 6, -29, 19, -52, 65, 65, 51 },
+
+	{ -79, -22, 32, -25, -62, -69, -2, -59, -75, 89 },
+
+	{ -87, 95, -22, 85, -49, -75, 76, 73, -59, -52 },
+
+	{ 30, 49, 49, -48, 0, 57, -6, -85, 0, -18 },
+
+	{ -99, -21, -95, 64, 22, -2, 69, -84, -1, -71 },
+
+	{ -25, 47, 72, 43, 15, -44, 44, 61, 4, 74 },
+
+	{ 88, -61, 0, -64, -83, -83, -83, 90, 15, 8 },
+
+	{ -54, 99, 73, 35, -67, -87, 85, -93, -70, 10 },
+
+	{ 98, 58, -10, -29, 95, 62, 77, 89, 36, -32 },
+
+	{ 78, 60, -79, -18, 30, -13, -34, -92, 1, -38 } },k=0,number=0,max=0,p;
+	for (int i = 0; i < 10; i++)
+	{
+		for (int j = 0; j < 10; j++)
+		{
+			cout <<m[i][j]<<"\t";
+		}
+		cout << "\n";
+	}
+
+	for (int i = 0; i < 10; i++)
+	{
+		for (int j = 0; j < 10; j++)
+		{
+			if (m[j][i] == 0){ k++; break; }
+		}
+	}
+	cout << "Number of columns with 0 : " << k<<"\n";
+	
+	for (int i = 0; i < 10; i++)
+	{
+		for (int j = 0; j < 9; j++)
+		{
+			if (m[i][j] == m[i][j + 1])
+			{
+				number++;
+				if (number > max)
+				{
+					max = number;
+					p = i;
+				}
+
+			}
+		}
+	}
+	cout <<"Nuber of row with maximum of same elements : "<< p<<"\n";
+	system("pause");
+}
+
+
+
+
+
+
+
+
+
+
+//laba 5 task1 Varabei & Aleinikov
+//massive
+#include <iostream>
+#include<stdlib.h>
+using namespace std;
+const int r = 10;
+int task1(int ms[r]);
+int task2(int ms[r]);
+int task3(int ms[r]);
+void main()
+{
+	int ms[r] = { 97, 0, -12, 26, 62, -83, -94, 0, -66, 0 }, choice;
+	cout << "Enter number of task :";
+	cin >> choice;
+	switch (choice)
+	{
+	case 1:{cout << task1(ms)<<"\n"; break; }
+	case 2:{cout << task2(ms)<<"\n"; break; }
+	case 3:
+	{
+		ms[r] = task3(ms);
+		for (int i = 0; i<r; i++)
+		{
+			cout << ms[i] << "\n";
+		}
+	}
+	}
+	system("pause");
+}
+
+int task3(int ms[r])
+{
+	int i = 0,n, j,flag,fl=0,f=0;
+	if (ms[r-1] > 0){ fl = 1; f = 2; }
+	for (;;i++)
+	{
+		for (int s = 0; s < r; s++)
+		{
+			flag = 0;
+			if (ms[s] <= 0)
+			{
+				int s1 = s;
+				for (s1;s1<r+fl-s; s1++)
+				{
+					if (ms[s1] >0)
+					{
+						flag = 1;
+						break;
+					}
+				}
+			}
+			if (flag == 1){ break; }
+		}
+		if (flag == 0){ break; }
+		if (ms[i] <= 0)
+		{
+			n = ms[i];;
+			j = i;
+			for (; j<r-i+f; j++)
+			{
+				ms[j] = ms[j + 1];
+			}
+			ms[r-1] = n;
+			i--;
+		}
+	}
+
+	return ms[r];
+}
+
+int task2(int ms[r])
+{
+	int sum = 0, n = 0, k = r-1;
+	for (; n<r; n++)
+	{
+		if (ms[n] == 0)
+		{
+			break;
+		}
+	}
+	for (; k >= 0; k--)
+	{
+		if (ms[k] == 0)
+		{
+			break;
+		}
+	}
+	for (; n<k; n++)
+	{
+		sum = sum + ms[n];
+	}
+	return sum;
+}
+
+int task1(int ms[r])
+{
+	int com = 1;
+	for (int i = 0; i<r; i++)
+	{
+		if (ms[i] % 2 == 0)
+		{
+			com = com*ms[i];
+		}
+	}
+	return com;
+}
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include<stdlib.h>
+using namespace std;
+int task1(int ms[10]);
+int task2(int ms[10]);
+int task3(int ms[10]);
+void main()
+{
+	int ms[10] = { 97, 0, -12, 26, 62, -83, -94, 0, -66, 0 }, choice;
+	cout << "Enter number of task :";
+	cin >> choice;
+	switch (choice)
+	{
+	case 1:{cout << task1(ms); }
+	case 2:{cout << task2(ms); }
+	case 3:
+	{
+		ms[10] = task3(ms);
+		for (int i = 0; i<10; i++)
+		{
+			cout << ms[i] << "\n";
+		}
+	}
+	}
+	system("pause");
+}
+
+int task3(int ms[10])
+{
+	int i = 0,n, j,flag,fl=0,f=0;
+	if (ms[9] > 0){ fl = 1; f = 2; }
+	for (;;i++)
+	{
+		/////////////////////////////////
+		for (int s = 0; s < 10; s++)
+		{
+			flag = 0;
+			if (ms[s] <= 0)
+			{
+				int s1 = s;
+				for (s1;s1<10+fl-s; s1++)
+				{
+					if (ms[s1] >0)
+					{
+						flag = 1;
+						break;
+					}
+				}
+			}
+			if (flag == 1){ break; }
+		}
+		///////////////////////////////////
+		if (flag == 0){ break; }
+		if (ms[i] <= 0)
+		{
+			n = ms[i];;
+			j = i;
+			for (; j<10-i+f; j++)
+			{
+				ms[j] = ms[j + 1];
+			}
+			ms[9] = n;
+			i--;
+		}
+	}
+
+	return ms[10];
+}
+
+int task2(int ms[10])
+{
+	int sum = 0, n = 0, k = 9;
+	for (; n<10; n++)
+	{
+		if (ms[n] == 0)
+		{
+			break;
+		}
+	}
+	for (; k >= 0; k--)
+	{
+		if (ms[k] == 0)
+		{
+			break;
+		}
+	}
+	for (; n<k; n++)
+	{
+		sum = sum + ms[n];
+	}
+	return sum;
+}
+
+int task1(int ms[10])
+{
+	int com = 1;
+	for (int i = 0; i<10; i++)
+	{
+		if (ms[i] % 2 == 0)
+		{
+			com = com*ms[i];
+		}
+	}
+	return com;
+}

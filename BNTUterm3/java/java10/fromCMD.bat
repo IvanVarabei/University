@@ -1,0 +1,1 @@
+java -classpath calculator.jar by.bntu.fitr.varabei.javalabs.lab10.controller.Mananger

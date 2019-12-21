@@ -1,0 +1,86 @@
+//Task number 1
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	float x1, x2, dx,a,b,c,f; //variable declaration
+	printf("Enter x1 :");
+	scanf("%f", &x1);
+	printf("Enter x2 :");
+	scanf("%f", &x2);
+	printf("Enter dx :");
+	scanf("%f", &dx);
+	printf("Enter a :");
+	scanf("%f", &a);
+	printf("Enter b :");
+	scanf("%f", &b);
+	printf("Enter c :");
+	scanf("%f", &c);
+	printf("-----------------\n|   x   |    F  |\n-----------------\n");
+	for (;x1<=x2+0.001;x1+=dx)  //The cycle increases x1 with each iteration
+	{
+		if (a<0 && c!=0){ f = a*x1*x1 + b*x1 + c;}
+		if (a > 0 && c == 0){f = (-1 * a) / (x1 - c);}
+		else{f=a*(x1 + c);}
+		printf("| %.2f | %.2f |\n", x1, f);
+	}
+	printf("-----------------");
+	getch();
+}
+
+
+
+
+//Task number 3summ all integers
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int x=1,sum=0;
+	printf("Enter 0 to stop.\n");
+	while (x!=0)
+	{
+		printf("Enter an integer :");
+		scanf("%d", &x);
+		sum = sum + x;
+	}
+	printf("%d", sum);
+	getch();
+}
+
+//Task number 2 decomposition in row
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+	float xn,xk,dx,eps,mf,f,n;
+	printf("Enter xn :");
+	scanf("%f", &xn);
+	printf("Enter xk :");
+	scanf("%f", &xk);
+	printf("Enter dx :");
+	scanf("%f", &dx);
+	printf("Enter eps :");
+	scanf("%f", &eps);
+	printf("---------------------------------\n");
+	printf("|   x  |    F   |   n  |math F  |\n");
+	while (xn <= xk)
+	{
+		f = 0;
+		n = 0;
+		while (n < 500)
+		{
+			f += pow(xn - 1, 2 * n + 1) / ((2 * n + 1)*pow(xn + 1, 2 * n + 1));
+			n++;
+			mf = log(xn);
+			if ((mf-f*2) <= eps){ break; }
+		}
+		f = f * 2;
+		printf("---------------------------------\n");
+		printf("| %.2f | %.5f | %.0f | %.5f |\n", xn,f,n,mf);
+		xn += dx;
+	}
+	printf("---------------------------------\n");
+	getch();
+}
