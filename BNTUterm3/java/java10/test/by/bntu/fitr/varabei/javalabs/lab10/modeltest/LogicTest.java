@@ -21,10 +21,4 @@ public class LogicTest {
 	public void testSumPosBefre() {
 		assertDoubleEquals(19, sumPosBefre(3, -6, 0, 9, -2, 7, 22, -5, 0));
 	}
-
-	@Test
-	public void testGetMaxPos() {
-		assertEquals(6, getMaxPos(3, -6, 0, 9, -2, 7, 22, -5, 0));
-	}
-
 }

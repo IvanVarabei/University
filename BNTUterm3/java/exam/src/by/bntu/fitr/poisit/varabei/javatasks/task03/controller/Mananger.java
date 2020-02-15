@@ -13,9 +13,6 @@ import by.bntu.fitr.poisit.varabei.javatasks.task03.model.*;
 public class Mananger {
 	static public void main(String uoi[]) throws IOException {
 		
-		double a1=1/3;
-		exhibit("A="+a1);
-		
 		lable: while (true) {
 			switch (readInt("Menu task3\nChoose number of perform \n" + "1 - Manualy initialization\n"
 					+ "2 - Random initialization\n")) {

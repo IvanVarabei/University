@@ -1,9 +1,8 @@
 package by.bntu.fitr.varabei.javalabs.lab10.view;
 
-import java.io.IOException;
 import java.util.Scanner;
 
-public class Input {
+public abstract class Input {
 	private final static Scanner in = new Scanner(System.in);
 
 	public static int readInt(String str) {
@@ -18,7 +17,7 @@ public class Input {
 		}
 		return in.nextInt();
 	}
-	
+
 	public static Double readD(String str) {
 		boolean correct = false;
 		System.out.print(str);
@@ -31,10 +30,4 @@ public class Input {
 		}
 		return in.nextDouble();
 	}
-
-	public static char readChar(String str) throws IOException {
-		System.out.printf("\n" + str);
-		return (char) System.in.read();
-	}
-
 }

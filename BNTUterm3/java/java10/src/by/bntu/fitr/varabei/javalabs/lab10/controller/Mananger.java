@@ -1,22 +1,22 @@
 package by.bntu.fitr.varabei.javalabs.lab10.controller;
+
 /*
 javac -d bin -sourcepath src src\by\bntu\fitr\poisit\varabei\javatasks\task03\controller\Mananger.java
 java by.bntu.fitr.poisit.varabei.javatasks.task03.controller.Mananger
+
 */
 import java.util.Arrays;
-
-import by.bntu.fitr.varabei.javalabs.lab10.model.ArrayInitializer;
-import by.bntu.fitr.varabei.javalabs.lab10.model.Logic;
-
+import by.bntu.fitr.varabei.javalabs.lab10.model.*;
+//import by.bntu.fitr.varabei.javalabs.lab10.model.Logic;
 import static by.bntu.fitr.varabei.javalabs.lab10.view.Input.*;
 import static by.bntu.fitr.varabei.javalabs.lab10.view.Output.*;
-import java.io.IOException;
 
-public class Mananger {
-	static public void main(String uoi[]) throws IOException {
-
+public abstract class Mananger {
+	static public void main(String uoi[]) {
+		int jj=3,yy=5;
+			exhibit("2*2="+ ++jj*8);
 		lable: while (true) {
-			switch (readInt("Menu lab10\nChoose number of perform \n" + "1 - Manualy initialization\n"
+			switch (readInt("M1enu lab10\nChoose number of perform \n" + "1 - Manualy initialization\n"
 					+ "2 - Random initialization\n")) {
 			case 1:
 				int a = readInt("Enter number of elements : ");

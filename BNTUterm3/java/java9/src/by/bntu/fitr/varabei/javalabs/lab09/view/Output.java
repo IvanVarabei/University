@@ -2,7 +2,7 @@ package by.bntu.fitr.varabei.javalabs.lab09.view;
 
 public class Output {
  public static void exhibit(String str) {
-	 System.out.print(str+"\n");
+	 System.out.println(str);
 	 //System.out.print(str);
  }
  
