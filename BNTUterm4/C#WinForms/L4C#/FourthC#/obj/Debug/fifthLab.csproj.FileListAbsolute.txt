@@ -1,0 +1,9 @@
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\bin\Debug\fifthLab.exe.config
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\bin\Debug\fifthLab.exe
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\bin\Debug\fifthLab.pdb
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\obj\Debug\fifthLab.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\obj\Debug\fifthLab.Form1.resources
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\obj\Debug\fifthLab.Properties.Resources.resources
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\obj\Debug\fifthLab.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\obj\Debug\fifthLab.exe
+C:\Users\Asus\Desktop\C#WinForms\L5C#\fifthLab\obj\Debug\fifthLab.pdb

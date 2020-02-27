@@ -1,7 +1,9 @@
 package by.bntu.fitr.varabei.javalabs.lab07.model;
 
 public class Draco {
-	public int age, amountOfHeads, amountOfEyes;
+	public int age;
+	public static int amountOfHeads;
+	public static int amountOfEyes;
 	final static int NIL = 0;
 	final static int FIRST_STAP = 200;
 	final static int SECOND_STEP = 300;
