@@ -1,0 +1,5 @@
+C:\fourth\ksis\SMTP\Client\bin\Debug\Client.exe.config
+C:\fourth\ksis\SMTP\Client\bin\Debug\Client.exe
+C:\fourth\ksis\SMTP\Client\bin\Debug\Client.pdb
+C:\fourth\ksis\SMTP\Client\obj\Debug\Client.exe
+C:\fourth\ksis\SMTP\Client\obj\Debug\Client.pdb

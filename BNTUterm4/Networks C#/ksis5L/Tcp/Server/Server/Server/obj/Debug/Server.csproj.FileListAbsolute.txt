@@ -1,0 +1,22 @@
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab4\Server\Server\Server\bin\Debug\Server.exe
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab4\Server\Server\Server\bin\Debug\Server.pdb
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab4\Server\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab4\Server\Server\Server\obj\Debug\Server.exe
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab4\Server\Server\Server\obj\Debug\Server.pdb
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab_4\Индивидуалка\Илья\TCP\Server\Server\Server\bin\Debug\Server.exe
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab_4\Индивидуалка\Илья\TCP\Server\Server\Server\bin\Debug\Server.pdb
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab_4\Индивидуалка\Илья\TCP\Server\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab_4\Индивидуалка\Илья\TCP\Server\Server\Server\obj\Debug\Server.exe
+C:\Users\77611\Desktop\Study\Лабы\2 курс\КСиС\Lab_4\Индивидуалка\Илья\TCP\Server\Server\Server\obj\Debug\Server.pdb
+F:\BRLOVA\Индивидуалка\Илья\TCP\Server\Server\Server\bin\Debug\Server.exe.config
+F:\BRLOVA\Индивидуалка\Илья\TCP\Server\Server\Server\bin\Debug\Server.exe
+F:\BRLOVA\Индивидуалка\Илья\TCP\Server\Server\Server\bin\Debug\Server.pdb
+F:\BRLOVA\Индивидуалка\Илья\TCP\Server\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+F:\BRLOVA\Индивидуалка\Илья\TCP\Server\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+F:\BRLOVA\Индивидуалка\Илья\TCP\Server\Server\Server\obj\Debug\Server.exe
+F:\BRLOVA\Индивидуалка\Илья\TCP\Server\Server\Server\obj\Debug\Server.pdb
+C:\Users\Asus\Desktop\TCP\Server\Server\Server\bin\Debug\Server.exe.config
+C:\Users\Asus\Desktop\TCP\Server\Server\Server\bin\Debug\Server.exe
+C:\Users\Asus\Desktop\TCP\Server\Server\Server\bin\Debug\Server.pdb
+C:\Users\Asus\Desktop\TCP\Server\Server\Server\obj\Debug\Server.exe
+C:\Users\Asus\Desktop\TCP\Server\Server\Server\obj\Debug\Server.pdb

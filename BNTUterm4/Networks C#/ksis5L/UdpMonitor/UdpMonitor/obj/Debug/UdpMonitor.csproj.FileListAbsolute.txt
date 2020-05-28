@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\ksis\ksis5L\UdpMonitor\UdpMonitor\bin\Debug\UdpMonitor.exe.config
+C:\Users\Asus\Desktop\ksis\ksis5L\UdpMonitor\UdpMonitor\bin\Debug\UdpMonitor.exe
+C:\Users\Asus\Desktop\ksis\ksis5L\UdpMonitor\UdpMonitor\bin\Debug\UdpMonitor.pdb
+C:\Users\Asus\Desktop\ksis\ksis5L\UdpMonitor\UdpMonitor\obj\Debug\UdpMonitor.exe
+C:\Users\Asus\Desktop\ksis\ksis5L\UdpMonitor\UdpMonitor\obj\Debug\UdpMonitor.pdb
+C:\Users\Asus\Desktop\ksis\ksis5L\UdpMonitor\UdpMonitor\obj\Debug\UdpMonitor.csprojAssemblyReference.cache

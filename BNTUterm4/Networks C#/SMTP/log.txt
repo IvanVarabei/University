@@ -1,0 +1,24 @@
+S : 220 localhost -- Fake proxy server
+C : EHLO IvanVarabei
+S : 250 localhost
+C : MAIL FROM:<varabeiivan@gmail.com>
+S : 250 OK
+C : RCPT TO:<epam.systems@gmail.com>
+S : 250 OK
+C : DATA
+S : 354 send the mail data, end with .
+C : MIME-Version: 1.0
+From: "Tom" <varabeiivan@gmail.com>
+To: epam.systems@gmail.com
+Date: 21 May 2020 10:19:36 +0300
+Subject: Job interview
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+The content is here
+
+.
+S : 250 OK
+C : QUIT
+S : 221 The connection has successfully ended
+

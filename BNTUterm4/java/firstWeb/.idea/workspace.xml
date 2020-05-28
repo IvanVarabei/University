@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f8621b8-04df-4f3c-a4c1-2e372f9f11be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/.vs/SingleThread/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/.vs/SingleThread/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/.vs/SingleThread/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/.vs/SingleThread/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/ExcelSaver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/ExcelSaver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/bin/Debug/PendulumData.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/bin/Debug/PendulumData.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/bin/Debug/SingleThread.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/bin/Debug/SingleThread.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/bin/Debug/SingleThread.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/bin/Debug/SingleThread.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/obj/Debug/SingleThread.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/obj/Debug/SingleThread.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/obj/Debug/SingleThread.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/obj/Debug/SingleThread.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/obj/Debug/SingleThread.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/PendulumProgramm/obj/Debug/SingleThread.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/.vs/SingleThread/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/.vs/SingleThread/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/.vs/SingleThread/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/.vs/SingleThread/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/bin/Debug/PendulumData.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/bin/Debug/PendulumData.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/bin/Debug/Save.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/bin/Debug/Save.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/bin/Debug/SingleThread.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/bin/Debug/SingleThread.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/bin/Debug/SingleThread.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/bin/Debug/SingleThread.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/SingleThread.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/SingleThread.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/SingleThread.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/SingleThread.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/SingleThread.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/SingleThread.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/SingleThread.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#WinForms/KursWork/backup2/PendulumProgramm/obj/Debug/SingleThread.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis2/L_2_Vasilkov — копия.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis2/L_2_Vasilkov.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/.vs/Graf/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/.vs/Graf/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/.vs/Graf/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/.vs/Graf/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/bin/Debug/Graf.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/bin/Debug/Graf.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/bin/Debug/Graf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/bin/Debug/Graf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/obj/Debug/Graf.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/obj/Debug/Graf.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/obj/Debug/Graf.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/obj/Debug/Graf.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/obj/Debug/Graf.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/obj/Debug/Graf.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/obj/Debug/Graf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../analysis/Analysis3/Graf/Graf/obj/Debug/Graf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/another/Point3d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/colection/Generic$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/bin/colection/Generic$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/colection/Generic$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/bin/colection/Generic$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/colection/Generic$B1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/bin/colection/Generic$B1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/colection/Generic$C.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/bin/colection/Generic$C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/colection/Generic$O.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/bin/colection/Generic$O.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/colection/Generic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/bin/colection/Generic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/oop/exception/Expt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/bin/oop/exception/Expt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/oop/exception/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/bin/oop/exception/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/points/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/bin/points/Point2d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/src/another/Point3d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/src/colection/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/src/colection/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/src/oop/exception/Expt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview/src/oop/exception/Expt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/src/points/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/src/points/Point2d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/ITCompanyUML (6) (1) (2).drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/controller/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/Accountant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/Boss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/DevHR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/Developer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/HR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/PM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/QA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/QAHR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/Workable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/groups/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/groups/ITCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/entity/groups/ProjectTeam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/AccountantFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/AnotherFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/BossFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/DevFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/DevHRFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/EmployeeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/PMFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/QAFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/factory/QAHRFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/logic/MyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/logic/MyList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/logic/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/logic/Storable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/logic/StorableIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/model/logic/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/bin/view/Output.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/controller/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/Accountant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/Boss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/DevHR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/Developer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/HR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/PM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/QA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/QAHR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/Workable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/groups/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/groups/ITCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/entity/groups/ProjectTeam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/AccountantFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/AnotherFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/BossFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/DevFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/DevHRFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/EmployeeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/PMFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/QAFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/factory/QAHRFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/logic/MyArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/logic/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/logic/Storable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/logic/StorableIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/model/logic/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backup/21java/src/view/Output.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Client/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Client/bin/Debug/Client.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Client/bin/Debug/Client.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Client/bin/Debug/Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Client/bin/Debug/Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Client/obj/Debug/Client.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Client/obj/Debug/Client.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Client/obj/Debug/Client.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Client/obj/Debug/Client.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Client/obj/Debug/Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Client/obj/Debug/Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/SMTPServer/.vs/SMTPServer/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/SMTPServer/.vs/SMTPServer/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/SMTPServer/.vs/SMTPServer/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/SMTPServer/.vs/SMTPServer/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/SMTPServer/.vs/SMTPServer/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/SMTPServer/.vs/SMTPServer/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/Dwarf.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/Dwarf.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/Server.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/bin/Debug/Вwarf.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/bin/Debug/Вwarf.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/bin/Debug/Вwarf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/bin/Debug/Вwarf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/obj/Debug/Dwarf.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/obj/Debug/Dwarf.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/obj/Debug/Dwarf.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/obj/Debug/Dwarf.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/obj/Debug/Вwarf.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/obj/Debug/Вwarf.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/obj/Debug/Вwarf.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/SMTP/Вwarf/obj/Debug/Вwarf.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/ConsoleServer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/bin/Debug/ConsoleServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/bin/Debug/ConsoleServer.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/bin/Debug/ConsoleServer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/obj/Debug/ConsoleServer.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/obj/Debug/ConsoleServer.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/obj/Debug/ConsoleServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/obj/Debug/ConsoleServer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/ConsoleServer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/.vs/TcpThreads/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/.vs/TcpThreads/v16/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/.vs/TcpThreads/v16/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/ConsoleClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/TcpThreads.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/bin/Debug/TcpThreads.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/bin/Debug/TcpThreads.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/bin/Debug/TcpThreads.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/obj/Debug/ConsoleClient.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/obj/Debug/ConsoleClient.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/obj/Debug/TcpThreads.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/obj/Debug/TcpThreads.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/TcpThreads/obj/Debug/TcpThreads.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/BackUp/Optional/clients.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpClientApp/.vs/Tcp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpClientApp/.vs/Tcp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpClientApp/.vs/Tcp/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpClientApp/.vs/Tcp/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpClientApp/obj/Debug/TcpClientApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpClientApp/obj/Debug/TcpClientApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/bin/Debug/TcpListenerApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/bin/Debug/TcpListenerApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/bin/Debug/TcpListenerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/bin/Debug/TcpListenerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/obj/Debug/TcpListenerApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/obj/Debug/TcpListenerApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/obj/Debug/TcpListenerApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/obj/Debug/TcpListenerApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/obj/Debug/TcpListenerApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/obj/Debug/TcpListenerApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/obj/Debug/TcpListenerApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/TcpListenerApp/obj/Debug/TcpListenerApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/UdpClient/.vs/UdpClient/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/UdpClient/.vs/UdpClient/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/UdpClient/.vs/UdpClient/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/UdpClient/.vs/UdpClient/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ksis/ksis6L/UdpClient/obj/Debug/UdpClientApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ksis/ksis6L/UdpClient/obj/Debug/UdpClientApp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1bXBcZJ0se4C6rpFVIhTL4an1a9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f8621b8-04df-4f3c-a4c1-2e372f9f11be" name="Default Changelist" comment="" />
+      <created>1588768637490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588768637490</updated>
+      <workItem from="1588768641507" duration="479000" />
+      <workItem from="1588769203011" duration="1485000" />
+      <workItem from="1588771034837" duration="412000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588769289427">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1474.864@0.0.1474.864" timestamp="1588769289427" />
+    <state x="518" y="187" key="FileChooserDialogImpl" timestamp="1588771427862">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1588771427862" />
+  </component>
+</project>

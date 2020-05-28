@@ -17,7 +17,9 @@ namespace fifth
         public const double DefaultTopBorder = 2;
         public const double DefaultNumOfSteps = 100;
 
-        public Equation(double bb, double tb, double pr)
+       
+
+    public Equation(double bb, double tb, double pr)
         {
             if (bb <= tb)
             {

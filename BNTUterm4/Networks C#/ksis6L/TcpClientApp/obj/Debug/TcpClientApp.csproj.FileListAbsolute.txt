@@ -1,0 +1,11 @@
+C:\Users\Asus\Desktop\ksis\ksis6L\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Asus\Desktop\ksis\ksis6L\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpClientApp\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpClientApp\bin\Debug\ConsoleApp1.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpClientApp\bin\Debug\ConsoleApp1.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpClientApp\obj\Debug\ConsoleApp1.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpClientApp\obj\Debug\ConsoleApp1.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpClientApp\obj\Debug\TcpClientApp.csprojAssemblyReference.cache

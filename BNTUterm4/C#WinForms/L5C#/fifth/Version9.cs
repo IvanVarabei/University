@@ -8,6 +8,8 @@ namespace fifth
 {
     class Version9 : Equation
     {
+        
+
         public Version9(double a, double b, double n) : base(a, b, n)
         {
 

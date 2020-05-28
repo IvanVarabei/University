@@ -1,0 +1,5 @@
+C:\Users\Asus\Desktop\ksis\ksis5L\Try\UdpClient\bin\Debug\UdpClient.exe.config
+C:\Users\Asus\Desktop\ksis\ksis5L\Try\UdpClient\bin\Debug\UdpClient.exe
+C:\Users\Asus\Desktop\ksis\ksis5L\Try\UdpClient\bin\Debug\UdpClient.pdb
+C:\Users\Asus\Desktop\ksis\ksis5L\Try\UdpClient\obj\Debug\UdpClient.exe
+C:\Users\Asus\Desktop\ksis\ksis5L\Try\UdpClient\obj\Debug\UdpClient.pdb

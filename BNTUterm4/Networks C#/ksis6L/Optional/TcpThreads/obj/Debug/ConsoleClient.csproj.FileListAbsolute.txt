@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\ksis\ksis6L\Optional\TcpThreads\bin\Debug\TcpThreads.exe.config
+C:\Users\Asus\Desktop\ksis\ksis6L\Optional\TcpThreads\bin\Debug\TcpThreads.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\Optional\TcpThreads\bin\Debug\TcpThreads.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\Optional\TcpThreads\obj\Debug\TcpThreads.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\Optional\TcpThreads\obj\Debug\TcpThreads.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\Optional\TcpThreads\obj\Debug\ConsoleClient.csprojAssemblyReference.cache

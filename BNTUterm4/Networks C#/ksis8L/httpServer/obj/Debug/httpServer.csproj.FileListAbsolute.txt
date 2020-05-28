@@ -1,0 +1,6 @@
+C:\fourth\ksis\ksis8L\httpServer\bin\Debug\httpServer.exe.config
+C:\fourth\ksis\ksis8L\httpServer\bin\Debug\httpServer.exe
+C:\fourth\ksis\ksis8L\httpServer\bin\Debug\httpServer.pdb
+C:\fourth\ksis\ksis8L\httpServer\obj\Debug\httpServer.csprojAssemblyReference.cache
+C:\fourth\ksis\ksis8L\httpServer\obj\Debug\httpServer.exe
+C:\fourth\ksis\ksis8L\httpServer\obj\Debug\httpServer.pdb

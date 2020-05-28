@@ -1,0 +1,8 @@
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\Dwarf.Form1.resources
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\Вwarf.Properties.Resources.resources
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\Dwarf.csproj.GenerateResource.cache
+C:\fourth\ksis\SMTP\Вwarf\bin\Debug\Вwarf.exe.config
+C:\fourth\ksis\SMTP\Вwarf\bin\Debug\Вwarf.exe
+C:\fourth\ksis\SMTP\Вwarf\bin\Debug\Вwarf.pdb
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\Вwarf.exe
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\Вwarf.pdb

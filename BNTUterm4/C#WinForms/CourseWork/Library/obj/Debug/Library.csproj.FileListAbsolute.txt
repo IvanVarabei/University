@@ -1,0 +1,8 @@
+C:\Users\Asus\Desktop\C#WinForms\KursWork\Library\bin\Debug\Library.dll
+C:\Users\Asus\Desktop\C#WinForms\KursWork\Library\bin\Debug\Library.pdb
+C:\Users\Asus\Desktop\C#WinForms\KursWork\Library\obj\Debug\Library.dll
+C:\Users\Asus\Desktop\C#WinForms\KursWork\Library\obj\Debug\Library.pdb
+C:\fourth\C#WinForms\KursWork\Library\bin\Debug\Library.dll
+C:\fourth\C#WinForms\KursWork\Library\bin\Debug\Library.pdb
+C:\fourth\C#WinForms\KursWork\Library\obj\Debug\Library.dll
+C:\fourth\C#WinForms\KursWork\Library\obj\Debug\Library.pdb

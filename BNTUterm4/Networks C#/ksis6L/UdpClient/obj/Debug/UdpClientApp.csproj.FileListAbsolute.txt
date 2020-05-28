@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\ksis\ksis6L\UdpClient\bin\Debug\UdpClient.exe.config
+C:\Users\Asus\Desktop\ksis\ksis6L\UdpClient\bin\Debug\UdpClient.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\UdpClient\bin\Debug\UdpClient.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\UdpClient\obj\Debug\UdpClientApp.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\ksis\ksis6L\UdpClient\obj\Debug\UdpClient.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\UdpClient\obj\Debug\UdpClient.pdb

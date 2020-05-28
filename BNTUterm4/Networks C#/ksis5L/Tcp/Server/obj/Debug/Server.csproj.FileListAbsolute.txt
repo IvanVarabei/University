@@ -1,0 +1,10 @@
+C:\Users\Asus\Desktop\ksis\ksis5L\Server\Server\bin\Debug\Server.exe.config
+C:\Users\Asus\Desktop\ksis\ksis5L\Server\Server\bin\Debug\Server.exe
+C:\Users\Asus\Desktop\ksis\ksis5L\Server\Server\bin\Debug\Server.pdb
+C:\Users\Asus\Desktop\ksis\ksis5L\Server\Server\obj\Debug\Server.exe
+C:\Users\Asus\Desktop\ksis\ksis5L\Server\Server\obj\Debug\Server.pdb
+C:\Users\Asus\Desktop\ksis\ksis5L\Tcp\Server\bin\Debug\Server.exe.config
+C:\Users\Asus\Desktop\ksis\ksis5L\Tcp\Server\bin\Debug\Server.exe
+C:\Users\Asus\Desktop\ksis\ksis5L\Tcp\Server\bin\Debug\Server.pdb
+C:\Users\Asus\Desktop\ksis\ksis5L\Tcp\Server\obj\Debug\Server.exe
+C:\Users\Asus\Desktop\ksis\ksis5L\Tcp\Server\obj\Debug\Server.pdb

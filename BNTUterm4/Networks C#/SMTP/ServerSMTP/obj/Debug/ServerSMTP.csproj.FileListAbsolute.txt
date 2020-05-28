@@ -1,0 +1,17 @@
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\ServerSMTP.csprojAssemblyReference.cache
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\Вwarf.Properties.Resources.resources
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\ServerSMTP.csproj.GenerateResource.cache
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\Вwarf.exe
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\Вwarf.pdb
+C:\fourth\ksis\SMTP\Вwarf\bin\Debug\Вwarf.exe.config
+C:\fourth\ksis\SMTP\Вwarf\bin\Debug\Вwarf.exe
+C:\fourth\ksis\SMTP\Вwarf\bin\Debug\Вwarf.pdb
+C:\fourth\ksis\SMTP\Вwarf\obj\Debug\ServerSMTP.Dashboard.resources
+C:\fourth\ksis\SMTP\ServerSMTP\bin\Debug\Вwarf.exe.config
+C:\fourth\ksis\SMTP\ServerSMTP\bin\Debug\Вwarf.exe
+C:\fourth\ksis\SMTP\ServerSMTP\bin\Debug\Вwarf.pdb
+C:\fourth\ksis\SMTP\ServerSMTP\obj\Debug\ServerSMTP.Dashboard.resources
+C:\fourth\ksis\SMTP\ServerSMTP\obj\Debug\Вwarf.Properties.Resources.resources
+C:\fourth\ksis\SMTP\ServerSMTP\obj\Debug\ServerSMTP.csproj.GenerateResource.cache
+C:\fourth\ksis\SMTP\ServerSMTP\obj\Debug\Вwarf.exe
+C:\fourth\ksis\SMTP\ServerSMTP\obj\Debug\Вwarf.pdb

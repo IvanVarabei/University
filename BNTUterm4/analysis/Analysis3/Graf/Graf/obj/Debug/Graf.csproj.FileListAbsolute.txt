@@ -1,0 +1,13 @@
+C:\Users\Asus\Desktop\ksis\ksis5L\MyOwn\Graf\Graf\bin\Debug\Graf.exe.config
+C:\Users\Asus\Desktop\analysis\Analysis3\Graf\Graf\bin\Debug\Graf.exe.config
+C:\Users\Asus\Desktop\analysis\Analysis3\Graf\Graf\bin\Debug\Graf.exe
+C:\Users\Asus\Desktop\analysis\Analysis3\Graf\Graf\bin\Debug\Graf.pdb
+C:\Users\Asus\Desktop\analysis\Analysis3\Graf\Graf\obj\Debug\Graf.exe
+C:\Users\Asus\Desktop\analysis\Analysis3\Graf\Graf\obj\Debug\Graf.pdb
+C:\Users\Asus\Desktop\analysis\Analysis3\Graf\Graf\obj\Debug\Graf.csprojAssemblyReference.cache
+C:\fourth\analysis\Analysis3\Graf\Graf\bin\Debug\Graf.exe.config
+C:\fourth\analysis\Analysis3\Graf\Graf\bin\Debug\Graf.exe
+C:\fourth\analysis\Analysis3\Graf\Graf\bin\Debug\Graf.pdb
+C:\fourth\analysis\Analysis3\Graf\Graf\obj\Debug\Graf.csprojAssemblyReference.cache
+C:\fourth\analysis\Analysis3\Graf\Graf\obj\Debug\Graf.exe
+C:\fourth\analysis\Analysis3\Graf\Graf\obj\Debug\Graf.pdb

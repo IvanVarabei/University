@@ -1,0 +1,12 @@
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpListenerApp\bin\Debug\TcpListenerApp.exe.config
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpListenerApp\bin\Debug\TcpListenerApp.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpListenerApp\bin\Debug\TcpListenerApp.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpListenerApp\obj\Debug\TcpListenerApp.exe
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpListenerApp\obj\Debug\TcpListenerApp.pdb
+C:\Users\Asus\Desktop\ksis\ksis6L\TcpListenerApp\obj\Debug\TcpListenerApp.csprojAssemblyReference.cache
+C:\fourth\ksis\ksis6L\TcpListenerApp\bin\Debug\TcpListenerApp.exe.config
+C:\fourth\ksis\ksis6L\TcpListenerApp\bin\Debug\TcpListenerApp.exe
+C:\fourth\ksis\ksis6L\TcpListenerApp\bin\Debug\TcpListenerApp.pdb
+C:\fourth\ksis\ksis6L\TcpListenerApp\obj\Debug\TcpListenerApp.csprojAssemblyReference.cache
+C:\fourth\ksis\ksis6L\TcpListenerApp\obj\Debug\TcpListenerApp.exe
+C:\fourth\ksis\ksis6L\TcpListenerApp\obj\Debug\TcpListenerApp.pdb

@@ -1,0 +1,16 @@
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\bin\Debug\SingleThread.exe.config
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\bin\Debug\SingleThread.exe
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\bin\Debug\SingleThread.pdb
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\bin\Debug\Library.dll
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\bin\Debug\Xceed.Document.NET.dll
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\bin\Debug\Xceed.Words.NET.dll
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\bin\Debug\Library.pdb
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\PendulumProgramm.csprojAssemblyReference.cache
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\PendulumProgramm.csproj.ResolveComReference.cache
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\SingleThread.Form1.resources
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\SingleThread.Form2.resources
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\SingleThread.Properties.Resources.resources
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\PendulumProgramm.csproj.GenerateResource.cache
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\PendulumProgramm.csproj.CopyComplete
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\SingleThread.exe
+C:\fourth\C#WinForms\KursWork\PendulumProgramm\obj\Debug\SingleThread.pdb

@@ -1,0 +1,6 @@
+C:\fourth\ksis\ksis8L\httpClient\bin\Debug\httpClient.exe.config
+C:\fourth\ksis\ksis8L\httpClient\bin\Debug\httpClient.exe
+C:\fourth\ksis\ksis8L\httpClient\bin\Debug\httpClient.pdb
+C:\fourth\ksis\ksis8L\httpClient\obj\Debug\httpClient.exe
+C:\fourth\ksis\ksis8L\httpClient\obj\Debug\httpClient.pdb
+C:\fourth\ksis\ksis8L\httpClient\obj\Debug\httpClient.csprojAssemblyReference.cache
