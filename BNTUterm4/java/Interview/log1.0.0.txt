@@ -1,0 +1,5 @@
+мая 03, 2020 2:49:50 PM log.LogTest main
+WARNING: что-то пошло не так
+java.lang.NullPointerException
+	at log.LogTest.main(LogTest.java:23)
+
