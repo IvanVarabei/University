@@ -1,0 +1,1 @@
+InputStream implements Closeable, OutputStream implements Closeable, Flushable – абстрактные классы. Определяют методы read & write с различными перегрузками.
