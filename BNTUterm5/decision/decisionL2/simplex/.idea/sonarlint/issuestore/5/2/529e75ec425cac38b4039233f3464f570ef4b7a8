@@ -1,0 +1,27 @@
+
+?
+java:S1659""Declare "cols" on a separate line.(¡¸”¸8¨™¥óÍ.
+J
+java:S1125Y"(Remove the literal "true" boolean value.(öì‹Óûÿÿÿÿ8¨™¥óÍ.
+X	java:S125”"<This block of commented-out lines of code should be removed.(¶ê}8¨™¥óÍ.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¨™¥óÍ.
+I
+java:S1659Ñ"&Declare "location" on a separate line.(“Û©¼ùÿÿÿÿ8¨™¥óÍ.
+^	java:S125­"<This block of commented-out lines of code should be removed.(ñûßøÿÿÿÿ8¨™¥óÍ.
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¨™¥óÍ.
+>
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8¨™¥óÍ.
+M
+java:S1066Ä"/Merge this if statement with the enclosing one.(ëÍ‚×8¨™¥óÍ.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(±Æğ…úÿÿÿÿ8¨™¥óÍ.
+0
+java:S1220""Move this file to a named package.
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(‚­œÿÿÿÿÿ8¨™¥óÍ.
+I
+java:S1659¿"&Declare "location" on a separate line.(“Û©¼ùÿÿÿÿ8¨™¥óÍ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÍêç8Ç­¦óÍ.
+F
+java:S1659ª"#Declare "count" on a separate line.(ò¬Íùÿÿÿÿ8¨™¥óÍ.
+X	java:S125\"<This block of commented-out lines of code should be removed.(•æÄ¨8¨™¥óÍ.
+F
+java:S2786")Remove this redundant "static" qualifier.(çÓ8¨™¥óÍ.

@@ -1,0 +1,7 @@
+w=0:0.05:10
+W=cos(w*0.5)+j*sin(w*0.5)
+plot(W)
+w=0:0.05:15
+W=cos(w*0.5)+j*sin(w*0.5)
+plot(W
+grid on

@@ -1,2 +1,1 @@
-# maze
-Project witch i made in school(BNTU)
+Projects witch i made in school(BNTU)

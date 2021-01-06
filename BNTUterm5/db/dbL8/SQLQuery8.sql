@@ -1,0 +1,70 @@
+﻿use ticket;
+go
+--1.	Сформировать список рейсов, вылетающих из заданного аэропорта с указанием
+--номера рейса, аэропорта назначения и стоимости билета.
+--SET ANSI_NULLS off
+--GO
+--SET QUOTED_IDENTIFIER ON
+--GO
+--alter PROC findFlightsByAirport
+--	@sourceAirport varchar(20)
+--AS
+--BEGIN
+--	SET NOCOUNT ON;
+--	select flight.flightId, flight.cost, airport.airport as arriving 
+--	from flight
+--	join airport 
+--	on flight.sourceAirportId = (select airportId from airport where airport like @sourceAirport)
+--		and airport.airportId = flight.destAirportId;
+--END
+--GO
+--exec findFlightsByAirport 'Minsk1';
+--2.	Сформировать список пассажиров, вылетающих сегодня рейсом, номер которого задается.
+--SET ANSI_NULLS off
+--GO
+--SET QUOTED_IDENTIFIER ON
+--GO
+--alter PROC findClientByFlightNumberDepartureToday
+--	@flightNumber int
+--AS
+--BEGIN
+--	SET NOCOUNT ON;
+--	select * from client where clientId in(
+--	select clientId from log where flightId = (select flightId from flight where 
+--			flightNumber = @flightNumber
+--			and flightId in(select flightId from log where convert(date, flightDate) = convert(date, getDate()))
+--		)
+--		and convert(date, flightDate) = convert(date, getDate())
+--);
+--END
+--GO
+--exec findClientByFlightNumberDepartureToday 24;
+--3.	Сформировать список номеров рейсов и количества проданных на них билетов за прошедшую неделю. 
+--Общую стоимость всех проданных билетов задать выходным параметром.
+--go
+--alter view lastWeekSaleInfo as
+--		select  log.flightId, flightNumber, count(*) amountOfSoldTickets, cost from log
+--		join flight on flight.flightId = log.flightId 
+--			and datePart(wk, flightDate) = datePart(wk, dateAdd(wk, -1, getDate()))
+--			and year(saleDate) = year(getDate())
+--		group by log.flightId, flightNumber, cost;
+
+--go
+--SET ANSI_NULLS off
+--GO
+--SET QUOTED_IDENTIFIER ON
+--GO
+--alter PROC findAmountOfSoldTicketsForeachFlightLastWeek
+--	@priceOfAllSoldTickets float output
+--AS
+--BEGIN
+--	SET NOCOUNT on;
+--	select * from lastWeekSaleInfo;
+--	select @priceOfAllSoldTickets = sum(cost * amountOfSoldTickets)
+--	from lastWeekSaleInfo;
+--END
+--GO
+
+--declare @expectedPriceOfAllSoldTickets float;
+--exec findAmountOfSoldTicketsForeachFlightLastWeek @expectedPriceOfAllSoldTickets output;
+--select @expectedPriceOfAllSoldTickets;

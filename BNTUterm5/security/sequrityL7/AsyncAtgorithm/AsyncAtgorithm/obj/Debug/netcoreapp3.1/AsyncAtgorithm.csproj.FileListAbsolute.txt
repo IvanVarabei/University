@@ -1,0 +1,13 @@
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\bin\Debug\netcoreapp3.1\AsyncAtgorithm.exe
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\bin\Debug\netcoreapp3.1\AsyncAtgorithm.deps.json
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\bin\Debug\netcoreapp3.1\AsyncAtgorithm.runtimeconfig.json
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\bin\Debug\netcoreapp3.1\AsyncAtgorithm.runtimeconfig.dev.json
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\bin\Debug\netcoreapp3.1\AsyncAtgorithm.dll
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\bin\Debug\netcoreapp3.1\AsyncAtgorithm.pdb
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\obj\Debug\netcoreapp3.1\AsyncAtgorithm.csprojAssemblyReference.cache
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\obj\Debug\netcoreapp3.1\AsyncAtgorithm.AssemblyInfoInputs.cache
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\obj\Debug\netcoreapp3.1\AsyncAtgorithm.AssemblyInfo.cs
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\obj\Debug\netcoreapp3.1\AsyncAtgorithm.csproj.CoreCompileInputs.cache
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\obj\Debug\netcoreapp3.1\AsyncAtgorithm.dll
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\obj\Debug\netcoreapp3.1\AsyncAtgorithm.pdb
+C:\uni\security\sequrityL7\AsyncAtgorithm\AsyncAtgorithm\obj\Debug\netcoreapp3.1\AsyncAtgorithm.genruntimeconfig.cache

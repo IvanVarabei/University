@@ -1,0 +1,5 @@
+w=tf([2 0.01],[0.01 1])
+figure(1)
+step(w,0.2)
+pole(w)
+zero(w)

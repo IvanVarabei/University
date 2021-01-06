@@ -1,0 +1,13 @@
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\bin\Debug\netcoreapp3.1\DigitalSignature.exe
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\bin\Debug\netcoreapp3.1\DigitalSignature.deps.json
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\bin\Debug\netcoreapp3.1\DigitalSignature.runtimeconfig.json
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\bin\Debug\netcoreapp3.1\DigitalSignature.runtimeconfig.dev.json
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\bin\Debug\netcoreapp3.1\DigitalSignature.dll
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\bin\Debug\netcoreapp3.1\DigitalSignature.pdb
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\obj\Debug\netcoreapp3.1\DigitalSignature.csprojAssemblyReference.cache
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\obj\Debug\netcoreapp3.1\DigitalSignature.AssemblyInfoInputs.cache
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\obj\Debug\netcoreapp3.1\DigitalSignature.AssemblyInfo.cs
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\obj\Debug\netcoreapp3.1\DigitalSignature.csproj.CoreCompileInputs.cache
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\obj\Debug\netcoreapp3.1\DigitalSignature.dll
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\obj\Debug\netcoreapp3.1\DigitalSignature.pdb
+C:\uni\security\sequrityL8\DigitalSignature\DigitalSignature\obj\Debug\netcoreapp3.1\DigitalSignature.genruntimeconfig.cache

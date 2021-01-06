@@ -1,0 +1,32 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¯ìÂùÿÿÿÿ8øÈ‹÷Í.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ƒàğÍ.
+T	java:S106k"9Replace this use of System.out or System.err by a logger.(²÷Ãb8ÉÕáòÍ.
+X	java:S125"<This block of commented-out lines of code should be removed.(İ¿ä‡8ìÜ­ûÍ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(õ¬øóûÿÿÿÿ8è×‡÷Í.
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(‹ªéıÿÿÿÿ8ƒàğÍ.
+m	java:S116
+"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¡ƒ—şÿÿÿÿ8ƒàğÍ.
+0
+java:S1220""Move this file to a named package.
+Y
+java:S1854Ê";Remove this useless assignment to local variable "maximum".(Ş•«ğ8ƒàğÍ.
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(²´¹Â8ƒàğÍ.
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(Æ·Š­8ƒàğÍ.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ƒàğÍ.
+Y	java:S125ª"<This block of commented-out lines of code should be removed.(• õß8•‘ƒóÍ.
+
+java:S1450"bRemove the "solutionIsUnbounded" field and declare it as a local variable in the relevant methods.(ùş“é8ºîàòÍ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÇÑê8ÍªŠ÷Í.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(úıÓÿÿÿÿÿ8ƒàğÍ.
+G
+java:S2786ê")Remove this redundant "static" qualifier.(çÓ8ƒàğÍ.
+T	java:S106S"9Replace this use of System.out or System.err by a logger.(ìÅ˜	8ƒàğÍ.
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(Ú§•Üıÿÿÿÿ8ƒàğÍ.
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(±Æğ…úÿÿÿÿ8ƒàğÍ.
+Q
+java:S3740
+"/Provide the parametrized type for this generic.(ƒ¡ƒ—şÿÿÿÿ8ƒàğÍ.
+Z	java:S106["9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ƒàğÍ.
+T
+java:S1068"7Remove this unused "solutionIsUnbounded" private field.(ùş“é8ºîàòÍ.

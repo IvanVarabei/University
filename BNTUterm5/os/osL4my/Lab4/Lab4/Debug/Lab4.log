@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  Lab4.cpp
+C:\uni\os\osL4my\Lab4\Lab4\Lab4.cpp(34,19): warning C4305: 'initializing': truncation from 'double' to 'FLOAT'
+C:\uni\os\osL4my\Lab4\Lab4\Lab4.cpp(200,34): warning C4244: 'argument': conversion from 'INT64' to 'UINT', possible loss of data
+C:\uni\os\osL4my\Lab4\Lab4\Lab4.cpp(230,25): warning C4244: '=': conversion from 'UINT' to 'FLOAT', possible loss of data
+C:\uni\os\osL4my\Lab4\Lab4\Lab4.cpp(366,13): warning C4018: '<': signed/unsigned mismatch
+C:\uni\os\osL4my\Lab4\Lab4\Lab4.cpp(414,13): warning C4244: 'argument': conversion from 'INT64' to 'int', possible loss of data
+C:\uni\os\osL4my\Lab4\Lab4\Lab4.cpp(460,14): warning C4018: '<': signed/unsigned mismatch
+C:\uni\os\osL4my\Lab4\Lab4\Lab4.cpp(487,14): warning C4018: '<': signed/unsigned mismatch
+  Lab4.vcxproj -> C:\uni\os\osL4my\Lab4\Debug\Lab4.exe
