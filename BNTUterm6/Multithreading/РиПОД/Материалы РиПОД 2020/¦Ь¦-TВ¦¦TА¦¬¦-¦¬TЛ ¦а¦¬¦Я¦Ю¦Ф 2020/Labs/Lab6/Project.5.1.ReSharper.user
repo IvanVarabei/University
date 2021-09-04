@@ -1,0 +1,66 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:MovePoint.cs" caret="140" fromTop="8" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:Program.cs" caret="449" fromTop="13" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:CreateGfafList.cs" caret="646" fromTop="21" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DataGridViewManager.cs" caret="0" fromTop="0" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:Tree.cs" caret="234" fromTop="10" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:Paral.cs" caret="473" fromTop="18" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:Form1.Designer.cs" caret="537" fromTop="13" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:Form1.cs" caret="2871" fromTop="8" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="3985" fromTop="10" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="1791" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="7194" fromTop="16" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:Form1.cs" caret="3972" fromTop="32" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="7194" fromTop="29" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="5171" fromTop="29" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="4633" fromTop="19" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="4396" fromTop="5" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="4397" fromTop="13" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="3872" fromTop="4" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="4250" fromTop="11" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:DrawGraf.cs" caret="4040" fromTop="12" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="7627" fromTop="11" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="5231" fromTop="11" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="6108" fromTop="28" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="5961" fromTop="25" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="5608" fromTop="16" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="6250" fromTop="18" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="6418" fromTop="23" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="6985" fromTop="15" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="4911" fromTop="23" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="2031" fromTop="32" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="2819" fromTop="33" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="2767" fromTop="32" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="2860" fromTop="34" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="2767" fromTop="31" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="2951" fromTop="31" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="1839" fromTop="22" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="2207" fromTop="20" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="1602" fromTop="21" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="2111" fromTop="31" />
+      <File id="708EC8D0-4E4B-4117-BA03-8384EBCCEE41/f:ClassAllClass.cs" caret="1732" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

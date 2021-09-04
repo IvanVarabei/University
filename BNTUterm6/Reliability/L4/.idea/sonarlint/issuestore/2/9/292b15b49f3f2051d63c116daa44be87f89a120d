@@ -1,0 +1,11 @@
+
+A
+java:S2925Z"$Remove this use of "Thread.sleep()".(öÍËè8æ­Û²/
+A
+java:S2925)"$Remove this use of "Thread.sleep()".(§¦ÙÁ8ŠğÃ²/
+A
+java:S2925,"$Remove this use of "Thread.sleep()".(¯ú™ú8ŠğÃ²/
+A
+java:S2925."$Remove this use of "Thread.sleep()".(³Ïİ8ŠğÃ²/
+C
+java:S2699#"-Add at least one assertion to this test case.(Å­õ‘

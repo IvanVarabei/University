@@ -1,0 +1,29 @@
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\bin\Debug\Lab2.exe.config
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\bin\Debug\Lab2.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\bin\Debug\Lab2.pdb
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\obj\Debug\Lab2.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab2\Lab2\obj\Debug\Lab2.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\bin\Debug\Lab2.exe.config
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\bin\Debug\Lab2.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\bin\Debug\Lab2.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.csprojAssemblyReference.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.pdb
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.csprojAssemblyReference.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab2\Lab2\obj\Debug\Lab2.pdb

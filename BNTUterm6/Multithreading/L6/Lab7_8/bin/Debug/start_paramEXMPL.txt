@@ -1,0 +1,10 @@
+Tasks count: 4
+Time calculation Tasks: 5 20 10 8
+Table Connections:
+0 1 20 0
+0 0 0 1
+0 0 0 10
+0 0 0 0
+
+
+

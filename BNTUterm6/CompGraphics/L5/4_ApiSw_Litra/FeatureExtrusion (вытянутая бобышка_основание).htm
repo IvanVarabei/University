@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html class="js" lang="ru-RU"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://xistol.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://xistol.com/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Метод FeatureExtrusion (вытянутая бобышка/основание) | Наброски программиста</title>
+<link rel="alternate" type="application/rss+xml" title="Наброски программиста » Лента" href="http://xistol.com/feed">
+<link rel="alternate" type="application/rss+xml" title="Наброски программиста » Лента комментариев" href="http://xistol.com/comments/feed">
+<link rel="alternate" type="application/rss+xml" title="Наброски программиста » Лента комментариев к «Метод FeatureExtrusion (вытянутая бобышка/основание)»" href="http://xistol.com/archives/97/feed">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/xistol.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.5"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script type="text/javascript" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/wp-emoji-release.js"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="crayon-css" href="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/crayon.css" type="text/css" media="all">
+<link rel="stylesheet" id="crayon-theme-classic-css" href="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/classic.css" type="text/css" media="all">
+<link rel="stylesheet" id="crayon-font-monaco-css" href="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/monaco.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfifteen-fonts-css" href="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="genericons-css" href="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/genericons.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentyfifteen-style-css" href="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/style.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://xistol.com/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://xistol.com/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/jquery.js"></script>
+<script type="text/javascript" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/jquery-migrate.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"2.7.1","is_admin":"0","ajaxurl":"http:\/\/xistol.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"\u041d\u0430\u0436\u043c\u0438\u0442\u0435 %s \u0434\u043b\u044f \u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f, %s \u0434\u043b\u044f \u0432\u0441\u0442\u0430\u0432\u043a\u0438","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/crayon.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://xistol.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://xistol.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Как перекрасить (подсветить) все ребра для выделенной грани" href="http://xistol.com/archives/91">
+<link rel="next" title="Как макросом SW выделить грань в детали" href="http://xistol.com/archives/132">
+<meta name="generator" content="WordPress 4.3.5">
+<link rel="canonical" href="http://xistol.com/archives/97">
+<link rel="shortlink" href="http://xistol.com/?p=97">
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+
+<body class="single single-post postid-97 single-format-standard">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Перейти к содержимому</a>
+
+	<div style="top: 0px;" id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<p class="site-title"><a href="http://xistol.com/" rel="home">Наброски программиста</a></p>
+											<p class="site-description">Программирование макросов для solidworks, excel, windows приложений.</p>
+									<button class="secondary-toggle">Меню и виджеты</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://xistol.com/">
+				<label>
+					<span class="screen-reader-text">Найти:</span>
+					<input class="search-field" placeholder="Поиск…" name="s" title="Найти:" type="search">
+				</label>
+				<input class="search-submit screen-reader-text" value="Поиск" type="submit">
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Свежие записи</h2>		<ul>
+					<li>
+				<a href="http://xistol.com/archives/324">Как добавить уравнение с помощью макроса</a>
+						</li>
+					<li>
+				<a href="http://xistol.com/archives/318">Как сохранить файл детали в формате 3d в pdf. Метод SaveAs</a>
+						</li>
+					<li>
+				<a href="http://xistol.com/archives/313">Как добавить вид-разрез в чертеж с помощью макроса</a>
+						</li>
+					<li>
+				<a href="http://xistol.com/archives/308">Как добавить текстовую аннотацию (технические требования) в чертеж</a>
+						</li>
+					<li>
+				<a href="http://xistol.com/archives/303">Как получить список всех деталей в сборке с помощью макроса</a>
+						</li>
+				</ul>
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Свежие комментарии</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href="http://xistol.com/archives/146" rel="external nofollow" class="url">Как изменить размер элемента созданного методом «Вытянутая бобышка» (Extrusion) | Наброски программиста</a></span> к записи <a href="http://xistol.com/archives/50#comment-2372">Как провести отрезок между двумя выделенными точками</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://xistol.com/archives/142" rel="external nofollow" class="url">Как добавить деталь в сборку SW с помощью макроса | Наброски программиста</a></span> к записи <a href="http://xistol.com/archives/140#comment-2371">Как макросом открыть документ(файл) solidworks</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://xistol.com/archives/140" rel="external nofollow" class="url">Как макросом открыть документ(файл) solidworks | Наброски программиста</a></span> к записи <a href="http://xistol.com/archives/42#comment-2370">Как определить какой тип документа SolidWorks открыт</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://xistol.com/archives/91" rel="external nofollow" class="url">Как перекрасить (подсветить) все ребра для выделенной грани | Наброски программиста</a></span> к записи <a href="http://xistol.com/archives/50#comment-2369">Как провести отрезок между двумя выделенными точками</a></li><li class="recentcomments"><span class="comment-author-link"><a href="http://xistol.com/archives/78" rel="external nofollow" class="url">Красные круги-3. Как выделить максимальные окружности в своих группах | Наброски программиста</a></span> к записи <a href="http://xistol.com/archives/59#comment-2368">Красные круги-1. Как выделить все окружности в эскизе</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h2 class="widget-title">Архивы</h2>		<ul>
+	<li><a href="http://xistol.com/archives/date/2016/04">Апрель 2016</a></li>
+	<li><a href="http://xistol.com/archives/date/2016/03">Март 2016</a></li>
+	<li><a href="http://xistol.com/archives/date/2016/02">Февраль 2016</a></li>
+	<li><a href="http://xistol.com/archives/date/2016/01">Январь 2016</a></li>
+	<li><a href="http://xistol.com/archives/date/2015/11">Ноябрь 2015</a></li>
+		</ul>
+</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Рубрики</h2>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://xistol.com/archives/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8">Без рубрики</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h2 class="widget-title">Мета</h2>			<ul>
+						<li><a href="http://xistol.com/wp-login.php">Войти</a></li>
+			<li><a href="http://xistol.com/feed"><abbr title="Really Simple Syndication">RSS</abbr> записей</a></li>
+			<li><a href="http://xistol.com/comments/feed"><abbr title="Really Simple Syndication">RSS</abbr> комментариев</a></li>
+<li><a href="https://ru.wordpress.org/" title="Сайт работает на WordPress — современной персональной платформе для публикаций.">WordPress.org</a></li>			</ul>
+</aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-97" class="post-97 post type-post status-publish format-standard hentry category-1">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">Метод FeatureExtrusion (вытянутая бобышка/основание)</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Для того чтобы создать элемент <strong>вытянутая бобышка</strong> в SW api существует метод <span style="color: #008000;">FeatureExtrusion2</span> интерфейса <span style="color: #0000ff;">IFeatureManager</span>.</p>
+<p>Фактически этот метод соответствует действию кнопки «вытянутая бобышка» в среде SW.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr1.jpg"><img class="alignnone size-full wp-image-100" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr1.jpg" alt="extr1" height="275" width="500"></a></p>
+<p>Он принимает целых 23 параметра. Рассмотрим их подробнее.<br>
+<span id="more-97"></span><br>
+&lt;<span style="color: #008000;">FeatureExtrusion2</span> Sd, Flip, 
+Dir, T1, T2, D1, D2, Dchk1, Dchk2, Ddir1, Ddir2, Dang1, Dang2, 
+OffsetReverse1, OffsetReverse2, TranslateSurface1, TranslateSurface2, 
+Merge, UseFeatScope, UseAutoSelect, T0, StartOffset, FlipStartOffset&gt;</p>
+<p>1. <span style="color: #ff6600;">Sd</span>. Тип Boolean. True – вытягивание в одном направлении. False – в двух направлениях.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_sd2.jpg"><img class="alignnone size-full wp-image-105" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_sd2.jpg" alt="extr_sd2" height="141" width="201"></a></p>
+<p>2. <span style="color: #ff6600;">Flip</span>. Тип Boolean. True – переставить сторону для выреза. Не применяется для элемента вытягивания.</p>
+<p>3. <span style="color: #ff6600;">Dir</span>. Тип Boolean. True – поменять направление вытягивания. По умолчанию, выдавливание элемента происходит по направлению нормали.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_dir1.jpg"><img class="alignnone size-full wp-image-106" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_dir1.jpg" alt="extr_dir1" height="55" width="195"></a></p>
+<p>4. <span style="color: #ff6600;">T1</span>. Тип long. Граничное 
+условие для вытягивания элемента по направлению 1. Число соответствует 
+именованной константе из enum-списка swEndConditions_e.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_T1.jpg"><img class="alignnone size-full wp-image-107" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_T1.jpg" alt="extr_T1" height="147" width="211"></a></p>
+<ul style="list-style-type: disc;">
+<li><strong>0</strong> – <span style="color: #ff9900;">swEndCondBlind</span> – никакие граничные условия не применяются. Выдавливаем элемент на заданное расстояние.</li>
+<li><strong>1</strong> – <span style="color: #ff9900;">swEndCondThroughAll</span> – через всю существующую геометрию</li>
+<li><strong>2</strong> –<span style="color: #ff9900;"> swEndCondThroughNext</span> – вырез до следующей грани или поверхности. Поверхность должна заслонять весь профиль эскиза и находится в той же детали.</li>
+<li><strong>3</strong> – <span style="color: #ff9900;">swEndCondUpToVertex</span>
+ – выдавливание или вырез до вершины. Объект вытягивается до плоскости, 
+параллельной плоскости эскиза, и проходящей через указанную вершину.</li>
+<li><strong>4</strong> – <span style="color: #ff9900;">swEndCondToSurface</span> – вытягивание или вырез до поверхности</li>
+<li><strong>5</strong> – <span style="color: #ff9900;">swEndCondOffsetFromSurface</span> – вытягивание или вырез на заданное расстояние от поверхности.</li>
+<li><strong>6</strong> –<span style="color: #ff9900;"> swEndCondMidPlane</span> – вытягивание или вырез от средней плоскости. Другими словами симметрично.</li>
+<li><strong>7</strong> – <span style="color: #ff9900;">swEndCondUpToBody</span> – вытягивание или вырез до тела.</li>
+</ul>
+<p>5. <span style="color: #ff6600;">T2</span>. Тип long. Граничное 
+условие для вытягивания элемента по направлению 2. Аналогично T1. Если в
+ Sd стоит true (вытягивание в одном направлении), то данный параметр 
+игнорируется.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_T2.jpg"><img class="alignnone size-full wp-image-108" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_T2.jpg" alt="extr_T2" height="131" width="199"></a></p>
+<p>6. <span style="color: #ff6600;">D1</span>. Тип double. Глубина 
+выдавливания по направлению 1 в метрах. Если в T1 (граничное условие) 
+находится что-то отличное от 0, 5 или 6, то данный параметр 
+игнорируется.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_D1.jpg"><img class="alignnone size-full wp-image-109" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_D1.jpg" alt="extr_D1" height="34" width="184"></a></p>
+<p>7. <span style="color: #ff6600;">D2</span>. Тип double. Глубина 
+выдавливания по направлению 2 в метрах. Аналогично D1. Чтобы сработало 
+должно быть в Sd – false(вытягивание по двум направлениям) и в T2 – 0 
+(никаких граничных условий) , 5 (на расстоянии от поверхности) или 6 (от
+ средней плоскости).</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_D2.jpg"><img class="alignnone size-full wp-image-110" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_D2.jpg" alt="extr_D2" height="81" width="183"></a></p>
+<p>8. <span style="color: #ff6600;">Dchk1</span>. Тип Boolean. True – разрешить сделать уклон по направлению 1.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_Dchk1.jpg"><img class="alignnone size-full wp-image-111" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_Dchk1.jpg" alt="extr_Dchk1" height="39" width="182"></a></p>
+<p>9. <span style="color: #ff6600;">Dchk2</span>. Тип Boolean. True – разрешить сделать уклон по направлению 2. Если в Sd – false, то данный параметр игнорируется.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_Dchk2.jpg"><img class="alignnone size-full wp-image-112" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_Dchk2.jpg" alt="extr_Dchk2" height="40" width="186"></a></p>
+<p>10. <span style="color: #ff6600;">Ddir1</span>. Тип Boolean. True – 
+для направления 1 сделать уклон вовнутрь, false – уклон наружу. Если в 
+Dchk1 находится false, то данный параметр игнорируется.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_Ddir1.jpg"><img class="alignnone size-full wp-image-113" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_Ddir1.jpg" alt="extr_Ddir1" height="70" width="184"></a></p>
+<p>11. <span style="color: #ff6600;">Ddir2</span>. Тип Boolean. True – 
+для направления 2 сделать уклон вовнутрь, false – уклон наружу. 
+Аналогично Ddir1. Если в Sd – true, или в Dchk2 – false, то этот 
+параметр игнорируется.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_Ddir2.jpg"><img class="alignnone size-full wp-image-114" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_Ddir2.jpg" alt="extr_Ddir2" height="164" width="186"></a></p>
+<p>12. <span style="color: #ff6600;">Dang1</span>. Тип double. Угол уклона для направления 1. Значение в радианах. Игнорируется если в Dchk1 стоит false(запрет уклона).</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_Dang1.jpg"><img class="alignnone size-full wp-image-115" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_Dang1.jpg" alt="extr_Dang1" height="39" width="183"></a></p>
+<p>13. <span style="color: #ff6600;">Dang2</span>. Тип double. Угол 
+уклона для направления 2. Игнорируется если в Dchk2 – false, или в sd – 
+true(вытягивание в одном направлении).</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_Dang2.jpg"><img class="alignnone size-full wp-image-116" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_Dang2.jpg" alt="extr_Dang2" height="125" width="189"></a></p>
+<p>14. <span style="color: #ff6600;">OffsetReverse1</span>. Тип Boolean.
+ Сработает, если вы выбрали смещение (на расстоянии от поверхности) 
+первым граничным условием. True – смещение в направлении от эскиза. 
+False – смещение в направлении к эскизу.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_offsetRev1.jpg"><img class="alignnone size-full wp-image-117" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_offsetRev1.jpg" alt="extr_offsetRev1" height="195" width="187"></a></p>
+<p>15. <span style="color: #ff6600;">OffsetReverse2</span>. Тип Boolean. Аналогично offsetReverse1, только для направления2.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_offsetRev2.jpg"><img class="alignnone size-full wp-image-118" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_offsetRev2.jpg" alt="extr_offsetRev2" height="150" width="172"></a></p>
+<p>16. <span style="color: #ff6600;">TranslateSurface1</span>. Тип 
+Boolean. Этот параметр сработает, если в T1(граничное условие) поставить
+ 5 (вытягивание на заданное расстояние от поверхности). True – мы должны
+ пересечь указанную поверхность на расстояние указанное в D1. False – не
+ дойти до поверхности на это расстояние.</p>
+<p>17. <span style="color: #ff6600;">TranslateSurface2</span>. Тип 
+Boolean. Аналогично TranslateSurface1, только для направления 2. 
+Игнорируется если в Sd – true, или в T2 стоит что-то кроме 5.</p>
+<p>18. <span style="color: #ff6600;">Merge</span>. Тип Boolean. True – объединить результат в одно тело. False – элемент выдавливания будет отдельным телом.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_merge.jpg"><img class="alignnone size-full wp-image-119" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_merge.jpg" alt="extr_merge" height="32" width="155"></a></p>
+<p>19. <span style="color: #ff6600;">UseFeatScope</span>. Тип Boolean. True – если метод должен воздействовать только на выделенные тела, false – действие распространяется на все тела.</p>
+<p>20. <span style="color: #ff6600;">UseAutoSelect</span>. Тип Boolean. Если стоит false, то пользователь должен выделить тела, на которые будет действовать метод.</p>
+<p>21. <span style="color: #ff6600;">T0</span>. Тип long. Стартовые условия. Число из enum-списка swStartConditions_e</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_T0.jpg"><img class="alignnone size-full wp-image-120" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_T0.jpg" alt="extr_T0" height="105" width="238"></a></p>
+<ul style="list-style-type: disc;">
+<li><strong>0</strong> – <span style="color: #ff9900;">swStartSketchPlane</span> –вытягивание от плоскости эскиза</li>
+<li><strong>1</strong> – <span style="color: #ff9900;">swStartSurface</span> – вытягивание от указанной поверхности, грани или плоскости</li>
+<li><strong>2</strong> – <span style="color: #ff9900;">swStartVertex</span> – вытягивание от указанной вершины.</li>
+<li><strong>3</strong> – <span style="color: #ff9900;">swStartOffset</span> – Смещение начала выдавливания на определенное расстояние.</li>
+</ul>
+<p>22. <span style="color: #ff6600;">StartOffset</span>. Тип double. Если в T0 стоит 3 (смещение), тогда здесь указываем значение этого смещения в метрах.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_startOffset.jpg"><img class="alignnone size-full wp-image-121" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_startOffset.jpg" alt="extr_startOffset" height="86" width="220"></a></p>
+<p>23. <span style="color: #ff6600;">FlipStartOffset</span>. Тип 
+Boolean. Сработает если в T0 указана 3 (swStartOffset). True – поменять 
+направление. По умолчанию смещение происходит по направлению нормали 
+эскиза.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/extr_flipStartOffset.jpg"><img class="alignnone size-full wp-image-122" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/extr_flipStartOffset.jpg" alt="extr_flipStartOffset" height="80" width="218"></a></p>
+<p>Обращаю внимание, что все элементы, тела, поверхности, которые могут 
+понадобиться при создании данного элемента построения, должны быть <strong>выделены</strong> и отмечены <strong>заранее</strong>.</p>
+<p>Теперь рассмотрим несколько примеров.</p>
+<p>Вводная часть программы. Сначала получаем доступ к соответствующим интерфейсам.</p><!-- Crayon Syntax Highlighter v2.7.1 -->
+
+		<div id="crayon-578dc45e51d7f033170748" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 12px; margin-bottom: 12px; font-size: 12px ! important; line-height: 15px ! important; height: auto;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px ! important; height: 18px ! important; line-height: 18px ! important; margin-top: -18px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Включить/Отключить нумерацию строк"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Включить/Отключить подсветку кода"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Включить/Отключить перенос строк"><div class="crayon-button-icon"></div></div><div style="display: none;" class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Показать код в новом окне"><div class="crayon-button-icon"></div></div><span class="crayon-language">Visual Basic</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="-moz-tab-size: 4; font-size: 12px ! important; line-height: 15px ! important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">Option Explicit
+Dim swApp As SldWorks.SldWorks
+Dim model As ModelDoc2
+Dim sel As SelectionMgr
+Dim fm As FeatureManager
+Sub main()
+Set swApp = Application.SldWorks
+Set model = swApp.ActiveDoc
+Set fm = model.FeatureManager
+Set sel = model.SelectionManager</textarea></div>
+			<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+				<table style="" class="crayon-table">
+					<tbody><tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-578dc45e51d7f033170748-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d7f033170748-2">2</div><div class="crayon-num" data-line="crayon-578dc45e51d7f033170748-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d7f033170748-4">4</div><div class="crayon-num" data-line="crayon-578dc45e51d7f033170748-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d7f033170748-6">6</div><div class="crayon-num" data-line="crayon-578dc45e51d7f033170748-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d7f033170748-8">8</div><div class="crayon-num" data-line="crayon-578dc45e51d7f033170748-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d7f033170748-10">10</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-578dc45e51d7f033170748-1"><span class="crayon-st">Option</span><span class="crayon-h"> </span><span class="crayon-m">Explicit</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d7f033170748-2"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">swApp </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-v">SldWorks</span><span class="crayon-sy">.</span><span class="crayon-e">SldWorks</span></div><div class="crayon-line" id="crayon-578dc45e51d7f033170748-3"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">model </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-e">ModelDoc2</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d7f033170748-4"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">sel </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-e">SelectionMgr</span></div><div class="crayon-line" id="crayon-578dc45e51d7f033170748-5"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">fm </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-e">FeatureManager</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d7f033170748-6"><span class="crayon-t">Sub</span><span class="crayon-h"> </span><span class="crayon-e">main</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-578dc45e51d7f033170748-7"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">swApp</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">Application</span><span class="crayon-sy">.</span><span class="crayon-e">SldWorks</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d7f033170748-8"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">model</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">swApp</span><span class="crayon-sy">.</span><span class="crayon-e">ActiveDoc</span></div><div class="crayon-line" id="crayon-578dc45e51d7f033170748-9"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">fm</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">model</span><span class="crayon-sy">.</span><span class="crayon-e">FeatureManager</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d7f033170748-10"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">sel</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">model</span><span class="crayon-sy">.</span><span class="crayon-v">SelectionManager</span></div></div></td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0021 seconds] -->
+<p>Чтобы воспользоваться методом <span style="color: #008000;">FeatureExtrusion2</span>, нам надо получить доступ к интерфейсу<span style="color: #0000ff;"> IFeatureManager</span>. Сделать это можно с помощью свойства <span style="color: #008000;">FeatureManager</span> интерфейса <span style="color: #0000ff;">IModelDoc2</span>.</p>
+<p><strong>Задача1</strong></p>
+<p>Есть замкнутый эскиз прямоугольника. Эскиз выделен в дереве. Надо его вытянуть на 50 мм.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/z1-1.jpg"><img class="alignnone size-full wp-image-124" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/z1-1.jpg" alt="z1-1" height="278" width="500"></a></p><!-- Crayon Syntax Highlighter v2.7.1 -->
+
+		<div id="crayon-578dc45e51d8e583996710" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 12px; margin-bottom: 12px; font-size: 12px ! important; line-height: 15px ! important; height: auto;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px ! important; height: 18px ! important; line-height: 18px ! important; margin-top: -18px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Включить/Отключить нумерацию строк"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Включить/Отключить подсветку кода"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Включить/Отключить перенос строк"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Показать код в новом окне"><div class="crayon-button-icon"></div></div><span class="crayon-language">Visual Basic</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="-moz-tab-size: 4; font-size: 12px ! important; line-height: 15px ! important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">Dim feat As Feature
+Set feat = sel.GetSelectedObject6(1, -1)
+fm.FeatureExtrusion2 True, False, False, 0, 2222, 0.05, 222, False, 3, False, 
+False, 131231, 23131, False, False, False, False, False, False, False, 0, 553532554, False</textarea></div>
+			<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+				<table style="" class="crayon-table">
+					<tbody><tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-578dc45e51d8e583996710-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d8e583996710-2">2</div><div class="crayon-num" data-line="crayon-578dc45e51d8e583996710-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d8e583996710-4">4</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-578dc45e51d8e583996710-1"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">feat </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-e">Feature</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d8e583996710-2"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">feat</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">sel</span><span class="crayon-sy">.</span><span class="crayon-e">GetSelectedObject6</span><span class="crayon-sy">(</span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">1</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-578dc45e51d8e583996710-3"><span class="crayon-v">fm</span><span class="crayon-sy">.</span><span class="crayon-e">FeatureExtrusion2 </span><span class="crayon-t">True</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">2222</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">0.05</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">222</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">3</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d8e583996710-4"><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">131231</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">23131</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">553532554</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span></div></div></td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0021 seconds] -->
+<p>Сначала <strong>получаем выделенный объект</strong> (у нас это эскиз) и далее производим операцию вытягивания.</p>
+<p>Большинство указанных параметров нам не важны. Первым параметром (<span style="color: #ff6600;"><strong>Sd</strong></span>) указываем<strong> true</strong> – выдавливание в одном направлении. Значит все, что касается второго направления можно <strong>проигнорировать</strong>. Проигнорировать – это значит проставить любые значение, которые соответствуют типу.</p>
+<p>Четвертый параметр (<strong><span style="color: #ff6600;">T1</span></strong>) – граничное условие для направление1. Ставим <strong>0</strong> (никаких граничных условий).</p>
+<p>Шестой параметр (<strong><span style="color: #ff6600;">D1</span></strong>) – на какую длину вытягивать по направлению 1. Здесь мы указываем наши <strong>50мм</strong> (в метрах это 0,05).</p>
+<p>Третий параметр с конца (<strong><span style="color: #ff6600;">T0</span></strong>) – Стартовые условия. Ставим <strong>0</strong> – вытягивание от плоскости эскиза.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/z1-2.jpg"><img class="alignnone size-full wp-image-126" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/z1-2.jpg" alt="z1-2" height="384" width="500"></a></p>
+<p><strong>Задача2</strong></p>
+<p>Есть плоскость с эскизом на некотором расстоянии от другого тела. 
+Надо вытянуть элемент до указанной поверхности тела. Перед вызовом 
+макроса последовательно выделяем, при нажатом Ctrl, эскиз в дереве 
+конструирования (FeatureManager), затем грань.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/z2-1.jpg"><img class="alignnone size-full wp-image-127" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/z2-1.jpg" alt="z2-1" height="372" width="500"></a></p><!-- Crayon Syntax Highlighter v2.7.1 -->
+
+		<div id="crayon-578dc45e51d96514637642" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 12px; margin-bottom: 12px; font-size: 12px ! important; line-height: 15px ! important; height: auto;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px ! important; height: 18px ! important; line-height: 18px ! important; margin-top: -18px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Включить/Отключить нумерацию строк"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Включить/Отключить подсветку кода"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Включить/Отключить перенос строк"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Показать код в новом окне"><div class="crayon-button-icon"></div></div><span class="crayon-language">Visual Basic</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="-moz-tab-size: 4; font-size: 12px ! important; line-height: 15px ! important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">Dim
+ feat1 As Feature
+Dim face As Face2
+Set feat1 = sel.GetSelectedObject6(1, -1)
+Set face = sel.GetSelectedObject6(2, -1)
+fm.FeatureExtrusion2 True, False, False, 4, 2222, 0.05, 222, False, 3, 
+False, False, 131231, 23131, False, False, False, False, False, False, 
+False, 0, 553532554, False</textarea></div>
+			<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+				<table style="" class="crayon-table">
+					<tbody><tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-578dc45e51d96514637642-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d96514637642-2">2</div><div class="crayon-num" data-line="crayon-578dc45e51d96514637642-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d96514637642-4">4</div><div class="crayon-num" data-line="crayon-578dc45e51d96514637642-5">5</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-578dc45e51d96514637642-1"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">feat1 </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-e">Feature</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d96514637642-2"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">face </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-e">Face2</span></div><div class="crayon-line" id="crayon-578dc45e51d96514637642-3"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">feat1</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">sel</span><span class="crayon-sy">.</span><span class="crayon-e">GetSelectedObject6</span><span class="crayon-sy">(</span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">1</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d96514637642-4"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">face</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">sel</span><span class="crayon-sy">.</span><span class="crayon-e">GetSelectedObject6</span><span class="crayon-sy">(</span><span class="crayon-cn">2</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">1</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-578dc45e51d96514637642-5"><span class="crayon-v">fm</span><span class="crayon-sy">.</span><span class="crayon-e">FeatureExtrusion2 </span><span class="crayon-t">True</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">4</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">2222</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">0.05</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">222</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">3</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">131231</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">23131</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">553532554</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span></div></div></td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0027 seconds] -->
+<p>Сначала «ловим» выделенные объекты методом <span style="color: #008000;">GetSelectedObject6</span>, затем создаем вытянутый объект.</p>
+<p>По сравнению с задачей1, в методе extrusion поменялся только <strong>4-й</strong> параметр (<strong><span style="color: #ff6600;">T1</span></strong>) – граничное условие для вытягивания в направлении 1. Ставим <strong>4</strong> – swEndCondToSurface – вытягивание или вырез до поверхности. Конкретная высота выдавливания значения уже не имеет.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/z2-2.jpg"><img class="alignnone size-full wp-image-128" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/z2-2.jpg" alt="z2-2" height="376" width="500"></a></p>
+<p><strong>Задача3</strong></p>
+<p>Есть плоскость с эскизом на некотором расстоянии от другого тела. 
+Надо вытянуть элемент от противоположной грани на расстояние 30 мм. 
+Перед вызовом макроса последовательно выделяем при нажатом Ctrl эскиз, 
+затем грань.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/z3-1.jpg"><img class="alignnone size-full wp-image-129" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/z3-1.jpg" alt="z3-1" height="367" width="471"></a></p>
+<p>Решение мало отличается от задачи2, за исключением пары параметров.</p><!-- Crayon Syntax Highlighter v2.7.1 -->
+
+		<div id="crayon-578dc45e51d9c588916943" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style="margin-top: 12px; margin-bottom: 12px; font-size: 12px ! important; line-height: 15px ! important; height: auto;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px ! important; height: 18px ! important; line-height: 18px ! important; margin-top: -18px; display: none; position: absolute; z-index: 2;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button crayon-pressed" title="Включить/Отключить нумерацию строк"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Включить/Отключить подсветку кода"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Включить/Отключить перенос строк"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Показать код в новом окне"><div class="crayon-button-icon"></div></div><span class="crayon-language">Visual Basic</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea class="crayon-plain print-no" data-settings="dblclick" readonly="readonly" style="-moz-tab-size: 4; font-size: 12px ! important; line-height: 15px ! important; z-index: 0; opacity: 0; overflow: hidden;" wrap="soft">Dim
+ feat1 As Feature
+Dim face As Face2
+Set feat1 = sel.GetSelectedObject6(1, -1)
+Set face = sel.GetSelectedObject6(2, -1)
+fm.FeatureExtrusion2 True, False, True, 0, 2222, 0.03, 222, False, 3, 
+False, False, 131231, 23131, False, False, False, False, False, False, 
+False, 1, 553532554, False</textarea></div>
+			<div class="crayon-main" style="position: relative; z-index: 1; overflow: hidden;">
+				<table style="" class="crayon-table">
+					<tbody><tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-578dc45e51d9c588916943-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d9c588916943-2">2</div><div class="crayon-num" data-line="crayon-578dc45e51d9c588916943-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-578dc45e51d9c588916943-4">4</div><div class="crayon-num" data-line="crayon-578dc45e51d9c588916943-5">5</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-578dc45e51d9c588916943-1"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">feat1 </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-e">Feature</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d9c588916943-2"><span class="crayon-r">Dim</span><span class="crayon-h"> </span><span class="crayon-e">face </span><span class="crayon-st">As</span><span class="crayon-h"> </span><span class="crayon-e">Face2</span></div><div class="crayon-line" id="crayon-578dc45e51d9c588916943-3"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">feat1</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">sel</span><span class="crayon-sy">.</span><span class="crayon-e">GetSelectedObject6</span><span class="crayon-sy">(</span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">1</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-578dc45e51d9c588916943-4"><span class="crayon-t">Set</span><span class="crayon-h"> </span><span class="crayon-v">face</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">sel</span><span class="crayon-sy">.</span><span class="crayon-e">GetSelectedObject6</span><span class="crayon-sy">(</span><span class="crayon-cn">2</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">1</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-578dc45e51d9c588916943-5"><span class="crayon-v">fm</span><span class="crayon-sy">.</span><span class="crayon-e">FeatureExtrusion2 </span><span class="crayon-t">True</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">True</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">2222</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">0.03</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">222</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">3</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">131231</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">23131</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">553532554</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">False</span></div></div></td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0323 seconds] -->
+<p>Третьим параметром(<strong><span style="color: #ff6600;">Dir</span></strong>) пишем <strong>true</strong>, чтобы вытягивание производилось в направлении противоположном нормали эскиза.</p>
+<p>Шестой параметр (<strong><span style="color: #ff6600;">T1</span></strong>) – высота вытянутого элемента. Пишем <strong>0,03</strong> (30мм).</p>
+<p>Третьим параметром с конца (<strong><span style="color: #ff6600;">T0</span></strong>) пишем <strong>1</strong> – вытягивание от указанной поверхности, грани или плоскости.</p>
+<p><a href="http://xistol.com/wp-content/uploads/2016/02/z3-2.jpg"><img class="alignnone size-full wp-image-130" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/z3-2.jpg" alt="z3-2" height="370" width="500"></a></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Опубликовано </span><a href="http://xistol.com/archives/97" rel="bookmark"><time class="entry-date published" datetime="2016-02-05T22:42:23+00:00">05.02.2016</time><time class="updated" datetime="2016-02-05T22:43:58+00:00">05.02.2016</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Автор </span><a class="url fn n" href="http://xistol.com/archives/author/admin">admin</a></span></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<div id="comments" class="comments-area">
+
+	
+	
+							<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Добавить комментарий <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://xistol.com/archives/97#respond" style="display:none;">Отменить ответ</a></small></h3>
+									<form action="http://xistol.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+																			<p class="comment-notes"><span id="email-notes">Ваш e-mail не будет опубликован.</span></p>							<p class="comment-form-author"><label for="author">Имя</label> <input id="author" name="author" size="30" type="text"></p>
+<p class="comment-form-email"><label for="email">E-mail</label> <input id="email" name="email" size="30" aria-describedby="email-notes" type="email"></p>
+<p class="comment-form-url"><label for="url">Сайт</label> <input id="url" name="url" size="30" type="url"></p>
+												<p class="comment-form-comment"><label for="comment">Комментарий</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" required="required"></textarea></p>						
+						<p class="form-submit"><input name="submit" id="submit" class="submit" value="Отправить комментарий" type="submit"> <input name="comment_post_ID" value="97" id="comment_post_ID" type="hidden">
+<input name="comment_parent" id="comment_parent" value="0" type="hidden">
+</p><p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" value="c36d085abc" type="hidden"></p><p style="display: none;"></p>					<input id="ak_js" name="ak_js" value="1468908643440" type="hidden"></form>
+							</div><!-- #respond -->
+			
+</div><!-- .comments-area -->
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Навигация по записям</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://xistol.com/archives/91" rel="prev"><span class="meta-nav" aria-hidden="true">Назад</span> <span class="screen-reader-text">Предыдущая запись:</span> <span class="post-title">Как перекрасить (подсветить) все ребра для выделенной грани</span></a></div><div class="nav-next"><a href="http://xistol.com/archives/132" rel="next"><span class="meta-nav" aria-hidden="true">Далее</span> <span class="screen-reader-text">Следующая запись:</span> <span class="post-title">Как макросом SW выделить грань в детали</span></a></div></div>
+	</nav>
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/">Сайт работает на WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<script type="text/javascript" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/form.js"></script>
+<script type="text/javascript" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/skip-link-focus-fix.js"></script>
+<script type="text/javascript" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/comment-reply.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">\u0440\u0430\u0441\u043a\u0440\u044b\u0442\u044c \u0434\u043e\u0447\u0435\u0440\u043d\u0435\u0435 \u043c\u0435\u043d\u044e<\/span>","collapse":"<span class=\"screen-reader-text\">\u0441\u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0434\u043e\u0447\u0435\u0440\u043d\u0435\u0435 \u043c\u0435\u043d\u044e<\/span>"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/functions.js"></script>
+
+
+
+<iframe src="FeatureExtrusion%20%28%D0%B2%D1%8B%D1%82%D1%8F%D0%BD%D1%83%D1%82%D0%B0%D1%8F%20%D0%B1%D0%BE%D0%B1%D1%8B%D1%88%D0%BA%D0%B0_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29_files/index.htm" style="display: none;"></iframe></body></html>

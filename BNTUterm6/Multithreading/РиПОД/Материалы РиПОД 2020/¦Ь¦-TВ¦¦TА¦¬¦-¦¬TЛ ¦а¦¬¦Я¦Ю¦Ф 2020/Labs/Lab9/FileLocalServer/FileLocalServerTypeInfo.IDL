@@ -1,0 +1,25 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+[	object, uuid(FE78387F-D150-4089-832C-BBF02402C872),
+	oleautomation, 
+	helpstring("Work with text file")
+]
+interface IPlan : IUnknown
+{
+	HRESULT Summ([in] DWORD a,[in] DWORD b,[out] DWORD* c);
+
+};
+
+[uuid(957BF43F-EE5A-42eb-8CE5-6267011F0EF9), version(1.0),
+ helpstring("File server with typeLib")]
+library FileLocalServerLib
+{
+	importlib("stdole32.tlb");
+	[uuid(1D66CBA8-CCE2-4439-8596-82B47AA44E43)]
+	coclass Plan
+	{
+		[default] interface IPlan;	  
+	};
+};

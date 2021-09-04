@@ -1,0 +1,180 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:Form1.Designer.cs" caret="2674" fromTop="35" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:Program.cs" caret="488" fromTop="18" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:Form1.cs" caret="389" fromTop="17" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:EZ_Class.cs" caret="267" fromTop="12" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassObjectPlan.cs" caret="90" fromTop="4" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:PlanClassStep.cs" caret="148" fromTop="8" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="246" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="7219" fromTop="16" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="7037" fromTop="25" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="6953" fromTop="17" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="6953" fromTop="35" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="6953" fromTop="31" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="6953" fromTop="29" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="6484" fromTop="29" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="6270" fromTop="21" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="7408" fromTop="30" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="7144" fromTop="24" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="8132" fromTop="47" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="7742" fromTop="38" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="6245" fromTop="37" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="5866" fromTop="24" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="8318" fromTop="39" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="9572" fromTop="16" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="9572" fromTop="16" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="8461" fromTop="46" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="4294" fromTop="48" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="2961" fromTop="11" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="2842" fromTop="14" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="4511" fromTop="25" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="5079" fromTop="32" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="8802" fromTop="16" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="9009" fromTop="20" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="9911" fromTop="29" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="10115" fromTop="33" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="10600" fromTop="23" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="10446" fromTop="18" />
+      <File id="AF816602-657F-416C-AEEF-0B27D79CC2C6/f:ClassControl.cs" caret="10989" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="19" />
+      <Item value="int" priority="41" />
+      <Item value="iterator" priority="0" />
+      <Item value="interface" priority="3" />
+      <Item value="List" priority="7" />
+      <Item value="private" priority="6" />
+      <Item value="RichTextBox`0" priority="1" />
+      <Item value="ClassControl`0" priority="1" />
+      <Item value="_rch" priority="3" />
+      <Item value="rch" priority="0" />
+      <Item value="void" priority="2" />
+      <Item value="EzClass`0" priority="1" />
+      <Item value="_ezClass" priority="6" />
+      <Item value="new" priority="26" />
+      <Item value="EzClass" priority="0" />
+      <Item value="N" priority="2" />
+      <Item value="n" priority="3" />
+      <Item value="Weight" priority="5" />
+      <Item value="weight" priority="2" />
+      <Item value="Arc" priority="1" />
+      <Item value="List&lt;int&gt;" priority="2" />
+      <Item value="arc" priority="0" />
+      <Item value="_control" priority="0" />
+      <Item value="ClassControl" priority="0" />
+      <Item value="richTextBoxStepAll" priority="0" />
+      <Item value="IEnumerable" priority="5" />
+      <Item value="collection" priority="1" />
+      <Item value="List&lt;EzClass&gt;" priority="1" />
+      <Item value="Int16`0" priority="0" />
+      <Item value="ClassObjectPlan`0" priority="11" />
+      <Item value="PlanObj" priority="0" />
+      <Item value="List&lt;ClassObjectPlan&gt;" priority="4" />
+      <Item value="cl" priority="0" />
+      <Item value="ClassObjectPlan" priority="8" />
+      <Item value="NewsStyleUriParser`0" priority="1" />
+      <Item value="null" priority="2" />
+      <Item value="while" priority="1" />
+      <Item value="bool" priority="0" />
+      <Item value="metka" priority="0" />
+      <Item value="true" priority="2" />
+      <Item value="foreach" priority="11" />
+      <Item value="ezClass" priority="1" />
+      <Item value="for" priority="2" />
+      <Item value="plan" priority="4" />
+      <Item value="if" priority="24" />
+      <Item value="max" priority="3" />
+      <Item value="NLast" priority="0" />
+      <Item value="last" priority="0" />
+      <Item value="_planmax" priority="0" />
+      <Item value="classObjectPlan" priority="1" />
+      <Item value="metk" priority="1" />
+      <Item value="MaxListPlan`0" priority="1" />
+      <Item value="ColP" priority="1" />
+      <Item value="step" priority="12" />
+      <Item value="planmax" priority="25" />
+      <Item value="else" priority="4" />
+      <Item value="newEZ" priority="22" />
+      <Item value="ColProc" priority="1" />
+      <Item value="VARIABLE" priority="0" />
+      <Item value="ez" priority="3" />
+      <Item value="Ves" priority="2" />
+      <Item value="PlanClassStep`0" priority="0" />
+      <Item value="ves" priority="0" />
+      <Item value="NNext" priority="0" />
+      <Item value="nnext" priority="0" />
+      <Item value="Weight_EZ1" priority="2" />
+      <Item value="Weight_All" priority="3" />
+      <Item value="List&lt;PlanClassStep&gt;" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="break" priority="4" />
+      <Item value="ColPE0" priority="0" />
+      <Item value="PlanClassStep" priority="1" />
+      <Item value="i" priority="2" />
+      <Item value="k" priority="0" />
+      <Item value="l" priority="0" />
+      <Item value="pl" priority="9" />
+      <Item value="o" priority="2" />
+      <Item value="r" priority="1" />
+      <Item value="t" priority="1" />
+      <Item value="PEO" priority="1" />
+      <Item value="PE1" priority="0" />
+      <Item value="double" priority="4" />
+      <Item value="fixed" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="19" />
+      <Item value="AddRange`0" priority="3" />
+      <Item value="Count" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectLab_7.EzClass">
+      <Item value="Arc" priority="0" />
+      <Item value="PlanObj" priority="6" />
+      <Item value="N" priority="1" />
+      <Item value="Weight" priority="1" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectLab_7.ClassObjectPlan">
+      <Item value="Weight" priority="12" />
+      <Item value="N" priority="15" />
+      <Item value="NLast" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RichTextBox">
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections.Generic.List`1">
+      <Item value="Enumerator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectLab_7.PlanClassStep">
+      <Item value="Weight" priority="7" />
+      <Item value="N" priority="7" />
+      <Item value="Ves" priority="6" />
+      <Item value="NNext" priority="3" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

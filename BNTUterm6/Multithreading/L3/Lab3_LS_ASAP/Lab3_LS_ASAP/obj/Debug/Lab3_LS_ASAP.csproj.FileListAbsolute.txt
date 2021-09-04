@@ -1,0 +1,29 @@
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.exe.config
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.pdb
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.Form1.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.Properties.Resources.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.csproj.GenerateResource.Cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.pdb
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.csprojResolveAssemblyReference.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.exe.config
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.csprojAssemblyReference.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.Form1.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.Properties.Resources.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.csproj.GenerateResource.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.csproj.CoreCompileInputs.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.pdb
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.exe.config
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.exe
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\bin\Debug\Lab3_LS_ASAP.pdb
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.csprojAssemblyReference.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.Form1.resources
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.Properties.Resources.resources
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.csproj.GenerateResource.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.csproj.CoreCompileInputs.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.exe
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab3_LS_ASAP\Lab3_LS_ASAP\obj\Debug\Lab3_LS_ASAP.pdb

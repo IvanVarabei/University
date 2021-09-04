@@ -1,0 +1,58 @@
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\bin\Debug\Lab7_8.exe.config
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\bin\Debug\Lab7_8.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\bin\Debug\Lab7_8.pdb
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csprojResolveAssemblyReference.cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\obj\Debug\Lab7_8.Form1.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\obj\Debug\Lab7_8.Properties.Resources.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csproj.GenerateResource.Cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\obj\Debug\Lab7_8.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab7_8\Lab7_8\obj\Debug\Lab7_8.pdb
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\bin\Debug\Lab7_8.exe.config
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\bin\Debug\Lab7_8.exe
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\bin\Debug\Lab7_8.pdb
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csprojResolveAssemblyReference.cache
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\obj\Debug\Lab7_8.Form1.resources
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\obj\Debug\Lab7_8.Properties.Resources.resources
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csproj.GenerateResource.Cache
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csproj.CoreCompileInputs.cache
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\obj\Debug\Lab7_8.exe
+D:\Study\6semestr\DistributedAndParallelProccessingOfInformation\Lab7_8\Lab7_8\obj\Debug\Lab7_8.pdb
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\bin\Debug\Lab7_8.exe.config
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.exe
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.pdb
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\bin\Debug\Lab7_8.exe
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\bin\Debug\Lab7_8.pdb
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csprojResolveAssemblyReference.cache
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.Form1.resources
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.Properties.Resources.resources
+D:\учеба\3 курс\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csproj.GenerateResource.Cache
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\bin\Debug\Lab7_8.exe.config
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\bin\Debug\Lab7_8.exe
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\bin\Debug\Lab7_8.pdb
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csprojAssemblyReference.cache
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.Form1.resources
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.Properties.Resources.resources
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csproj.GenerateResource.cache
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.csproj.CoreCompileInputs.cache
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.exe
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\РиПОД\Lab7_8\Lab7_8\obj\Debug\Lab7_8.pdb
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\obj\Debug\Lab7_8.csprojAssemblyReference.cache
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\obj\Debug\Lab7_8.Form1.resources
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\obj\Debug\Lab7_8.Properties.Resources.resources
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\obj\Debug\Lab7_8.csproj.GenerateResource.cache
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\obj\Debug\Lab7_8.csproj.CoreCompileInputs.cache
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\obj\Debug\Lab7_8.exe
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\obj\Debug\Lab7_8.pdb
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\bin\Debug\Lab7_8.exe.config
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\bin\Debug\Lab7_8.exe
+C:\Users\aikha\Downloads\UNIVERSITY\3 course\Lab6\Lab7_8\bin\Debug\Lab7_8.pdb
+C:\uni\Multithreading\L6\Lab7_8\bin\Debug\Lab7_8.exe.config
+C:\uni\Multithreading\L6\Lab7_8\bin\Debug\Lab7_8.exe
+C:\uni\Multithreading\L6\Lab7_8\bin\Debug\Lab7_8.pdb
+C:\uni\Multithreading\L6\Lab7_8\obj\Debug\Lab7_8.csprojAssemblyReference.cache
+C:\uni\Multithreading\L6\Lab7_8\obj\Debug\Lab7_8.Form1.resources
+C:\uni\Multithreading\L6\Lab7_8\obj\Debug\Lab7_8.Properties.Resources.resources
+C:\uni\Multithreading\L6\Lab7_8\obj\Debug\Lab7_8.csproj.GenerateResource.cache
+C:\uni\Multithreading\L6\Lab7_8\obj\Debug\Lab7_8.csproj.CoreCompileInputs.cache
+C:\uni\Multithreading\L6\Lab7_8\obj\Debug\Lab7_8.exe
+C:\uni\Multithreading\L6\Lab7_8\obj\Debug\Lab7_8.pdb

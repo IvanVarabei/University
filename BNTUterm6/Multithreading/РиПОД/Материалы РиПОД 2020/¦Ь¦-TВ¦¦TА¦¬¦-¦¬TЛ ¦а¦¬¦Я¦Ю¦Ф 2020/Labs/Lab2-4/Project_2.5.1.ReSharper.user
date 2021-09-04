@@ -1,0 +1,60 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.Designer.cs" caret="0" fromTop="0" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Program.cs" caret="317" fromTop="14" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Tree.cs" caret="192" fromTop="10" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="9987" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="9573" fromTop="25" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="9770" fromTop="17" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="9006" fromTop="17" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="15200" fromTop="17" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="1690" fromTop="25" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="10617" fromTop="28" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="12289" fromTop="30" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="1691" fromTop="23" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="11201" fromTop="25" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="12424" fromTop="31" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="12804" fromTop="36" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="11697" fromTop="4" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="14505" fromTop="4" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="15151" fromTop="28" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="3011" fromTop="21" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="13832" fromTop="11" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="4952" fromTop="14" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="14099" fromTop="28" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="5100" fromTop="17" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="15200" fromTop="7" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="7505" fromTop="25" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="15200" fromTop="21" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="1882" fromTop="28" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="1688" fromTop="19" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="1831" fromTop="24" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="2111" fromTop="38" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="1882" fromTop="26" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="1349" fromTop="23" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="15200" fromTop="6" />
+      <File id="73D2E5E5-98BC-4EF4-AC09-690A949FCB20/f:Form1.cs" caret="528" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

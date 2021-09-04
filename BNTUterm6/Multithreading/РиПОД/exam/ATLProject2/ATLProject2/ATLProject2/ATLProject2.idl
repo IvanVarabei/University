@@ -1,0 +1,37 @@
+﻿// ATLProject2.idl: источник языка IDL для ATLProject2
+//
+
+// Этот файл будет обработан средством MIDL для
+// создание библиотеки типов ($handlersafeidlname$.tlb) и кода маршалирования.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(c0193b9e-0bed-46ae-a32f-64b6397d14c3),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IATLSimpleObject : IDispatch
+{
+	[id(1)] HRESULT Square([in] DOUBLE sideLength, [out] DOUBLE* Area);
+};
+[
+	uuid(485c6413-ed98-4c5e-8f24-e093ad6226ad),
+	version(1.0),
+]
+library ATLProject2Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(50d56a38-f6f6-4ead-b070-df0214137158)
+	]
+	coclass ATLSimpleObject
+	{
+		[default] interface IATLSimpleObject;
+	};
+};
+
+import "shobjidl.idl";

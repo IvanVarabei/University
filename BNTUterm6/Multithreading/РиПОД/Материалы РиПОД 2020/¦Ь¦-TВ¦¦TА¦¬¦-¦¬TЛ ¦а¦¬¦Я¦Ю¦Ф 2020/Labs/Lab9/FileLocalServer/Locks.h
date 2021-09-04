@@ -1,0 +1,3 @@
+void Lock();
+
+void UnLock();

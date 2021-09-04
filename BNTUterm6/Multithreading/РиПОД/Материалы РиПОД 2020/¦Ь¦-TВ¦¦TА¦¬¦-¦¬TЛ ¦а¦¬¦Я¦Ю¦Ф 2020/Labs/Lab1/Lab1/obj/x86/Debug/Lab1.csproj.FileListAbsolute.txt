@@ -1,0 +1,28 @@
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\obj\x86\Debug\Lab1.Properties.Resources.resources
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\bin\Debug\Lab1.exe
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\bin\Debug\Lab1.pdb
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\obj\x86\Debug\Lab1.Form1.resources
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_1_temp\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
+G:\RODnEVM\RODnEVM\bin\Debug\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+G:\RODnEVM\RODnEVM\bin\Debug\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
+F:\Univesity\5_семестр\РОД на ЭВМ\RODnEVMv2\RODnEVM\bin\Debug\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+F:\Univesity\5_семестр\РОД на ЭВМ\RODnEVMv2\RODnEVM\bin\Debug\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
+G:\BNTU\Copy of Распред_Обраб_Данных\ROD_Prog\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+G:\BNTU\Copy of Распред_Обраб_Данных\ROD_Prog\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
+G:\BNTU\Copy of Распред_Обраб_Данных\ROD_Prog\Labs\Lab1\Lab1\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\BNTU\Copy of Распред_Обраб_Данных\ROD_Prog\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.Form1.resources
+G:\BNTU\Copy of Распред_Обраб_Данных\ROD_Prog\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.Properties.Resources.resources
+G:\BNTU\Copy of Распред_Обраб_Данных\ROD_Prog\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.csproj.GenerateResource.Cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\bin\Debug\Lab1.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\bin\Debug\Lab1.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.csprojAssemblyReference.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.Form1.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.Properties.Resources.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.csproj.GenerateResource.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab1\Lab1\obj\x86\Debug\Lab1.csproj.CoreCompileInputs.cache

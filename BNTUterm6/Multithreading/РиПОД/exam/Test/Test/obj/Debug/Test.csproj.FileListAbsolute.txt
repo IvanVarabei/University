@@ -1,0 +1,9 @@
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\bin\Debug\Test.exe.config
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\bin\Debug\Test.exe
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\bin\Debug\Test.pdb
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\obj\Debug\Interop.ATLProject2Lib.dll
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\obj\Debug\Test.csproj.ResolveComReference.cache
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\obj\Debug\Test.exe
+D:\study\BNTU\6 sem\РиПОД\exam\Test\Test\obj\Debug\Test.pdb

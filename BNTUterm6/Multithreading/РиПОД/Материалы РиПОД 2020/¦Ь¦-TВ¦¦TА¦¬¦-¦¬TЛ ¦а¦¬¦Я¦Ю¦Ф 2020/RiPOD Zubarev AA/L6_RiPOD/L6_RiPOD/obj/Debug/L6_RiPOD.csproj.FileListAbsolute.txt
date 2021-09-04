@@ -1,0 +1,19 @@
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\bin\Debug\L6_RiPOD.exe.config
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\bin\Debug\L6_RiPOD.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\bin\Debug\L6_RiPOD.pdb
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.csprojResolveAssemblyReference.cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.Form1.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.Properties.Resources.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.csproj.GenerateResource.Cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\bin\Debug\L6_RiPOD.exe.config
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\bin\Debug\L6_RiPOD.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\bin\Debug\L6_RiPOD.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.csprojAssemblyReference.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.Form1.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.Properties.Resources.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.csproj.GenerateResource.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.csproj.CoreCompileInputs.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\L6_RiPOD\L6_RiPOD\obj\Debug\L6_RiPOD.pdb

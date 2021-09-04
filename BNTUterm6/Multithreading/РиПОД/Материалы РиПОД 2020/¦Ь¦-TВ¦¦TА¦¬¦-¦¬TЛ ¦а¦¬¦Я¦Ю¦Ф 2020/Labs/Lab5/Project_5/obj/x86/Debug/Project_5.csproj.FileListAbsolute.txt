@@ -1,0 +1,18 @@
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\bin\Debug\Project_5.exe
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\bin\Debug\Project_5.pdb
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\obj\x86\Debug\Project_5.Form1.resources
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\obj\x86\Debug\Project_5.Properties.Resources.resources
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\obj\x86\Debug\Project_5.exe
+F:\Univesity\5_семестр\РОД на ЭВМ\Labs\Lab_5\Project\Project_5\obj\x86\Debug\Project_5.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\bin\Debug\Project_5.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\bin\Debug\Project_5.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\obj\x86\Debug\Project_5.csprojAssemblyReference.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\obj\x86\Debug\Project_5.Form1.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\obj\x86\Debug\Project_5.Properties.Resources.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\obj\x86\Debug\Project_5.csproj.GenerateResource.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\obj\x86\Debug\Project_5.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\obj\x86\Debug\Project_5.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\Lab5\Project_5\obj\x86\Debug\Project_5.csproj.CoreCompileInputs.cache

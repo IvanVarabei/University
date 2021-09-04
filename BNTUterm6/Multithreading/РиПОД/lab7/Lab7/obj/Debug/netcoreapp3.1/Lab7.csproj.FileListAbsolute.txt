@@ -1,0 +1,13 @@
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.exe
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.deps.json
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.runtimeconfig.json
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.runtimeconfig.dev.json
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.dll
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.pdb
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.csprojAssemblyReference.cache
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.csproj.CoreCompileInputs.cache
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.AssemblyInfoInputs.cache
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.AssemblyInfo.cs
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.dll
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.pdb
+D:\study\BNTU\6 sem\РиПОД\lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.genruntimeconfig.cache

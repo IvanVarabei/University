@@ -1,0 +1,64 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:Locks.cpp" caret="0" fromTop="0" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileClassFactory.cpp" caret="803" fromTop="6" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:2.idl" caret="0" fromTop="0" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileClassFactory.h" caret="0" fromTop="0" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServerTypeInfo.IDL" caret="115" fromTop="5" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServer.cpp" caret="1325" fromTop="32" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.cpp" caret="84" fromTop="0" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:Tree.h" caret="160" fromTop="11" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.h" caret="282" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileClassFactory.cpp" caret="1431" fromTop="38" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileClassFactory.cpp" caret="95" fromTop="4" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.cpp" caret="1026" fromTop="38" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.h" caret="319" fromTop="16" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServerTypeInfo.IDL" caret="523" fromTop="24" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.h" caret="34" fromTop="0" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServer.cpp" caret="372" fromTop="13" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.h" caret="277" fromTop="11" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServerTypeInfo.IDL" caret="240" fromTop="10" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServerTypeInfo.IDL" caret="267" fromTop="14" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.cpp" caret="1007" fromTop="28" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServer.cpp" caret="833" fromTop="8" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServer.cpp" caret="1457" fromTop="26" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileClassFactory.cpp" caret="755" fromTop="21" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServerTypeInfo.IDL" caret="156" fromTop="3" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.cpp" caret="243" fromTop="3" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.cpp" caret="539" fromTop="18" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileClassFactory.cpp" caret="799" fromTop="27" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileClassFactory.cpp" caret="639" fromTop="21" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileClassFactory.cpp" caret="950" fromTop="34" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServerTypeInfo.IDL" caret="156" fromTop="7" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServerTypeInfo.IDL" caret="485" fromTop="22" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.cpp" caret="332" fromTop="21" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.h" caret="129" fromTop="7" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.cpp" caret="639" fromTop="35" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileWork.cpp" caret="522" fromTop="21" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:FileLocalServer.cpp" caret="535" fromTop="12" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:Tree.h" caret="2" fromTop="0" />
+      <File id="547E27C3-A9B3-2AA7-9A37-08A3311D08BD/f:Tree.h" caret="160" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

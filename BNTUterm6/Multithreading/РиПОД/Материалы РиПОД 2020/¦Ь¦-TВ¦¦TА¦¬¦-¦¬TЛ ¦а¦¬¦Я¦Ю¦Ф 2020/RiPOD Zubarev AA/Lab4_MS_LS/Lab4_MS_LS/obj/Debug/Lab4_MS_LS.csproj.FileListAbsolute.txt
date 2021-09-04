@@ -1,0 +1,29 @@
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.exe.config
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.pdb
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.csprojResolveAssemblyReference.cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.Form1.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.Properties.Resources.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.csproj.GenerateResource.Cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.exe.config
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.csprojAssemblyReference.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.Form1.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.Properties.Resources.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.csproj.GenerateResource.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.csproj.CoreCompileInputs.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.pdb
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.exe.config
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.exe
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\bin\Debug\Lab4_MS_LS.pdb
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.csprojAssemblyReference.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.Form1.resources
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.Properties.Resources.resources
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.csproj.GenerateResource.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.csproj.CoreCompileInputs.cache
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.exe
+C:\uni\Multithreading\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\RiPOD Zubarev AA\Lab4_MS_LS\Lab4_MS_LS\obj\Debug\Lab4_MS_LS.pdb

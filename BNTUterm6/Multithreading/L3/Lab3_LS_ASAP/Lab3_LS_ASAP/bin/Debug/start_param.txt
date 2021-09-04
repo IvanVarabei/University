@@ -1,0 +1,28 @@
+Count operation: 8
+Count types of operations: 2
+Type 1: 1 3 5 6 8
+Type 2: 2 4 7
+Count processors for Type 1: 2
+Count processors for Type 2: 2 
+Table H:
+0 1 0 0 0 0 0 0
+0 0 0 0 1 0 0 0
+0 0 0 1 0 0 0 0
+0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+
+
+
+
+
+
+
+
+
+
+
+
+

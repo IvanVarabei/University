@@ -1,0 +1,88 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Program.cs" caret="0" fromTop="0" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:ComClass1.cs" caret="0" fromTop="0" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.Designer.cs" caret="484" fromTop="12" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="317" fromTop="18" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="233" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="208" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="19" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="25" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="21" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="8" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="5" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="699" fromTop="33" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="10" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="0" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9250" fromTop="14" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="96" fromTop="8" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="1133" fromTop="18" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="998" fromTop="25" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="2777" fromTop="20" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="1249" fromTop="16" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="148" fromTop="9" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="317" fromTop="16" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9091" fromTop="32" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9228" fromTop="36" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="2751" fromTop="19" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="2971" fromTop="28" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="944" fromTop="16" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="9016" fromTop="19" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="1108" fromTop="18" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="1035" fromTop="22" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="1043" fromTop="11" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="421" fromTop="15" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="633" fromTop="19" />
+      <File id="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B/f:Form1.cs" caret="15" fromTop="1" />
+      <File id="BA5419AA-02BA-4F5E-BCD8-69548B6637C4/f:Class1.cs" caret="4499" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="List" priority="0" />
+      <Item value="Tree`0" priority="0" />
+      <Item value="richTextBox1" priority="1" />
+      <Item value="using" priority="2" />
+      <Item value="System" priority="1" />
+      <Item value="string" priority="1" />
+      <Item value="int" priority="0" />
+      <Item value="Windows.Forms" priority="0" />
+      <Item value="RichTextBox`0" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="tree" priority="0" />
+      <Item value="textBoxTstep" priority="0" />
+      <Item value="Int32`0" priority="0" />
+      <Item value="richTextBox2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Project_5.ComClass1Interface">
+      <Item value="Get`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

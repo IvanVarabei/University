@@ -1,0 +1,29 @@
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.exe.config
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.pdb
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.Form1.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.Properties.Resources.resources
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.csproj.GenerateResource.Cache
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.exe
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.pdb
+D:\Alex\Programs\Программирование\РиПОД\Распределенная и параллельная обработка данных\My labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.csprojResolveAssemblyReference.cache
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.exe.config
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.exe
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.pdb
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.csprojAssemblyReference.cache
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.Form1.resources
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.Properties.Resources.resources
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.csproj.GenerateResource.cache
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.exe
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.pdb
+C:\Users\pa131\Desktop\BNTU-2020a\RiPOD(MC-Prikhozhiy)\Labes\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.csproj.CoreCompileInputs.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.exe.config
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\bin\Debug\L5_RiPOD.pdb
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.csprojAssemblyReference.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.Form1.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.Properties.Resources.resources
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.csproj.GenerateResource.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.csproj.CoreCompileInputs.cache
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.exe
+d:\study\BNTU\6 sem\РиПОД\Материалы РиПОД 2020\¦Ь¦-TВ¦¦TА¦¬¦-¦¬TЛ ¦а¦¬¦Я¦Ю¦Ф 2020\Labs\L5_RiPOD\L5_RiPOD\obj\Debug\L5_RiPOD.pdb

@@ -1,0 +1,10 @@
+C:\uni\Database\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\uni\Database\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\uni\Database\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\uni\Database\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\uni\Database\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\uni\Database\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\uni\Database\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\uni\Database\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\uni\Database\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\uni\Database\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

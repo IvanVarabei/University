@@ -1,0 +1,11 @@
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\SW\Square\Square\bin\Debug\Square.exe.config
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\SW\Square\Square\bin\Debug\Square.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\SW\Square\Square\bin\Debug\Square.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\SW\Square\Square\obj\Debug\Square.Form1.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\SW\Square\Square\obj\Debug\Square.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\SW\Square\Square\obj\Debug\Square.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\SW\Square\Square\obj\Debug\Square.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\SW\Square\Square\obj\Debug\Square.pdb
+C:\Users\Юрий\Desktop\Square\Square\bin\Debug\Square.exe.config
+C:\Users\Юрий\Desktop\Square\Square\obj\Debug\Square.exe
+C:\Users\Юрий\Desktop\Square\Square\obj\Debug\Square.pdb

@@ -1,0 +1,36 @@
+c:\users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\bin\Debug\SWBoss.exe.config
+c:\users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\bin\Debug\SWBoss.exe
+c:\users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\bin\Debug\SWBoss.pdb
+c:\users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\obj\Debug\SWBoss.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\obj\Debug\SWBoss.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\obj\Debug\SWBoss.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\obj\Debug\SWBoss.exe
+c:\users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\obj\Debug\SWBoss.pdb
+C:\Users\user\documents\visual studio 2013\Projects\SWBoss\SWBoss\obj\Debug\SWBoss.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\bin\Debug\SWBoss.exe.config
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\obj\Debug\SWBoss.exe
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\obj\Debug\SWBoss.pdb
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\bin\Debug\SWBoss.exe
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\bin\Debug\SWBoss.pdb
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\obj\Debug\SWBoss.csprojResolveAssemblyReference.cache
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\obj\Debug\SWBoss.Form1.resources
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\obj\Debug\SWBoss.Properties.Resources.resources
+C:\Users\Юрий\Desktop\SWBoss\SWBoss\obj\Debug\SWBoss.csproj.GenerateResource.Cache
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\bin\Debug\SWBoss.exe.config
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\obj\Debug\SWBoss.exe
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\obj\Debug\SWBoss.pdb
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\bin\Debug\SWBoss.exe
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\bin\Debug\SWBoss.pdb
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\obj\Debug\SWBoss.csprojResolveAssemblyReference.cache
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\obj\Debug\SWBoss.Form1.resources
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\obj\Debug\SWBoss.Properties.Resources.resources
+F:\12_CurrDocs\12_SwByC#\2_SWBoss\SWBoss\obj\Debug\SWBoss.csproj.GenerateResource.Cache
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\bin\Debug\SWBoss.exe.config
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\obj\Debug\SWBoss.exe
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\obj\Debug\SWBoss.pdb
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\bin\Debug\SWBoss.exe
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\bin\Debug\SWBoss.pdb
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\obj\Debug\SWBoss.csprojResolveAssemblyReference.cache
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\obj\Debug\SWBoss.Form1.resources
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\obj\Debug\SWBoss.Properties.Resources.resources
+F:\12_CurrDocs\12_SwByC#\1_ApiSw_Init\5_ApiSw_Exemples\2_ApiSw_3D\ApiSw_Cylinder\SWBoss\obj\Debug\SWBoss.csproj.GenerateResource.Cache

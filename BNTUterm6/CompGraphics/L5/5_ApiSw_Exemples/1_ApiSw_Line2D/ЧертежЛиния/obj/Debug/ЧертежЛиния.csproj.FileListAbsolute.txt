@@ -1,0 +1,9 @@
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\bin\Debug\ЧертежЛиния.exe.config
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\bin\Debug\ЧертежЛиния.exe
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\bin\Debug\ЧертежЛиния.pdb
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\obj\Debug\ЧертежЛиния.csprojResolveAssemblyReference.cache
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\obj\Debug\ЧертежЛиния.Form1.resources
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\obj\Debug\ЧертежЛиния.Properties.Resources.resources
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\obj\Debug\ЧертежЛиния.csproj.GenerateResource.Cache
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\obj\Debug\ЧертежЛиния.exe
+C:\Users\Игорь\Desktop\ЧертежЛиния\ЧертежЛиния\obj\Debug\ЧертежЛиния.pdb

@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="BA5419AA-02BA-4F5E-BCD8-69548B6637C4" ModuleId="Server" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="1CDF3E68-BB3E-404E-B8B8-3F4D01F71A2B" ModuleId="Project_5" />
+  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+</Modules>

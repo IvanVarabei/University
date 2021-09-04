@@ -1,0 +1,38 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Program.cs" caret="115" fromTop="5" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.Designer.cs" caret="14" fromTop="0" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="2091" fromTop="31" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.Designer.cs" caret="14" fromTop="0" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="264" fromTop="9" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="2183" fromTop="13" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="982" fromTop="33" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="749" fromTop="13" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="1259" fromTop="14" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="1213" fromTop="12" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="2114" fromTop="31" />
+      <File id="90F6FFFB-CC16-44E0-9FD3-B74062883AB6/f:Lab_1.cs" caret="2183" fromTop="31" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
